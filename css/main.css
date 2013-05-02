@@ -218,7 +218,7 @@ iframe {
 
 .navbar-inner {
 	border: none;
-	height: 64px;
+	height: 120px;
 }
 
 .navbar .brand {
@@ -227,7 +227,9 @@ iframe {
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    /* TODO */
 }
+
 
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
     background-color: #232527;
@@ -243,6 +245,9 @@ iframe {
 	text-shadow: none;
 	color: #232527;
 	padding: 22px 15px;
+    height: 49px;
+    vertical-align: middle;
+    padding-top: 49px;
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
@@ -488,7 +493,7 @@ a:hover.back-to-work, a:active.back-to-work {
 }
 
 .ch-img-1 { 
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/adi.jpg);
 }
 
 .ch-img-2 { 
