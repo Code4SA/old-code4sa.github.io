@@ -389,22 +389,13 @@
             	       
             	</div><!--End Latest News-->
             	
-            	<!--Twitter & Instagram-->
-            	<div class="span5 offset1">
-            		<h5>From Twitter</h5>
-						<div class="twitter-feed text-left">
-							<ul id="twitter_update_list" class="rotate"></ul>
-						</div>
-            	   
-					<h5>From Instagram</h5>
-					<div class="instagram-feed">
-					
-					<!--Visit "Snapwidget.com" - Use Settings: 80px wide for images, 3x2 for the grid, and FadeOut on Hover-->
-					<!-- SnapWidget -->
-					<iframe src="http://snapwidget.com/in/?u=amVmZmNvcmV5fGlufDgwfDN8Mnx8bm98NXxmYWRlT3V0"></iframe>
-					
-					</div><!--End Instagram Feed Container-->
-            	
+
+            	<div class="span5 offset1" style="height:300px">
+            		<h5>Twitter</h5>
+
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SoapSudTycoon" data-widget-id="369220008322142208">Tweets by @SoapSudTycoon</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
             	</div>
         	</div>
     	</div>	
@@ -415,7 +406,7 @@
     <section id="contact">
     	
     	<div class="map">
-    		<iframe src="http://maps.google.com/maps?saddr=Blake+St&amp;hl=en&amp;sll=-33.935968,18.469737&amp;sspn=0.001827,0.003954&amp;geocode=FW4t-v0dVdMZAQ&amp;t=h&amp;mra=mr&amp;ie=UTF8&amp;ll=-33.935968,18.469737&amp;spn=0.001827,0.003954&amp;output=embed"></iframe>
+    		<iframe src="https://maps.google.com/maps?saddr=Blake+St&amp;hl=en&amp;sll=-33.935968,18.469737&amp;sspn=0.001827,0.003954&amp;geocode=FW4t-v0dVdMZAQ&amp;t=h&amp;mra=mr&amp;ie=UTF8&amp;ll=-33.935968,18.469737&amp;spn=0.001827,0.003954&amp;output=embed"></iframe>
     	</div>	
     	
     	<div class="container">
@@ -491,14 +482,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.backstretch.js"></script>
-    <script src="js/rotate.js"></script>
-    <script src="js/twitter-feed.js"></script> 
-    
-    <!--Twitter Handle - Insert your Twitter username below ex: (screen_name=USERNAME&include) -->
-    <script src="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=soapsudtycoon&amp;include_rts=true&amp;count=4&amp;callback=twitterCallback2" type="text/javascript"></script>
+    <script src="js/jquery.cycle.lite"></script>
 
     <script>
 	$(document).ready(function() {
