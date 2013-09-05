@@ -3,4 +3,14 @@
    override existing main.css stylesheets.
    ========================================================================== */ 
 
+.project-images {
+    text-align: center;
+}
 
+.project-text p {
+    text-align: justify;
+}
+
+.back-to-work {
+    text-align: right;
+}
