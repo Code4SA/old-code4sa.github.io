@@ -15,6 +15,16 @@
     text-align: right;
 }
 
+#more-posts {
+    text-align : right;
+    margin-top: 10px;
+}
+
+#more-posts a {
+    color: #232527;
+    font-size: 1.2em;
+}
+
 #blog {
 	background: url(../img/shattered.jpg) repeat;
 	background-color: #232527;

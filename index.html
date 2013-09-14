@@ -256,21 +256,23 @@ scroll_class: scroll
             <!--Latest News-->
             <div class="span6">
                <h5>What's been happening</h5>
-                   {% for post in site.posts limit:2 %}
-                   <div class="row-fluid news-article">
-                       <div class="span2 date pull-left">
-                           <span class="day">{{ post.date | date: "%d" }}</span><br />
-                           <span class="month">{{ post.date | date: "%b" }}</span><br />
-                       </div>
-                       
-                       <div class="span9 text-left">
-                           <h4>{{ post.title }}</h4>
-                           <p>{{ post.excerpt }}</p>
-                           <a class="more pull-right" href="{{ post.url }}">More</a>
-                       </div>
+               {% for post in site.posts limit:2 %}
+               <div class="row-fluid news-article">
+                   <div class="span2 date pull-left">
+                       <span class="day">{{ post.date | date: "%d" }}</span><br />
+                       <span class="month">{{ post.date | date: "%b" }}</span><br />
                    </div>
-                   {% endfor %}
                    
+                   <div class="span9 text-left">
+                       <h4>{{ post.title }}</h4>
+                       <p>{{ post.excerpt }}</p>
+                       <a class="more pull-right" href="{{ post.url }}">More</a>
+                   </div>
+               </div>
+               {% endfor %}
+               <div id="more-posts">
+               <a href="{{ site.url }}/blog.html"><i class="icon-double-angle-left"></i> All posts</a>
+               </div>
             </div><!--End Latest News-->
             
 
