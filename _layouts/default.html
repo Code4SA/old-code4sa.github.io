@@ -13,13 +13,13 @@
 	<meta property="og:description" content="">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/animate.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/custom-styles.css">
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -42,21 +42,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="/"><img src="img/logo.png" alt="Code4SA Logo"></a>
+                <a class="brand" href="/"><img src="{{ site.url }}/img/logo.png" alt="Code4SA Logo"></a>
                 <div class="nav-collapse collapse">
                     <ul class="nav pull-right">
-                        <li><a class="scroll" href="/#home">Home</a></li>
-                        <li><a class="scroll" href="#work">Work</a></li>
-                        <li><a class="scroll" href="#services">Services</a></li>
-                        <li><a class="scroll" href="#team">Team</a></li>
-                        <li><a class="scroll" href="#news">News</a></li>
-                        <li><a class="scroll" href="#contact">Contact</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#home">Home</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#work">Work</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#services">Services</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#team">Team</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#news">News</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="/index.html#contact">Contact</a></li>
+                        <li><a class="" href="blog.html">Blog</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
         </div>
     </div>
-
     {{ content }}
     
     <footer>
@@ -94,14 +94,26 @@
     <script>
 	$(document).ready(function() {
 	$.backstretch([
-	      "img/header1.jpg",
-	      "img/header2.jpg"
+	      "{{ site.url }}/img/header1.jpg",
+	      "{{ site.url }}/img/header2.jpg"
 	      ], {
 	        fade: 1000,
 	        duration: 3000
 	    });
 	});
 	</script>  
+
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44046318-1', 'code4sa.org');
+      ga('send', 'pageview');
+
+    </script>
 
     </body>
 </html>

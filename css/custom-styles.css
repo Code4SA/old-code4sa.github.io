@@ -14,3 +14,20 @@
 .back-to-work {
     text-align: right;
 }
+
+#blog {
+	background: url(../img/shattered.jpg) repeat;
+	background-color: #232527;
+	padding: 60px 0px 110px 0px;
+	height: auto;
+    line-height: 1.75;
+}
+
+#blog h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#blog li {
+    color: #ababab;
+}
