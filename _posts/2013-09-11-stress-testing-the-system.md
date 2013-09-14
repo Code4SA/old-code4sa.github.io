@@ -1,3 +1,9 @@
+---
+layout: post
+excerpt: |
+    "Your data or your life" or "Please please please, I beg of you". How to ask for data from government?
+---
+
 Stress testing the system
 =========================
 

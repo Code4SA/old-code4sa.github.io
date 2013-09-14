@@ -1,3 +1,9 @@
+---
+layout: post
+excerpt: |
+    Call for expressions of interest to Media Houses wanting to apply for the Code4SA fellowship programme 
+---
+
 Expressions of Interest for the Code for South Africa fellowship programme
 ==========================================================================
 
