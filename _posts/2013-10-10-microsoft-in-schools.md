@@ -31,6 +31,17 @@ One final thought. I keep thinking about how valuable this policy might be to Mi
 
 As a society, we need to stand up and question the decisions taken by our leaders. Standing on my soapbox, I have one thing to say to Angie Motshekga: "What were you thinking?"
 
-Thanks to Derek Keats at [dkeats.com](http://www.dkeats.com) for sounding the alarm on this issue and causing an outcry in that special space on the Internet where techies tend to hang-out.
+If you have an opinion, come have your say at a Council Chamber meeting - details below:
 
+<pre><code>
+Date : 16 October 2013
+Time : 09:00 to 11:00
+Venue: Council Chamber
+Cape Chamber House
+19 Louis Gradner Street
+Foreshore
+Cost : Free
+</code></pre>
+
+Thanks to Derek Keats at [dkeats.com](http://www.dkeats.com) for sounding the alarm on this issue and causing an outcry in that special space on the Internet where techies tend to hang-out.
 
