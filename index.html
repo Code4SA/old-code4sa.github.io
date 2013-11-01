@@ -163,11 +163,14 @@ scroll_class: scroll
     <div class="container">
         <div class="row-fluid call-to-action">
             <div class="span8">
-                <h4>Want to shoot the breeze about data? Have a project that you would like to explore?</h4>
+                <h4>Have a project that you would like to explore?</h4>
+                <p class="lead">Hack Dash is our forum for posting new ideas or commenting on those of others. Take a look at <a href="http://code4sa.hackdash.org/" target="_blank">http://code4sa.hackdash.org/</a></p>
             </div>
 
             <div class="span4 text-center"><br /><br />
-                <a class="btn btn-large btn-red" href="mailto:support@code4sa.org"><i class="icon-envelope"></i> Contact Us</a>
+                <a href="http://code4sa.hackdash.org/" target="_blank">
+                    <img src="{{ site.url }}/img/logohack.png" alt="hack-dash logo">
+                </a>
             </div>
         </div>
     </div>
@@ -187,7 +190,6 @@ scroll_class: scroll
             <div class="span12">
 
                 <ul class="ch-grid">
-
 
                     <!--Team Member One-->
                     <li>
@@ -227,6 +229,21 @@ scroll_class: scroll
                             <div class="ch-info">
                                 <h3>Justin Arenstein</h3>
                                 <p>Director<a href="https://twitter.com/justinarenstein" target="_blank"><i class="icon-twitter"></i> @justinarenstein</a></p>
+                            </div>
+                        </div>
+
+                        <!--Fall Back for Mobile Devices-->
+                        <div class="team-info-mobile hidden-desktop"><h3>Justin Arenstein</h3>
+                            <p>Director<br /> <a href="https://twitter.com/justinarenstein" target="_blank"><i class="icon-twitter"></i> @justinarenstein</a></p>
+                        </div>
+                    </li>
+
+                    <!--Team Member Four-->
+                    <li>
+                        <div class="ch-item ch-img-4">
+                            <div class="ch-info">
+                                <h3>Petrus J.v.Rensburg</h3>
+                                <p>Senior Developer<a href="https://twitter.com/petrusjvr" target="_blank"><i class="icon-twitter"></i> @petrusjvr</a></p>
                             </div>
                         </div>
 
@@ -303,9 +320,6 @@ scroll_class: scroll
             var mapOptions = {
                 scrollwheel: false,
                 disableDefaultUI: true,
-//                navigationControl: false,
-//                mapTypeControl: false,
-//                scaleControl: false,
                 disableDoubleClickZoom: true,
                 draggable: false,
                 zoom: 16,
@@ -335,8 +349,6 @@ scroll_class: scroll
 
     <div class="map">
         <div id="map-canvas"></div>
-        <!--<iframe src="https://mapsengine.google.com/map/embed?mid=zWmnTQLjP9Kc.k4xlX6Y-xqhA" width="640" height="480"></iframe>-->
-        <!--<iframe src="https://maps.google.com/maps?saddr=Blake+St&amp;hl=en&amp;sll=-33.935968,18.469737&amp;sspn=0.001827,0.003954&amp;geocode=FW4t-v0dVdMZAQ&amp;t=h&amp;mra=mr&amp;ie=UTF8&amp;ll=-33.935968,18.469737&amp;spn=0.001827,0.003954&amp;output=embed"></iframe>-->
     </div>
 
     <div class="container">
