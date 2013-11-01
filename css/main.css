@@ -504,9 +504,9 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/justin.png);
 }
 
-/*.ch-img-4 { */
-	/*background-image: url();*/
-/*}*/
+.ch-img-4 {
+	background-image: url(../img/petrus.jpg);
+}
 
 
 .ch-info {
@@ -769,8 +769,8 @@ ul#twitter_update_list li {
 
 
 .map {
-	padding-bottom: 130px;
-	height: 265px;
+	padding-bottom: 30px;
+	height: 380px;
 }
 
 #contact h3 {
