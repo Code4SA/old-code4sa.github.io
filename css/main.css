@@ -299,7 +299,7 @@ iframe {
 #work {
 	background: url(../img/shattered.jpg) repeat; 
 	background-color: #232527;
-	padding: 10px 0px 130px 0px;
+	padding: 130px 0px 130px 0px;
 }
 
 
@@ -410,7 +410,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #services {
 	background: #F3F3F3;
-	padding: 50px 0px 10px 0px;
+	padding: 130px 0px 10px 0px;
 	height: auto;
 }
 
@@ -436,8 +436,8 @@ a:hover.back-to-work, a:active.back-to-work {
 }
 
 #about-opendata {
+	padding: 130px 0px 10px 0px;
 	background: #232527;
-	padding: 30px 0px;
 }
 
 #about-opendata h5 {
@@ -457,7 +457,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #team {
 	background: url(../img/gray_jean.png) repeat;
-	padding: 10px 0px 10px 0px;
+	padding: 130px 0px 10px 0px;
 	background-color: #EEEEEE;
 }
 
