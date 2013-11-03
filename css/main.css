@@ -65,7 +65,6 @@ p {
 
 
 .section-title {
-	margin-bottom: 70px;
 }
 
 
@@ -300,7 +299,7 @@ iframe {
 #work {
 	background: url(../img/shattered.jpg) repeat; 
 	background-color: #232527;
-	padding: 130px 0px 130px 0px;
+	padding: 10px 0px 130px 0px;
 }
 
 
@@ -411,7 +410,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #services {
 	background: #F3F3F3;
-	padding: 130px 0px 110px 0px;
+	padding: 50px 0px 10px 0px;
 	height: auto;
 }
 
@@ -423,7 +422,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	padding-bottom: 30px;
 }
 
-#call-to-action, #about-opendata {
+#call-to-action {
 	background: #232527;
 	padding: 30px 0px;
 }
@@ -436,6 +435,21 @@ a:hover.back-to-work, a:active.back-to-work {
 	line-height: 53px;
 }
 
+#about-opendata {
+	background: #232527;
+	padding: 30px 0px;
+}
+
+#about-opendata h5 {
+    padding-top:15px;
+    color:#bbbbbb;
+}
+
+#about-opendata dd, #about-opendata dt {
+    color:#bbbbbb;
+    display:inline-block;
+}
+
 
 
 /* ==========================================================================
@@ -443,7 +457,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #team {
 	background: url(../img/gray_jean.png) repeat;
-	padding: 130px 0px 130px 0px;
+	padding: 10px 0px 10px 0px;
 	background-color: #EEEEEE;
 }
 
@@ -504,9 +518,9 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/justin.png);
 }
 
-/*.ch-img-4 { */
-	/*background-image: url();*/
-/*}*/
+.ch-img-4 {
+	background-image: url(../img/petrus.jpg);
+}
 
 
 .ch-info {
@@ -763,14 +777,19 @@ ul#twitter_update_list li {
    Contact Styles
    ========================================================================== */ 
 #contact {
-	padding: 0px 0px 130px 0px;
+	padding: 20px 0px 30px 0px;
 	background: #F7F7F7;
 }
 
 
 .map {
-	padding-bottom: 130px;
-	height: 265px;
+	height: 380px;
+}
+
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
 }
 
 #contact h3 {
@@ -816,7 +835,7 @@ ul.socialize li a:hover {
    Footer Styles
    ========================================================================== */ 
 footer {
-	padding: 40px 0px 130px 0px;
+	padding: 5px 0px 5px 0px;
 	background: #FFFFFF;
 }
 
@@ -1005,7 +1024,6 @@ ul.footer-links {
 }
 
 #contact .span4 {
-	padding-bottom: 30px;
 }
 
 ul.footer-links {
