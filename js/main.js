@@ -3,7 +3,7 @@
 //Height Define
 $(document).ready(function(){
 var a = $(window).height();
-	$("#home").height(a - 0)
+	//$("#home").height(a - 0)
 });
 
 
@@ -50,12 +50,14 @@ $(document).ready(function(){
 
 //Div FadeOut On Scroll
 $(window).scroll(function() {
+    /*
     if ($(this).scrollTop() == 0) {
         $(".hero-text:hidden").fadeIn(400);
     }
     else {
         $(".hero-text:visible").fadeOut(400);
     }
+    */
 });
 
 

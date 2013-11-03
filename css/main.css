@@ -277,11 +277,11 @@ iframe {
    ========================================================================== */ 
 #home {
 	background: rgba(248,92,92,0.90);
-	height: 1000px;
+	height: 500px;
 }
 
 .hero-text {
-	padding-top: 35%;
+	padding-top: 15%;
 }
 
 .hero-text h1 {
@@ -423,12 +423,12 @@ a:hover.back-to-work, a:active.back-to-work {
 	padding-bottom: 30px;
 }
 
-#call-to-action {
+#call-to-action, #about-opendata {
 	background: #232527;
 	padding: 30px 0px;
 }
 
-#call-to-action h4 {
+#call-to-action h4, #about-opendata h4 {
 	color: #5F6263;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
