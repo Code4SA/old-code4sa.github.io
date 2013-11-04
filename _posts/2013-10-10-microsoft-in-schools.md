@@ -15,7 +15,11 @@ More recently, [circular S9/2013](http://dkeats.com/index.php?module=blog&action
 
 The part of the policy that concerns me the most is: 
 
+<blockquote>
+<small>
 ... from January 2014, and November 2014, the DBE will only use Microsoft Office to respectively implement the CAT curriculum and assess CAT as part of the NSC examinations. Furthermore, only the latest two version of MS Office will be use, i.e. MS Office 2010 and MS Office 2013. Should newer version of MS Office be released, the phasing out of olderversions and implementation of newer versions will be communicated to all stakeholders
+</small>
+</blockquote>
 
 Really? Let's go over it again. The Department of Basic Education is prohibiting the use of all office software with the exception of a proprietary product published by a commercial company? Is that even legal? It's not as if alternatives don't exist. For example, the Libreoffice suite, used by millions of users around the world is both free and open source.  Moreover, older versions of MS Office are being phased out requiring the purchase of newer versions. In other words, if you don't have the latest software, you need to upgrade. According to [www.pricecheck.co.za](http://www.pricecheck.co.za), you can pick up a copy of Microsoft Office 2010 Home and Student for R1,014 and Microsoft Office Home and Student 2013 for R984. That's a lot of dosh. Even if Microsoft gives deep discounts or gives the software away for free, this presents a real problem. 
 

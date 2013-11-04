@@ -31,6 +31,9 @@
     <link rel="shortcut icon" href="/favicon.png">
   </head>
 
+<style>
+body { padding-top: 40px; }
+</style>
   <body data-spy="scroll" data-target=".navbar">
 
 	<!--Nav Bar -->
@@ -45,13 +48,14 @@
                 <a class="brand" href="/"><img src="{{ site.url }}/img/logo.png" alt="Code4SA Logo"></a>
                 <div class="nav-collapse collapse">
                     <ul class="nav pull-right">
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#home">Home</a></li>
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#work">Work</a></li>
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#services">Services</a></li>
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#team">Team</a></li>
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#news">News</a></li>
-                        <li><a class="{{ page.scroll_class }}" href="/index.html#contact">Contact</a></li>
-                        <li><a class="" href="blog.html">Blog</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#home">Home</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#work">Work</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#services">Services</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#team">Team</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#about-opendata">Community</a></li>
+                        <li><a class="{{ page.scroll_class }}" href="{{ site.url }}/index.html#contact">Contact</a></li>
+                        <li><a class="" href="{{ site.url }}/blog.html">Blog</a></li>
+                        <li><a class="" href="http://code4sa.hackdash.org">Projects</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>

@@ -65,7 +65,6 @@ p {
 
 
 .section-title {
-	margin-bottom: 70px;
 }
 
 
@@ -73,6 +72,9 @@ p {
 	vertical-align: top;
 }
 
+blockquote small {
+    color: #bbbbbb;
+}
 
 a:hover {
 	transition: color 0.35s;
@@ -277,11 +279,11 @@ iframe {
    ========================================================================== */ 
 #home {
 	background: rgba(248,92,92,0.90);
-	height: 1000px;
+	height: 500px;
 }
 
 .hero-text {
-	padding-top: 35%;
+	padding-top: 15%;
 }
 
 .hero-text h1 {
@@ -411,7 +413,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #services {
 	background: #F3F3F3;
-	padding: 130px 0px 110px 0px;
+	padding: 130px 0px 10px 0px;
 	height: auto;
 }
 
@@ -428,12 +430,27 @@ a:hover.back-to-work, a:active.back-to-work {
 	padding: 30px 0px;
 }
 
-#call-to-action h4 {
+#call-to-action h4, #about-opendata h4 {
 	color: #5F6263;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 55px;
 	line-height: 53px;
+}
+
+#about-opendata {
+	padding: 130px 0px 10px 0px;
+	background: #232527;
+}
+
+#about-opendata h5 {
+    padding-top:15px;
+    color:#bbbbbb;
+}
+
+#about-opendata dd, #about-opendata dt {
+    color:#bbbbbb;
+    display:inline-block;
 }
 
 
@@ -443,7 +460,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #team {
 	background: url(../img/gray_jean.png) repeat;
-	padding: 130px 0px 130px 0px;
+	padding: 130px 0px 10px 0px;
 	background-color: #EEEEEE;
 }
 
@@ -504,9 +521,9 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/justin.png);
 }
 
-/*.ch-img-4 { */
-	/*background-image: url();*/
-/*}*/
+.ch-img-4 {
+	background-image: url(../img/petrus.jpg);
+}
 
 
 .ch-info {
@@ -763,14 +780,19 @@ ul#twitter_update_list li {
    Contact Styles
    ========================================================================== */ 
 #contact {
-	padding: 0px 0px 130px 0px;
+	padding: 20px 0px 30px 0px;
 	background: #F7F7F7;
 }
 
 
 .map {
-	padding-bottom: 130px;
-	height: 265px;
+	height: 380px;
+}
+
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
 }
 
 #contact h3 {
@@ -816,7 +838,7 @@ ul.socialize li a:hover {
    Footer Styles
    ========================================================================== */ 
 footer {
-	padding: 40px 0px 130px 0px;
+	padding: 5px 0px 5px 0px;
 	background: #FFFFFF;
 }
 
@@ -939,9 +961,11 @@ ul.footer-links {
 	text-align: center;
 }
 
-	
+section#blog h2 {
+    font-size: 12pt;
 }
 
+	
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) { 
 
@@ -1005,7 +1029,6 @@ ul.footer-links {
 }
 
 #contact .span4 {
-	padding-bottom: 30px;
 }
 
 ul.footer-links {
