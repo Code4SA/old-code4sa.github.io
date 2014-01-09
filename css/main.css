@@ -35,6 +35,10 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 h3 {
 	font-size: 37px;
     letter-spacing: 0px;
