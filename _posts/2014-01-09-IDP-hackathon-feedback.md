@@ -22,7 +22,7 @@ Code for South Africa with the [Open Democracy Advice Centre](http://www.opendem
     <img src="{{ site.url }}/img/hackathon_snap1.jpg">
     <img src="{{ site.url }}/img/hackathon_snap2.jpg">
     <img src="{{ site.url }}/img/hackathon_snacks.jpg">
-<p>
+</p>
 
 These questions fit hand-in-glove with larger initiatives such as The Integrated Development Planning Nerve Centre project managed by the [Department of Cooperative Governance and Traditional Affairs](http://www.cogta.gov.za), which seeks to consolidate all the integrated development plans of South African municipalities and different forms of ancillary documentation and planning information that was used to develop these plans. In recognition of the trove of data available, the [Open Democracy Advice Centre](http://www.opendemocracy.org.za) is working to answer the question: how can this information be opened up in a meaningful manner to assist South Africans in giving effect to their socio-economic rights? Collaborating with ODAC in its quest to advance the right of access to information, we are creating a prototype of the kind of system that could answer this question as part of our larger "Know your hood" initiative.
 
@@ -32,31 +32,34 @@ Projects
 While we're still a long way off from a hyper-local information repository, this hackathon took us one step further. 
 
 The following noteworthy projects resulted from the hackathon:
+
 * Which ward do you live in? The [Address to Ward converter](http://wards.code4sa.org/) is an API that can be used by other applications to find which ward a particular address fits into.
+
 * An [elections API](http://iec.code4sa.org/) for the 2009 general elections. Again, this is another tool that can be used by other applications to ask questions about the voting distributions at a ward level.
+
 * [Mapper.js](http://www.capesean.co.za/mapper/) by brothers Sean and Justin Walsh, a widget that allows developers to overlay interesting spatial datasets on top of google maps.
 
-<p class="img">
-    <img src="{{ site.url }}/img/mapperjs.png">
-</p>
+    <p class="img">
+        <img src="{{ site.url }}/img/mapperjs.png">
+    </p>
 
-* [Election map](http://www.electionmap.co.za/) (also by the Walsh brothers) is a visualisation that shows voting distributions by province, district and ward. Apart from the obvious merits of learning more about party strongholds this tool re-uses both mapper.js and the elections API. This is a great example of how a hackathon could be run in a collaborative fashion.
+    * [Election map](http://www.electionmap.co.za/) (also by the Walsh brothers) is a visualisation that shows voting distributions by province, district and ward. Apart from the obvious merits of learning more about party strongholds this tool re-uses both mapper.js and the elections API. This is a great example of how a hackathon could be run in a collaborative fashion.
 
-<p class="img">
-    <img src="{{ site.url }}/img/electionmap.jpg">
-</p>
+    <p class="img">
+        <img src="{{ site.url }}/img/electionmap.jpg">
+    </p>
 
-* [Ballot or Street](http://ballot-or-street.aws.af.cm/) by Nerudo Mregi is a creative twist on the elections theme by comparing service delivery protests with elections. Were there violent protests in your area? Did people vote with their feet or their fists? There are quite a few technical problems that need to be resolved but the idea is a great one. This tool is another example of software re-use, as it takes advantage of both the Address to Ward converter as well as the elections API.
+    * [Ballot or Street](http://ballot-or-street.aws.af.cm/) by Nerudo Mregi is a creative twist on the elections theme by comparing service delivery protests with elections. Were there violent protests in your area? Did people vote with their feet or their fists? There are quite a few technical problems that need to be resolved but the idea is a great one. This tool is another example of software re-use, as it takes advantage of both the Address to Ward converter as well as the elections API.
 
-<p class="img">
-    <img src="{{ site.url }}/img/street_or_ballot.png">
-</p>
+    <p class="img">
+        <img src="{{ site.url }}/img/street_or_ballot.png">
+    </p>
 
-* A couple of [fusion](https://www.google.com/fusiontables/DataSource?docid=10Nq9HJr42xuf_7SY33AHeJFRxD-CefdnctW4Jqs) [tables](https://www.google.com/fusiontables/DataSource?docid=10Nq9HJr42xuf_7SY33AHeJFRxD-CefdnctW4Jqs) [visualisations](https://www.google.com/fusiontables/DataSource?docid=1QIs374qGWLdQVLDvi5l9oMepm-Pe_1hnAqfPsDo) of the elections data by Frankie.
+    * A couple of [fusion](https://www.google.com/fusiontables/DataSource?docid=10Nq9HJr42xuf_7SY33AHeJFRxD-CefdnctW4Jqs) [tables](https://www.google.com/fusiontables/DataSource?docid=10Nq9HJr42xuf_7SY33AHeJFRxD-CefdnctW4Jqs) [visualisations](https://www.google.com/fusiontables/DataSource?docid=1QIs374qGWLdQVLDvi5l9oMepm-Pe_1hnAqfPsDo) of the elections data by Frankie.
 
-<p class="img">
-    <img src="{{ site.url }}/img/frankie.png">
-</p>
+    <p class="img">
+        <img src="{{ site.url }}/img/frankie.png">
+    </p>
 
 You might be wondering why the focus on elections. It boils down to how much one can do in a hackathon time frame. APIs that were developed before the hackathon involved much leg work and infrastructure development. Once they were ready, application developers could easily build on top of them. Following this hackathon, Mapper.js could again be re-used for similar projects.
 
