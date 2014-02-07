@@ -1,7 +1,7 @@
 ---
 layout: post
 excerpt: |
-    February 22nd is [International Open Data Day(http://opendataday.org/). Code for South Africa is hosting a data party. Come through and roll up your sleeves. 
+    February 22nd is <a href="http://opendataday.org">International Open Data Day</a>. Code for South Africa is hosting a data party. Come through and roll up your sleeves. 
     
 ---
 
