@@ -28,3 +28,19 @@ Elections
 [Local Government Elections - 2011](http://www.code4sa.org/opendataday/2011%20LGE.zip)<br/>
 
 [2009 Candidate ages and genders](http://www.code4sa.org/opendataday/candidates.csv) - the source document for this data is [here](2009 National and Provincial Election candidate lists.pdf).
+
+StatsSA
+-------
+
+The census data usually comes on DVDs and needs to be installed on a Windows machine (yuck!). We can install it on the day on your machine. Alternatively, you'll have access to some of it view the hard-to-find [SuperWeb](http://interactive.statssa.gov.za/superweb/login.do) interface online. Also, you can ask me to extract specific datasets on the day. The same applies to the Labour Force Survey and other StatsSA data.
+
+Education
+---------
+
+[Annual School Survey - 2012 (partial dataset)](http://www.code4sa.org/opendataday/Annual%20School%20Survey.xlsx)<br/>
+[List of Western Cape Schools](http://www.africaopendata.org/dataset/western-cape-schools)
+
+Other
+-----
+
+You can find a bunch of data at [Africa Open Data](http://www.africaopendata.org/dataset?groups=south-africa)
