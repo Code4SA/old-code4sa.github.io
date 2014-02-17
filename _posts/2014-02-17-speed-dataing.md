@@ -19,7 +19,7 @@ I know it's a cheesy name so let me know if you can wordsmith a better one. So t
 
 A typical question might be, how many white South Africans speak fluent Sesotho? The answer is around 16,000. Do we have any wunderkinds in South Africa (my definition is kids 17 years or younger who have a university degree)? The answer is no. These are interesting questions to ask and the answers are hidden in the census data. 
 
-After your 30 minute session, the gong sounds, hands off the keyboard and yet get paired with another wrangler or interrogator as the case may be. At the end of the day, questions and answers are presented. You win if you have the coolest questions and the coolest answers. There's no prize though, we're doing it for the fun of it right?
+After your 30 minute session, the gong sounds, hands off the keyboard and you get paired with another wrangler or interrogator as the case may be. At the end of the day, questions and answers are presented. You win if you have the coolest questions and the coolest answers. There's no prize though, we're doing it for the fun of it right?
 
 Why is this a good thing?
 =========================
