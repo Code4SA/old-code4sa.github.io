@@ -30,5 +30,16 @@ Why is this a good thing?
 - It is achievable in 4 hours, that's not generally true of a standard hackathon.
 - We might learn something that we didn't know before which might be feedstock for a more traditional hackathon or just a cool personal project.
 
-This is completely new to us. Kudos to Jason and Adi for spitballing and trying to buck that tired trend of running straight-up hackathons. We're hosting our first one on Saturday, 22 February at [Codebridge](http://www.codebridge.co.za) for International Open Data Day. [Come through](http://www.meetup.com/Code-for-South-Africa-Hackers/?scroll=true) if you're in Cape Town.
+This is completely new to us. Kudos to Jason and Adi for spitballing and trying to buck that tired trend of running straight-up hackathons. We're hosting our first one on Saturday, 22 February at [Codebridge](http://www.codebridge.co.za) at 09:30 for International Open Data Day. We end at 13:30 giving you enough time to grab some beers and enjoy the [insert your favourite sports event here] game. [Come through](http://www.meetup.com/Code-for-South-Africa-Hackers/?scroll=true) if you're in Cape Town. We're doing a quick intro into the datasets so feel free to come through earlier so that you don't miss it.
+
+Details
+=======
+
+<dl>
+    <dt>Location:</dt><dd><a href="http://www.codebridge.co.za">Codebride</a></dd>
+    <dt>Date:</dt><dd>Saturday, 22 February 2014</dd>
+    <dt>Time:</dt><dd>09:30 - 13:30 - try to be on time</dd>
+    <dt>Snacks:</dt><dd>We'll be catering something vaguely health</dd>
+    <dt>RSVP:</dt><dd>Please sign-up <a href="http://www.meetup.com/Code-for-South-Africa-Hackers/events/165007242/">here</a> - otherwise there won't be any food for you.</dd>
+</dl>
 
