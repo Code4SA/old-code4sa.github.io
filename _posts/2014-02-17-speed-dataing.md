@@ -36,7 +36,7 @@ Details
 =======
 
 <dl>
-    <dt>Location:</dt><dd><a href="http://www.codebridge.co.za">Codebride</a></dd>
+    <dt>Location:</dt><dd><a href="http://www.codebridge.co.za">Codebridge</a></dd>
     <dt>Date:</dt><dd>Saturday, 22 February 2014</dd>
     <dt>Time:</dt><dd>09:30 - 13:30 - try to be on time</dd>
     <dt>Snacks:</dt><dd>We'll be catering something vaguely health</dd>
