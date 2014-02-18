@@ -30,7 +30,7 @@ Why is this a good thing?
 - It is achievable in 4 hours, that's not generally true of a standard hackathon.
 - We might learn something that we didn't know before which might be feedstock for a more traditional hackathon or just a cool personal project.
 
-This is completely new to us. Kudos to Jason and Adi for spitballing and trying to buck that tired trend of running straight-up hackathons. We're hosting our first one on Saturday, 22 February at [Codebridge](http://www.codebridge.co.za) at 09:30 for International Open Data Day. We end at 13:30 giving you enough time to grab some beers and enjoy the [insert your favourite sports event here] game. [Come through](http://www.meetup.com/Code-for-South-Africa-Hackers/?scroll=true) if you're in Cape Town. We're doing a quick intro into the datasets so feel free to come through earlier so that you don't miss it.
+This is completely new to us. Kudos to Jason and Adi for spitballing and trying to buck that tired trend of running straight-up hackathons. We're hosting our first one on Saturday, 22 February at Codebridge at 09:30 for International Open Data Day. [Come through](http://www.meetup.com/Code-for-South-Africa-Hackers/?scroll=true) if you're in Cape Town. We're doing a quick intro into the datasets so feel free to come through earlier so that you don't miss it.
 
 Details
 =======
