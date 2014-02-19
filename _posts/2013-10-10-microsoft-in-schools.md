@@ -2,7 +2,6 @@
 layout: post
 excerpt: |
     In a time where "open" has become the new mantra of the socially conscious everywhere, the department of Basic Education is embracing "closed". Open data, open government, open access and open source all suggest freedom and democracy. The Department prefers closed data and closed source. 
-    
 ---
 
 Department of Basic Education - why? why? why?

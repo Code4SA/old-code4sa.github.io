@@ -2,7 +2,6 @@
 layout: post
 excerpt: |
     Hackathons are not for hackers
-    
 ---
 
 Hackathons are not for hackers ...

@@ -1,8 +1,7 @@
 ---
 layout: post
 excerpt: |
-    February 22nd is <a href="http://opendataday.org">International Open Data Day</a>. Code for South Africa is hosting a data party. Come through and roll up your sleeves. 
-    
+    February 22nd is <a href="http://opendataday.org">International Open Data Day</a>. Code for South Africa is hosting a data party. Come through and roll up your sleeves.
 ---
 
 International Open Data Day
@@ -27,7 +26,7 @@ Elections
 [National and Provincial Elections - 2009](http://www.code4sa.org/opendataday/2009%20NPE.zip)<br/>
 [Local Government Elections - 2011](http://www.code4sa.org/opendataday/2011%20LGE.zip)<br/>
 
-[2009 Candidate ages and genders](http://www.code4sa.org/opendataday/candidates.csv) - the source document for this data is [here](2009 National and Provincial Election candidate lists.pdf).
+[2009 Candidate ages and genders](http://www.code4sa.org/opendataday/candidates.csv) - the source document for this data is [here](http://www.code4sa.org/opendataday/2009%20National%20and%20Provincial%20Election%20candidate%20lists.pdf).
 
 StatsSA
 -------

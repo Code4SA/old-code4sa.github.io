@@ -2,8 +2,6 @@
 layout: post
 excerpt: |
     The time is ripe to scale up the open data movement in South Africa. Let's meet up and find out how.
-    
-    
 ---
 
 South African Open Data Unconference

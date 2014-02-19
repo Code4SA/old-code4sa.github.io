@@ -1,8 +1,7 @@
 ---
 layout: post
 excerpt: |
-   Did you know that medicine prices are regulated in South Africa? Most people don't. We've built an application that makes price comparisons between branded medicines and their generic equivalents easier. 
-    
+   Did you know that medicine prices are regulated in South Africa? Most people don't. We've built an application that makes price comparisons between branded medicines and their generic equivalents easier.
 ---
 
 How much should you be paying for your medicines?
