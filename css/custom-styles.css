@@ -55,3 +55,14 @@
     padding-top:10px;
     padding-bottom:10px;
 }
+
+.client {
+    line-height: 100px;
+}
+
+.client a {
+    float: left;
+    padding-right: 50px;
+}
+
+
