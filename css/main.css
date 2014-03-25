@@ -532,6 +532,10 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/petrus.jpg);
 }
 
+.ch-img-5 {
+	background-image: url(../img/jason.png);
+}
+
 
 .ch-info {
 	position: absolute;
