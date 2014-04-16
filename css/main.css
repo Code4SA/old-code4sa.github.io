@@ -37,6 +37,7 @@ h1, h2, h3 {
 
 h2 {
 	font-size: 20px;
+	font-weight: 400;
 }
 
 h3 {
@@ -247,13 +248,13 @@ iframe {
 
 .navbar .nav > li > a {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-    font-size: 12px;
+	font-weight: 400;
+    font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
 	text-shadow: none;
 	color: #232527;
-	padding: 22px 15px;
+	padding: 22px 12px;
     height: 49px;
     vertical-align: middle;
     padding-top: 49px;
@@ -298,6 +299,11 @@ iframe {
     letter-spacing: 10px;
     line-height: 70px;
     margin-bottom: 30px;
+}
+
+.hero-text h2 {
+	font-size: 30px;
+	font-weight: 600;
 }
 
 
@@ -566,13 +572,14 @@ a:hover.back-to-work, a:active.back-to-work {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 19px;
-	margin: 60px 30px 0;
+	margin: 60px 5px 0;
 	padding: 10px 0 0 0;
 	height: 40px;
 	font-family: 'Open Sans', sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
+	line-height: 20px;
 }
 
 .ch-info p {
@@ -912,9 +919,14 @@ footer a:hover {
 
 .hero-text h1 {
 	font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     line-height: 36px;
     margin-bottom: 20px;
+}
+
+.hero-text h2 {
+	font-size: 20px;
+	line-height: 20px;
 }
 
 .row-fluid, .section-title {
@@ -993,6 +1005,11 @@ ul.footer-links {
     letter-spacing: 5px;
     line-height: 36px;
     margin-bottom: 20px;
+}
+
+.hero-text h2 {
+	font-size: 20px;
+	line-height: 20px;
 }
 
 .row-fluid, .section-title {
