@@ -37,6 +37,7 @@ h1, h2, h3 {
 
 h2 {
 	font-size: 20px;
+	font-weight: 400;
 }
 
 h3 {
@@ -44,6 +45,7 @@ h3 {
     letter-spacing: 0px;
     line-height: 32px;
     text-transform: uppercase;
+	font-weight: 300;
    
 }
 
@@ -139,7 +141,7 @@ a:hover {
 
 
 [class^="icon-"], [class*=" icon-"] {
-	vertical-align: middle;
+	vertical-align: default;
 }
 
 
@@ -181,6 +183,9 @@ iframe {
 	background-color: transparent;
 	overflow: hidden;
 }
+
+.copyright {font-size: 0.8em;}
+
 
 
 /* ==========================================================================
@@ -247,13 +252,13 @@ iframe {
 
 .navbar .nav > li > a {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-    font-size: 12px;
+	font-weight: 400;
+    font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
 	text-shadow: none;
 	color: #232527;
-	padding: 22px 15px;
+	padding: 22px 12px;
     height: 49px;
     vertical-align: middle;
     padding-top: 49px;
@@ -295,9 +300,15 @@ iframe {
 
 .hero-text h1 {
 	font-size: 80px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     line-height: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.hero-text h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 30px;
 }
 
 
@@ -306,7 +317,7 @@ iframe {
 /* ==========================================================================
    Work Styles
    ========================================================================== */ 
-#work {
+#work, #resources {
 	background: url(../img/shattered.jpg) repeat; 
 	background-color: #232527;
 	padding: 130px 0px 130px 0px;
@@ -324,11 +335,12 @@ iframe {
 }
 
 .project-title p {
-	color: #a3a3a3;
+	color: #666;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
     font-size: 16px;
+	text-transform:uppercase;
 
 }
 
@@ -349,7 +361,7 @@ iframe {
 #project {
 	background: url(../img/shattered.jpg) repeat;
 	background-color: #232527;
-	padding: 130px 0px 110px 0px;
+	padding: 100px 0px 110px 0px;
 	height: auto;
 }
 
@@ -371,7 +383,6 @@ iframe {
     color: #FFFFFF;  
     font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-    text-transform: none; 
 }
 
 #project h5 {
@@ -401,7 +412,10 @@ a:hover.back-to-work, a:active.back-to-work {
    Client Styles
    ========================================================================== */
 #clients {
-	background: transparent;
+	background:  #fff;
+	border-bottom: 1px dashed #333;
+	border-top: 1px dashed #333;
+	padding-bottom: 20px;
 }
 
 .blue-overlay {
@@ -411,6 +425,12 @@ a:hover.back-to-work, a:active.back-to-work {
 
 .featured-section-title {
 	padding-top: 10px;
+}
+
+.partner-heading {border-bottom: 1px dotted #ccc;}
+
+.partner-heading h6{
+	margin-bottom: 3px;
 }
 
 
@@ -441,7 +461,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	color: #5F6263;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 55px;
+	font-size: 46px;
 	line-height: 53px;
 }
 
@@ -450,7 +470,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	background: #232527;
 }
 
-#about-opendata h5 {
+#about-opendata h5, #resources h5 {
     padding-top:15px;
     color:#bbbbbb;
 }
@@ -517,23 +537,23 @@ a:hover.back-to-work, a:active.back-to-work {
 }
 
 .ch-img-1 { 
-	background-image: url(../img/adi.jpg);
+	background-image: url(../img/team_adi.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../img/gabriella.jpg);
+	background-image: url(../img/team_gabrielle.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../img/justin.png);
+	background-image: url(../img/team_justin.jpg);
 }
 
 .ch-img-4 {
-	background-image: url(../img/petrus.jpg);
+	background-image: url(../img/team_petrus.jpg);
 }
 
 .ch-img-5 {
-	background-image: url(../img/jason.png);
+	background-image: url(../img/team_jason.jpg);
 }
 
 
@@ -566,13 +586,14 @@ a:hover.back-to-work, a:active.back-to-work {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 19px;
-	margin: 60px 30px 0;
+	margin: 60px 5px 0;
 	padding: 10px 0 0 0;
 	height: 40px;
 	font-family: 'Open Sans', sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
+	line-height: 20px;
 }
 
 .ch-info p {
@@ -646,8 +667,10 @@ a:hover.back-to-work, a:active.back-to-work {
 	color: #75D2D7;
 }
 
-
-
+/* ==========================================================================
+   Resources Styles
+   ========================================================================== */
+#resources li {color: #fff;}
 
 
 /* ==========================================================================
@@ -817,7 +840,7 @@ ul#twitter_update_list li {
 p.tel, p.tel a, p.tel a:hover  {
 	color: #232527;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
@@ -912,9 +935,14 @@ footer a:hover {
 
 .hero-text h1 {
 	font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     line-height: 36px;
     margin-bottom: 20px;
+}
+
+.hero-text h2 {
+	font-size: 20px;
+	line-height: 20px;
 }
 
 .row-fluid, .section-title {
@@ -993,6 +1021,11 @@ ul.footer-links {
     letter-spacing: 5px;
     line-height: 36px;
     margin-bottom: 20px;
+}
+
+.hero-text h2 {
+	font-size: 20px;
+	line-height: 20px;
 }
 
 .row-fluid, .section-title {
