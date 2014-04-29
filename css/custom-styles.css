@@ -198,7 +198,7 @@ margin-top: 10px;
 min-height: 260px;
 }
 
-ul.footer-links a {
+ul.footer-links a, ul.footer-links {
 	font-size: 10px;
 	font-weight: 400;
 	color: #666;
