@@ -3,13 +3,45 @@
    override existing main.css stylesheets.
    ========================================================================== */ 
 
+
+h5 {font-weight: 400;}
+
+h6 {font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {color: #F85D5D;
+}
+
+a:hover, a:focus {color: #db5252;
+}
+
 .project-images {
     text-align: center;
 }
 
+.project-title {background: none;
+border:  1px dashed #666666;
+padding: 12px 10px 0;
+}
+
+.project-title p {color: #ccc;}
+
 .project-text p {
     text-align: justify;
 }
+
+#project h3 {
+	font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #FFFFFF;  
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.border-bottom {border-bottom: 1px dashed #666;}
 
 .back-to-work {
     text-align: right;
@@ -57,7 +89,7 @@
 }
 
 .client {
-    line-height: 100px;
+    line-height: 60px;
 }
 
 .client a {
@@ -65,4 +97,186 @@
     padding-right: 50px;
 }
 
+#about-opendata h6 {color: #fff;
+font-weight: 600;}
 
+#about-opendata dd {padding-bottom: 5px;}
+
+#about-opendata .span3{border-right: 1px dashed #ccc;
+min-height: 426px;}
+
+#resources h6 {text-transform:uppercase;}
+
+#project p.proj-api-link {text-transform: uppercase;
+font-weight: 400;
+font-family: font-family: 'Open Sans',sans-serif;
+color: #fff;
+}
+
+#apis {
+	background: #F3F3F3;
+	padding: 130px 0px 10px 0px;
+	height: auto;
+}
+
+#apis h4, #services h4 {
+	font-weight: 300;
+    letter-spacing: 0;
+    margin-top: 10px;
+	letter-spacing:1px;
+	font-family: 'Open Sans',sans-serif;
+}
+
+#apis h3 {
+ color: #5F6263;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 53px;
+	text-transform:none;
+	margin-bottom: 40px;
+}
+
+#apis p {text-align:left;
+color: #666;}
+
+#apis .span3 {border: 1px dashed #666;
+padding: 10px;
+min-height: 370px;
+position: relative;
+}
+
+#apis .api-link-left { 
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px;
+    left: 0;
+    text-transform: none;
+	font-weight: bold;
+	bottom: 0;
+	position: absolute;
+}
+
+#apis .api-link-right { 
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px;
+    right: 0;
+    text-transform: none;
+	font-weight: bold;
+	bottom: 0;
+	position: absolute;
+}
+
+
+
+#services p {text-align:left;}
+
+#services .span3  {border-right: 1px dashed #666;
+padding: 10px;
+margin-top: 10px;
+min-height: 475px;
+}
+
+#services h6 {text-align: left;
+font-weight: 600;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+#resources .span4 {border-right: 1px dashed #ccc;
+padding: 10px;
+min-height: 390px;
+}
+
+ul.socialize li {color: #999;}
+
+
+#contact {padding: 130px 0 10px;}
+
+#contact .span4 {border-right: 1px dashed #666;
+padding: 10px;
+margin-top: 10px;
+min-height: 260px;
+}
+
+ul.footer-links a, ul.footer-links {
+	font-size: 10px;
+	font-weight: 400;
+	color: #666;
+	letter-spacing: 0;
+}
+
+
+/* SUPER SIMPLE SLIDER */
+.sss {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('../img/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+
+/* ==========================================================================
+   Mobile Styles
+   ========================================================================== */ 
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+#project {padding: 10px 0 110px;}
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+#project {padding: 10px 0 110px;}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+#project {padding: 10px 0 110px;}
+}
