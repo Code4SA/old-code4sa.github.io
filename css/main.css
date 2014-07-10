@@ -556,9 +556,13 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/team_jason.jpg);
 }
 
+
 .ch-img-osman {
 	background-image: url(../img/team_osman.jpg);
 	background-position: right top;
+
+.ch-img-6 {
+	background-image: url(../img/team_greg.png);
 }
 
 
