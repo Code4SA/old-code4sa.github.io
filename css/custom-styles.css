@@ -3,6 +3,10 @@
    override existing main.css stylesheets.
    ========================================================================== */ 
 
+.header-text {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
 
 h5 {font-weight: 400;}
 
