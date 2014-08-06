@@ -566,6 +566,14 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/team_greg.png);
 }
 
+.ch-img-hannah {
+	background-image: url(../img/team_hannah.jpg);
+}
+
+.ch-img-siya {
+	background-image: url(../img/team_siya.jpg);
+}
+
 
 .ch-info {
 	position: absolute;
