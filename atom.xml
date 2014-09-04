@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Code for South Africa</title>
+  <link href="http://www.code4sa.org/atom.xml" rel="self"/>
+  <link href="http://www.code4sa.org/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://www.code4sa.org/</id>
+  <author>
+    <name>Code for South Africa</name>
+  </author>
+
+  {% for post in site.posts %}
+    {% if post.unlisted != true %}
+      <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <link href="http://www.code4sa.org{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://www.code4sa.org{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+      </entry>
+    {% endif %}
+  {% endfor %}
+
+</feed>
