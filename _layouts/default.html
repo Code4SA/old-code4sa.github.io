@@ -5,13 +5,15 @@
     <meta name="keywords" content="open data, open government, active citizenry, citizen engagement">
     <meta name="description" content="Code4SA - promoting an active citizenry who take responsibility for the world they live in.">
     <meta name="viewport" content="width=device-width">
+
+    <link rel="alternate" type="application/atom+xml" title="Code for South Africa" href="http://www.code4sa.org/atom.xml">
     
     <meta property="og:title" content="Code4SA | {{ page.title }}">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.code4sa.org{{ page.url }}">
-	<meta property="og:site_name" content="Code for South Africa">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.code4sa.org{{ page.url }}">
+    <meta property="og:site_name" content="Code for South Africa">
     <meta property="og:image" content="http://www.code4sa.org/img/logo-367x200.png">
-	<meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:description" content="{{ page.excerpt }}">
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ site.url }}/css/animate.css">
@@ -37,7 +39,7 @@ body { padding-top: 40px; }
 </style>
   <body data-spy="scroll" data-target=".navbar">
 
-	<!--Nav Bar -->
+  <!--Nav Bar -->
     <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDownBig">
         <div class="navbar-inner">
             <div class="container">
@@ -66,21 +68,21 @@ body { padding-top: 40px; }
     {{ content }}
     
     <footer>
-    	<div class="container">
-    		<div class="row-fluid">
-    			<div class="span6 text-left">
-	            	<ul class="footer-links">
-    					<li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></li></ul>
-    			</div>
-    			
-    			<div class="span6 text-right">
-    				<ul class="footer-links">
-    					<li><a href="credits.html">Credits</a></li>
-    				</ul>
-    			</div>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span6 text-left">
+                <ul class="footer-links">
+              <li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></li></ul>
+          </div>
+          
+          <div class="span6 text-right">
+            <ul class="footer-links">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
                 
-    		</div>
-    	</div>
+        </div>
+      </div>
     </footer>
     
     <a href="#" class="scrollToTop hidden-phone"><i class="icon-chevron-up"></i></a>
@@ -99,23 +101,23 @@ body { padding-top: 40px; }
     
 
     <script>
-	$(document).ready(function() {
-	$.backstretch([
-	      "{{ site.url }}/img/header1.jpg",
-	      "{{ site.url }}/img/header2.jpg"
-	      ], {
-	        fade: 1000,
-	        duration: 3000
-	    });
-	});
-	</script>  
+  $(document).ready(function() {
+  $.backstretch([
+        "{{ site.url }}/img/header1.jpg",
+        "{{ site.url }}/img/header2.jpg"
+        ], {
+          fade: 1000,
+          duration: 3000
+      });
+  });
+  </script>  
     
     <!-- super simple slider http://supersimpleslider.com/ -->
     <script>
-	jQuery(function($) {
-	$('.slider').sss();
-	});
-	</script>
+  jQuery(function($) {
+  $('.slider').sss();
+  });
+  </script>
 
     <!-- Google analytics -->
     <script>
