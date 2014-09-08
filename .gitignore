@@ -3,3 +3,6 @@ _site
 *.pyc
 .idea/
 *.DS_Store
+.ruby-version
+Gemfile
+Gemfile.lock
