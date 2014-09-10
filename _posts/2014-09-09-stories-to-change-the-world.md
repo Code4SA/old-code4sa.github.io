@@ -5,7 +5,7 @@ excerpt: Stories define and grow a culture, what if we can harness that power an
 date: 2014-09-09
 ---
 
-#Life affirming stories#
+#Stories to Change the World#
 
 ##Cape Town, 09 September 2014##
 ##By Jennifer Walker##
@@ -21,7 +21,7 @@ Something needs to be done
 --------------------------
 
 Media Party is a [Hacks/Hackers](http://hackshackers.com/) event seeking to 
-facilitate collaboration between, and build a community of journalists and technologists who, together, can revision the news and information industries. And I am increasingly grateful as I come to appreciate what an important role these people play. If stories conjure cultures and weave communities together, then it is our social responsibility to ensure that accurate and relevant stories are being shared. 
+facilitate collaboration between, and build a community of journalists and technologists who, together, can reenvision the news and information industries. And I am increasingly grateful as I come to appreciate what an important role these people play. If stories conjure cultures and weave communities together, then it is our social responsibility to ensure that accurate and relevant stories are being shared. 
 
 I am struck by how much I take news and reporting for granted. Ashamedly, I assume a right to be informed at the right time in a format appropriate to me. All too often I accept the information being presented to me as being factually accurate and where it doesn't ring true, more often than not, I don't bother following up to verify the facts. 
 
@@ -30,7 +30,7 @@ The honest truth is that the state of access to information is currently in dist
 Something is being done
 -----------------------
 
-How refreshing to hear [Brian Boyer](https://twitter.com/brianboyer) share his tips on how to be happy at work (and has recently started a [tumblr](http://happyhacks.tumblr.com/) dedicated to this topic). His emphasis on writing a team blog, specifically sharing the "Why?" behind ideas and decisions, ensures that ideas are distilled and clarified. Like "How?" trumps "What?", "Why?" is where we can best share the underlying motivation behind something and in doing so hopefully share a thought process for reuse by others at a later stage. [Dan Sinker's](https://twitter.com/dansinker) plea to share our work (moving beyond simply releasing the source and saying it's open) served as a perfect complement to Brian's keynote. The call is to make our work useable and discoverable, beyond simply being open.
+How refreshing to hear [Brian Boyer](https://twitter.com/brianboyer) share his tips on how to be happy at work (and has recently started a [tumblr](http://happyhacks.tumblr.com/) dedicated to this topic). His emphasis on writing a team blog, specifically sharing the **Why?** behind ideas and decisions, ensures that ideas are distilled and clarified. Like **How?** trumps **What?**, **Why?** is where we can best share the underlying motivation behind something and in doing so hopefully share a thought process for reuse by others at a later stage. [Dan Sinker's](https://twitter.com/dansinker) plea to share our work (moving beyond simply releasing the source and saying it's open) served as a perfect complement to Brian's keynote. The call is to make our work useable and discoverable, beyond simply being open.
 
 I was honoured to be able to partake in a discussion about measuring ROI (and perhaps revisiting the definition of success) for civic projects, lead by our very own [Greg Kempe](https://twitter.com/longhotsummer).   
 
