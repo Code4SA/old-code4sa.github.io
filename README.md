@@ -1,5 +1,5 @@
-code4sa-site
-============
+code4sa.github.io
+=================
 
 
 Code4SA Website (http://code4sa.org/).
