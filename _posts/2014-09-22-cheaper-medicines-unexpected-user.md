@@ -41,7 +41,7 @@ That was when the email arrived. After further probing, I received this response
 
 Wow. It's not the pat on the back that thrills me, but rather that our work has actually hit the mark. Patients are getting cheaper medicines because of this tool. More than that, it is a use-case that I never expected. I always imagined a patient (probably middle-to-upper middle class) using the tool to save a few bucks. It never occurred to me that a doctor would use it to save money for his patients. In retrospect it is obvious, but certainly not what I expected.
 
-This tool epitomises the essence of what Code for South Africa is all about. Take some complex data then simplify it, package it and deliver it in a way that an end user would find useful. To make a better, more informed decision. 
+This tool epitomises the essence of what Code for South Africa is all about. Take some complex data. Simplify it, package it and deliver it in a way that an end user would find useful. To make a better, more informed decision. 
 
 This email has re-ignited my enthusiasm for this tool. The next step is to start marketing it to doctors who can use it for their patients.
 
