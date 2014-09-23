@@ -462,6 +462,7 @@ a:hover.back-to-work, a:active.back-to-work {
 }
 
 .service-box {
+    margin-bottom: 30px;
 	padding-bottom: 30px;
 }
 
