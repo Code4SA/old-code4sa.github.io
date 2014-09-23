@@ -359,12 +359,12 @@ iframe {
    ========================================================================== */ 
 #github-issues {
 	background: white;
-	padding: 130px 0px 100px 0px;
+	padding: 130px 0px 10px 0px;
 	height: auto;
 }
 
 #github-issues iframe {
-  height: 400px;
+  height: 600px;
 }
 
 
