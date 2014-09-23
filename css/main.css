@@ -359,12 +359,12 @@ iframe {
    ========================================================================== */ 
 #github-issues {
 	background: white;
-	padding: 130px 0px 10px 0px;
+	padding: 130px 0px 100px 0px;
 	height: auto;
 }
 
 #github-issues iframe {
-  height: 600px;
+  height: 400px;
 }
 
 
@@ -428,7 +428,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	background:  #fff;
 	border-bottom: 1px dashed #333;
 	border-top: 1px dashed #333;
-	padding-bottom: 20px;
+  padding: 130px 0px 100px 0px;
 }
 
 .blue-overlay {
@@ -453,7 +453,7 @@ a:hover.back-to-work, a:active.back-to-work {
    ========================================================================== */
 #services {
 	background: #F3F3F3;
-	padding: 130px 0px 10px 0px;
+	padding: 130px 0px 100px 0px;
 	height: auto;
 }
 
@@ -470,7 +470,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	padding: 30px 0px;
 }
 
-#call-to-action h4, #about-opendata h4 {
+#call-to-action h4, #get-involved h4 {
 	color: #5F6263;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -478,17 +478,17 @@ a:hover.back-to-work, a:active.back-to-work {
 	line-height: 53px;
 }
 
-#about-opendata {
-	padding: 130px 0px 10px 0px;
+#get-involved {
+	padding: 130px 0px 100px 0px;
 	background: #232527;
 }
 
-#about-opendata h5, #resources h5 {
+#get-involved h5, #resources h5 {
     padding-top:15px;
     color:#bbbbbb;
 }
 
-#about-opendata dd, #about-opendata dt {
+#get-involved dd, #get-involved dt {
     color:#bbbbbb;
     display:inline-block;
 }
