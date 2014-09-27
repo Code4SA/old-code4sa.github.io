@@ -6,6 +6,7 @@ excerpt: |
 ---
 
 #Government commits to global open data movement#
+<iframe style="width:100%;height:360px" width="360" height="640" src="//www.youtube.com/embed/zFidGnw90yY?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ##ISSUED BY:	Code for South Africa##
 ##DATE:		Cape Town, 10 July 2014##
@@ -33,6 +34,10 @@ The event, hosted by Code for South Africa (Code4SA) with Creative Commons South
 ENDS
 
 [1]“Everyone has the right of access to any information held by the state; and any information that is held by another person and that is required for the exercise or protection of any rights.” - South African Constitution, Section 32.
+
+##Resources##
+You can find the proceedings here: [http://bit.ly/opendataproceedings](http://bit.ly/opendataproceedings).
+
 
 
 **Contact:**
