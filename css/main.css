@@ -574,6 +574,10 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-image: url(../img/team_siya.jpg);
 }
 
+.ch-img-khutjo {
+	background-image: url(../img/team_khutjo.jpg);
+}
+
 
 .ch-info {
 	position: absolute;
