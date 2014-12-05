@@ -12,7 +12,7 @@ date: 2014-12-05
 ## By Greg Kempe
 [@longhotsummer](https://twitter.com/longhotsummer)
 
-We've been making some opinionated choices about our deployment practices at Code for South Africa. We've found it improves collaboration and helps us build better products, more quickly. There are many ways to improve collaboration and opinionated deployments may seem like an odd one. Here's what we're doing and why.
+We've been making some [opinionated](http://programmers.stackexchange.com/questions/12182/what-does-opinionated-software-really-mean) choices about our deployment practices at Code for South Africa. We've found it improves collaboration and helps us build better products, more quickly. There are many ways to improve collaboration and opinionated deployments may seem like an odd one. Here's what we're doing and why.
 
 We work on a number of websites and web applications, ranging from one or two page apps such as [Protest Map](http://protest-map.code4sa.org) and [Hospital Finder](http://hospitals.code4sa.org) to rich websites such as [Wazimap.co.za](http://wazimap.co.za) and complex web applications like [Dexter](http://mma-dexter.code4sa.org). We're also a small team working with limited budgets and tight deadlines, so ad-hoc collaboration is an important part of helping us move quickly. We might need Jason to help Petrus out on a project just for a day or two, or I might see the opportunity to make a quick layout change to one of our websites.
 
