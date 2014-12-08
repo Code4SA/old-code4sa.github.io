@@ -6,7 +6,7 @@ excerpt: |
 date: 2014-12-05
 ---
 
-# Opinionated practices improve collaboration
+# Opinionated deployments improve collaboration
 
 ## Cape Town, 05 December 2014
 ## By Greg Kempe
