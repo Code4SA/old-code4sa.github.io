@@ -77,7 +77,7 @@ We need to make our roads safer and reduce the number of horrific accidents that
 
 I don't have a real conclusion here. Hopefully these graphics, at the very least suggest to drivers to be careful in those municipalities regardless of the reason.
 
-UPDATE: 9 Jan 2015 - Jason Norwood-Young makes the interesting observation that if fine revenue in Ubuntu municipality was re-distributed to all households that earn R20,000 or less annually, you could give them each R6,852 per year, or R571 per month. If you limit it to househlds earning R10,000 or less per month, that figure rises to just over R1,200 per month. Of course, this money might be used for service delivery anyway so re-distribution make not result in a net gain but it gives you an idea of the size of these numbers.
+<strong>UPDATE: 9 Jan 2015</strong> - Jason Norwood-Young makes the interesting observation that if fine revenue in Ubuntu municipality was re-distributed to all households that earn R20,000 or less annually, you could give them each R6,852 per year, or R571 per month. If you limit it to househlds earning R10,000 or less per month, that figure rises to just over R1,200 per month. Of course, this money might be used for service delivery anyway so re-distribution make not result in a net gain but it gives you an idea of the size of these numbers.
 
 <script type="text/javascript" src="http://code4sa.org/traffic-fines/citypress/assets/pym.js"></script>
 <script>
