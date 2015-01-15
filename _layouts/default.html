@@ -21,9 +21,15 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
-    <link href="{{ site.url }}/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
     <link rel="stylesheet" href="{{ site.url }}/css/custom-styles.css">
+
+    {% if page.style %}
+    <style type="text/css">
+        {{ page.style }}
+    </style>
+    {% endif %}
 
     <script src="{{ site.url }}/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
