@@ -4,7 +4,16 @@ title: Genders roles in different fields of medicine.
 excerpt: |
     Medicine is one of those fields that parents secretly (and sometimes not so secretly) wish for for their children. It's a respectable line of work. You'll never go hungry. And, it's merit based. In this day and age, gender should be completely irrelevant. But is it?
 style: |
-    svg { background-color: white; } .chart { margin-bottom: 20px; }
+    svg {
+        background-color: white;
+    }
+    .chart {
+        margin-bottom: 1em;
+    }
+    .c3-chart-line path {
+        stroke-width:0.2em;
+    }
+ 
 date: 2015-01-15
 ---
 
