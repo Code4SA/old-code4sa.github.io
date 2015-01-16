@@ -76,9 +76,6 @@ var defchart = function(url, bindto) {
         },
         data: {
             type: 'line',
-            groups: [
-                ['Women', 'Men']
-            ],
             x: 'Year',
             url: url,
             order: function(a, b) {
