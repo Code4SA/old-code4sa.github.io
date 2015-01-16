@@ -75,7 +75,7 @@ var defchart = function(url, bindto) {
             right: 10,
         },
         data: {
-            type: 'area',
+            type: 'line',
             groups: [
                 ['Women', 'Men']
             ],
