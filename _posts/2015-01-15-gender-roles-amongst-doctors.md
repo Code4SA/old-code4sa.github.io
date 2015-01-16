@@ -2,7 +2,7 @@
 layout: post
 title: Genders roles in different fields of medicine.
 excerpt: |
-    Medicine is one of those fields that parents secretly wish for for their children. It's a respectable line of work. You'll never go hungry. And, it's merit based. In this day and age, gender should be completely irrelevant. But is it?
+    Medicine is one of those fields that parents secretly (and sometimes not so secretly) wish for for their children. It's a respectable line of work. You'll never go hungry. And, it's merit based. In this day and age, gender should be completely irrelevant. But is it?
 style: |
     svg { background-color: white; } .chart { margin-bottom: 20px; }
 date: 2015-01-15
@@ -17,13 +17,13 @@ date: 2015-01-15
 
 I've been playing with a new dataset over the last week. It's amazing what stories you can find in data which are completely unexpected. Last week I found some <a href="/2015/01/08/traffic-fines-highway-robbery.html">interesting revenue models</a> used by a handful of municipalities in the country using their statements of operating revenue and expenditure. This week I have been looking at the history of gender equality in the medical profession. 
 
-I'm still digging into the data so this blog will be a brief report-back on what I have found so far. Using the register of medical professionals over at the <a href="http://hpcsa.co.za">Health Professionals Council of South Africa</a> I have been exploring whether there are any strong gender roles within the medical profession. 
+I'm still digging into the data so this blog will only be a brief report-back on what I have found so far. Using the register of medical professionals over at the <a href="http://hpcsa.co.za">Health Professionals Council of South Africa</a>, I have been exploring whether there are any strong gender biases within the medical profession. 
 
 There are, the graphs below are quite telling.
 
 Firstly, I was curious to see what is the overall picture with respect to gender equality in the medical profession. In this case, I define a medical professional as someone who has been registered as a medical practitioner. For all intents and purposes, this is someone who has a 'Dr' in front of their name.
 
-I plotted the number of doctors who qualify on a yearly basis and divided them by gender. The graph really doesn't need much explanation, the trend is clear.
+I plotted the number of doctors who qualify on a yearly basis and compared them by gender. The graph really doesn't need much explanation, the trend is clear.
 
 <center>
 <h2>Number of doctors qualifying over time</h2>
@@ -50,7 +50,7 @@ The field was almost exclusively male until the mid-80s whereas now, a new gener
 
 On a somewhat different topic, notice that only 30-40 psychiatrists graduate every year. In total there are only 787 active psychiatrists with only 617 under retirement age. That's 0.66 psychiatrists per 100,000. Compare that with <a href="http://www.who.int/mental_health/evidence/atlas/profiles/usa_mh_profile.pdf?ua=1">7.8 in the US</a>, <a href="http://www.who.int/mental_health/evidence/atlas/profiles/fra_mh_profile.pdf?ua=1">22.35 in France</a> and <a href="http://www.who.int/mental_health/evidence/atlas/profiles/nor_mh_profile.pdf?ua=1">30.77 in Norway</a>. Comparing with other BRICS countries, <a href="http://www.who.int/mental_health/evidence/atlas/profiles/bra_mh_profile.pdf?ua=1">Brazil : 3.07</a>, <a href="http://www.who.int/mental_health/evidence/atlas/profiles/rus_mh_profile.pdf?ua=1">Russia: 11.61</a>, <a href="http://www.who.int/mental_health/evidence/atlas/profiles/ind_mh_profile.pdf?ua=1">India: 0.3</a> and <a href="http://www.who.int/mental_health/evidence/atlas/profiles/chn_mh_profile.pdf?ua=1">China: 1.53</a>. We really need to crank out more shrinks.
 
-Here's what it looks like for gynaecologists. It somewhat biased towards men.
+Here's what it looks like for gynaecologists. It is somewhat biased towards men.
 <h2>Number of gynaecologists qualifying over time</h2>
 <div id="chart5" class="chart"></div>
 
@@ -58,7 +58,7 @@ Finally, the John Waynes of the medical profession, the Surgeons.
 <h2>Number of surgeons qualifying over time</h2>
 <div id="chart3" class="chart"></div>
 
-Of the 1360 or so surgeons in the country, only 117 are women. It seems that this field has been resistant to the forward march of gender equality, not just in South Africa but outside as well. Having asked a surgeon friend of mine why he thought this was the case, he suggested the inflexible and family-unfriendly working hours. Other accounts speak of <a href="https://medium.com/@karenmilford/being-female-in-surgery-blood-guts-and-rehabilitating-chauvinists-c5f861b0c3ac">raw chauvanism</a>. 
+Of the 1360 or so surgeons in the country, only 117 are women. It seems that this field has been resistant to the forward march of gender equality, not just in South Africa but <a href="http://www.solidarity-us.org/node/24">outside as well</a>. Having asked a surgeon friend of mine why he thought this was the case, he suggested the inflexible and family-unfriendly working hours. Other accounts speak of <a href="https://medium.com/@karenmilford/being-female-in-surgery-blood-guts-and-rehabilitating-chauvinists-c5f861b0c3ac">raw chauvinism</a>. 
 
 I'm not going to say anymore on this topic since I don't have any personal insight beyond what the numbers say. This is the real point of this blog. Even though I know very little about the medical profession, I was able learn quite a lot about the trends that are shaping the industry.
 
