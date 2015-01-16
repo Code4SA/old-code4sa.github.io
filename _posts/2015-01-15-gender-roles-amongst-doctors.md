@@ -75,7 +75,7 @@ var defchart = function(url, bindto) {
             right: 10,
         },
         data: {
-            type: 'bar',
+            type: 'area',
             groups: [
                 ['Women', 'Men']
             ],
@@ -84,7 +84,10 @@ var defchart = function(url, bindto) {
             order: function(a, b) {
                 if (a["Men"]) return -1
                 return 1
-            }
+            },
+        },
+        point : {
+            show : false
         },
         axis: {
             x : {
