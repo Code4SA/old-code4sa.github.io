@@ -174,8 +174,10 @@ color: #fff;
 	margin-bottom: 40px;
 }
 
-#apis p {text-align:left;
-color: #666;}
+#apis p {
+    text-align:left;
+    color: #666;
+}
 
 #apis .span3 {border: 1px dashed #666;
 padding: 10px;
@@ -201,6 +203,14 @@ position: relative;
 	font-weight: bold;
 	bottom: 0;
 	position: absolute;
+}
+
+/**********************************
+              TEAM
+***********************************/
+
+#team h3 {
+    
 }
 
 #services p {text-align:left;}
