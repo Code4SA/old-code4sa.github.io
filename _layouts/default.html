@@ -31,6 +31,10 @@
     </style>
     {% endif %}
 
+    {% if page.extra_style %}
+        {{ page.extra_style }}
+    {% endif %}
+
     <script src="{{ site.url }}/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- Fav and touch icons -->
@@ -101,6 +105,7 @@
     <script src="{{ site.url }}/js/main.js"></script>
     <script src="{{ site.url }}/js/jquery.backstretch.js"></script>
     <script src="{{ site.url }}/js/jquery.cycle.lite.js"></script>
+    <script src="{{ site.url }}/js/jquery-dateFormat.min.js"></script>
     <script src="{{ site.url }}/js/sss.min.js"></script> <!-- work images super simple slider js -->
     
 
@@ -134,6 +139,10 @@
       ga('send', 'pageview');
 
     </script>
+
+  {% if page.extra_js %}
+    {{ page.extra_js }}
+  {% endif %}
 
     </body>
 </html>

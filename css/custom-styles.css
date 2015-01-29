@@ -118,6 +118,8 @@ padding: 12px 10px 0;
 }
 
 
+
+
 #blog h2 {
     font-size: 12pt;
 }
@@ -145,6 +147,14 @@ min-height: 426px;}
 font-weight: 400;
 font-family: font-family: 'Open Sans',sans-serif;
 color: #fff;
+}
+
+/**********************************
+              News/Blogs
+***********************************/
+
+#news .blog-excerpts a {
+    color: #232527;
 }
 
 /**********************************
