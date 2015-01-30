@@ -41,23 +41,25 @@
           "Transport, Roads & Stormwater",
           "Unknown"
       ]
-      this.tooltip = CustomTooltip("gates_tooltip", 240);
+      this.tooltip = CustomTooltip("tenders_tooltip", 240);
       this.center = {
         x: this.width / 2,
         y: this.height / 2
       };
 
       this.year_centers = {}
-      this.years_x = {}
+      this.dept_titles = {}
       for (idx in departments) {
         var dept = departments[idx]
+        var column_width = this.width / 4.5;
+        var row_height = this.height / 5;
         this.year_centers[dept] = {
-            x: (idx % 4) * this.width / 5 + 150,
-            y: Math.floor(idx / 4) * this.height / 5 + 130
+            x: column_width + (idx % 4) * column_width - 100,
+            y: row_height + Math.floor(idx / 4) * row_height
         }
-        this.years_x[dept] = {
-            x: (idx % 4) * this.width / 5 + 150,
-            y: Math.floor(idx / 4) * this.height / 5 + 20 + 150
+        this.dept_titles[dept] = {
+            x: column_width + (idx % 4) * column_width - 100,
+            y: row_height + Math.floor(idx / 4) * row_height
         }
       }
       this.layout_gravity = -0.01;
@@ -73,7 +75,7 @@
       max_amount = d3.max(this.data, function(d) {
         return parseInt(d.value);
       });
-      this.radius_scale = d3.scale.pow().exponent(0.5).domain([0, max_amount]).range([2, 45]);
+      this.radius_scale = d3.scale.sqrt().domain([0, max_amount]).range([0, 80]);
       this.create_nodes();
       this.create_vis();
     }
@@ -81,10 +83,9 @@
     BubbleChart.prototype.create_nodes = function() {
       this.data.forEach((function(_this) {
         return function(d) {
-          var node;
-          node = {
+          var node = {
             id: d.no,
-            radius: _this.radius_scale(parseInt(d.value)),
+            radius: _this.radius_scale(parseInt(d.value) / 3.14),
             value: d.value,
             name: d.description,
             vendor: d.vendor,
@@ -93,8 +94,8 @@
             org: d.department,
             group: d.group,
             awarded_date: new Date(d.award_date),
-            x: Math.random() * 900,
-            y: Math.random() * 800
+            x: Math.random() * _this.width,
+            y: Math.random() * _this.height
           };
           return _this.nodes.push(node);
         };
@@ -139,6 +140,26 @@
       return this.force = d3.layout.force().nodes(this.nodes).size([this.width, this.height]);
     };
 
+    BubbleChart.prototype.hide_all_total = function() {
+        this.vis.selectAll(".total-value").remove()
+    }
+
+    BubbleChart.prototype.display_all_total = function() {
+      var total = 0
+      this.data.forEach(function(d) {
+        total += parseInt(d.value);
+      })
+
+      this.vis.selectAll(".total-value")
+        .data(["Total tender value: R" + addCommas(total)])
+        .enter().append("text")
+          .attr("class", "total-value")
+          .attr("x", this.width / 2)
+          .attr("y", this.height - 50)
+          .attr("text-anchor", "middle")
+          .text(String)
+    }
+
     BubbleChart.prototype.display_group_all = function() {
       this.force.gravity(this.layout_gravity).charge(this.charge).friction(0.9).on("tick", (function(_this) {
         return function(e) {
@@ -150,6 +171,7 @@
         };
       })(this));
       this.force.start();
+      this.display_all_total();
       return this.hide_years();
     };
 
@@ -173,6 +195,7 @@
         };
       })(this));
       this.force.start();
+      this.hide_all_total();
       return this.display_years();
     };
 
@@ -189,18 +212,18 @@
     BubbleChart.prototype.display_years = function() {
       var years, years_data;
       var me = this;
-      years_data = d3.keys(this.years_x);
+      years_data = d3.keys(this.dept_titles);
       years = this.vis.selectAll(".years").data(years_data);
      
       return years.enter().append("text")
           .attr("class", "years")
           .attr("x", (function(_this) {
               return function(d) {
-                  return me.years_x[d].x;
+                  return me.dept_titles[d].x;
               };
           })(this))
           .attr("y", function(d) {
-            return me.years_x[d].y;
+            return me.dept_titles[d].y;
           })
           .attr("text-anchor", "middle").text(function(d) {
             return d;
@@ -210,6 +233,35 @@
     BubbleChart.prototype.hide_years = function() {
       var years;
       return years = this.vis.selectAll(".years").remove();
+    };
+
+    BubbleChart.prototype.display_total2 = function(total) {
+        this.vis.selectAll(".total").data([total]).enter().append("text")
+            .attr("class", "total")
+            .attr("x", 0)
+            .attr("y", 0)
+            .text("Total: " + total)
+    }
+
+    BubbleChart.prototype.display_total = function(total) {
+      var years, years_data;
+      var me = this;
+      years_data = d3.keys(this.dept_titles);
+      years = this.vis.selectAll(".years").data(years_data);
+     
+      return years.enter().append("text")
+          .attr("class", "years")
+          .attr("x", (function(_this) {
+              return function(d) {
+                  return me.dept_titles[d].x;
+              };
+          })(this))
+          .attr("y", function(d) {
+            return me.dept_titles[d].y;
+          })
+          .attr("text-anchor", "middle").text(function(d) {
+            return d;
+      });
     };
 
     BubbleChart.prototype.show_details = function(data, i, element) {
