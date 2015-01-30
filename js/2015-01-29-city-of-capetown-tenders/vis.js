@@ -34,14 +34,14 @@ function BubbleChart(data) {
   var max_amount;
   this.data = data;
   this.width = 1000;
-  this.height = 600;
+  this.height = 650;
   this.tooltip = CustomTooltip("tenders_tooltip", 240);
   this.center = {
     x: this.width / 2,
     y: this.height / 2
   };
 
-  var padding = 75;
+  var padding = 90;
   this.box = {
     x: padding,
     y: padding,
@@ -246,7 +246,7 @@ BubbleChart.prototype.display_group_all = function() {
     .enter().append("text")
       .attr("class", "total-value")
       .attr("x", this.width / 2)
-      .attr("y", 35)
+      .attr("y", 45)
       .attr("text-anchor", "middle")
       .text(String);
 
@@ -303,22 +303,25 @@ BubbleChart.prototype.display_by_department = function() {
           var count = 0;
           var x = 0;
           var y = 0;
+          var highest_y = -1;
 
           me.vis.selectAll(".tender-bubble").select(function(d) {
             if (d.group == dept) {
               count += 1
                 x += d.x;
                 y += d.y;
+                if (d.y > highest_y)
+                  highest_y = d.y;
             }
           })
 
           d3.select("#dept-label-" + idx)
             .attr("x", x / count)
-            .attr("y", y / count + 35)
+            .attr("y", highest_y + 30)
 
           d3.select("#value-label-" + idx)
             .attr("x", x / count)
-            .attr("y", y / count + 50)
+            .attr("y", highest_y + 45)
         }
       })
 
