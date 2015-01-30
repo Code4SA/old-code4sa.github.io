@@ -136,6 +136,7 @@ BubbleChart.prototype.create_vis = function() {
     .style("fill", "none")
   */
 
+  /*
   this.vis.append("line")
     .attr("x1", this.box.x + this.column_width * 1)
     .attr("y1", this.box.y)
@@ -177,6 +178,7 @@ BubbleChart.prototype.create_vis = function() {
     .attr("x2", this.box.x + this.box.width)
     .attr("y2", this.box.y + this.row_height * 3)
     .style("stroke", "#000")
+  */
 
   this.circles = this.vis.selectAll("circle").data(this.nodes, function(d) {
     return d.id;
