@@ -1,10 +1,16 @@
+a, a:visited, a:active {
+  color: #444;
+}
+
+svg {
+  background-color: white;
+}
+
 #vis {
-  width: 940px;
+  width: 1000px;
   height: 600px;
   clear: both;
   margin-bottom: 10px;
-  padding: 60px;
-  background-color: white;
 }
 
 footer {
@@ -16,10 +22,20 @@ footer {
   margin-bottom: 10px;
 }
 
-.years {
+.department {
   font-size: 14px;
   font-weight: bold;
   fill: #000;
+}
+
+#total-title {
+  font-size: 20px;
+  font-weight: bold;
+  fill: #000;
+}
+
+.value-label {
+  font-weight: bold;
 }
 
 .tooltip {

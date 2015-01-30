@@ -6,22 +6,33 @@ excerpt: |
  
 date: 2015-01-29
 extra_js: |
-    <script src="/js/2015-01-29-city-of-capetown-tenders/script.js"></script>
     <script src="/js/2015-01-29-city-of-capetown-tenders/CustomTooltip.js"></script>
     <script src="/js/d3.v3.min.js"></script>
     <script src="/js/2015-01-29-city-of-capetown-tenders/vis.js"></script>
-
     <script type="text/javascript">
-    $(document).ready(function() {
-      $('#view_selection a').click(function() {
-        var view_type = $(this).attr('id');
-        $('#view_selection a').removeClass('active');
-        $(this).toggleClass('active');
-        toggle_view(view_type);
-        return false;
-      });
+
+    d3.csv("/data/tenders/tenders.csv", function(csv) {
+      chart = new BubbleChart(csv);
+      chart.start();
+      chart.display_by_department();
+
+      d3.selectAll("#view_selection a")
+        .on("click", function() {
+            var me = d3.select(this);
+            var view_type = me.attr("id");
+            chart.toggle_view(view_type);
+            d3.selectAll("#view_selection a").each(function() {
+              var me = d3.select(this);
+              if (me.classed("active")) {
+                me.classed("active", false)  
+              } else {
+                me.classed("active", true)  
+              }
+            })
+        });
     });
     </script>
+
 extra_style: |
     <link rel="stylesheet" href="/css/2015-01-29-city-of-capetown-tenders/style.css">
 ---
@@ -41,13 +52,11 @@ What's the point of gazing at one's navel without actually getting your hands di
 ## Blah Blah Blah - get to the point
 Ok here it is. I wanted to get a general sense of what the City is spending its money on. The graphic below represents all awarded tenders between July and December 2014 as bubbles. The bigger the bubble, the larger the tender. Departments are encoded with colours. Community Services - Blue, Utility Services - Pink, Finance - Cream Soda, etc.
 
-<div id="main" role="main">
   <div id="view_selection" class="btn-group">
-    <a href="#" id="all" class="btn">All Tenders</a>
-    <a href="#" id="year" class="btn active">By Department</a>
+    <a id="all" class="btn">All Tenders</a>
+    <a id="year" class="btn active">By Department</a>
   </div>
   <div id="vis"></div>
-</div>
 
 ## Disclaimer
 This visualisation uses data that can be found on the City of Cape Town's <a href="http://ctcs.capetown.gov.za/OpenDataPortal/DatasetDetail?DatasetName=Tender%20awards">open data portal</a>. Don't use it to plan your financial future or wring your hands over how your tax money is being mismanaged. The data might be incorrect so it's best to get it from the source if you're going to do something useful with it. According to the <a href="http://ctcs.capetown.gov.za/OpenDataPortal/Images/OpenDataLicence2.pdf">Terms of Use</a> on the site, I am meant to tell you a bunch of stuff about how the City can't be held liable for providing incorrect data. I should also mentioned that:
