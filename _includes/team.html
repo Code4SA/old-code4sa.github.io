@@ -1,0 +1,18 @@
+<div class="ch-item {{ include.image_class }}">
+    <div class="ch-info">
+        <h3>{{ include.name }}</h3>
+        <p>{{ include.title }}<br/>
+        {% if include.twitter %}
+            <a href="https://twitter.com/{{ include.twitter }}" target="_blank"><i class="icon-twitter"></i> {{ include.twitter }}</a>
+        {% endif %}</p>
+    </div>
+</div>
+
+<!--Fall Back for Mobile Devices-->
+<div class="team-info-mobile hidden-desktop">
+    {{ include.name }}
+    <p>{{ include.title }}<br/>
+    {% if include.twitter %}
+        <a href="https://twitter.com/{{ include.twitter }}" target="_blank"><i class="icon-twitter"></i> {{ include.twitter }}</a>
+    {% endif %}</p>
+</div>

@@ -536,23 +536,19 @@ a:hover.back-to-work, a:active.back-to-work {
 	transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 { 
+.ch-img-adi { 
 	background-image: url(../img/team_adi.jpg);
 }
 
-.ch-img-2 { 
-	background-image: url(../img/team_gabrielle.jpg);
+.ch-img-gabriella { 
+	background-image: url(../img/team_gabriella.jpg);
 }
 
-.ch-img-3 { 
-	background-image: url(../img/team_justin.jpg);
-}
-
-.ch-img-4 {
+.ch-img-petrus {
 	background-image: url(../img/team_petrus.jpg);
 }
 
-.ch-img-5 {
+.ch-img-jason {
 	background-image: url(../img/team_jason.jpg);
 }
 
@@ -562,7 +558,7 @@ a:hover.back-to-work, a:active.back-to-work {
 	background-position: right top;
 }
 
-.ch-img-6 {
+.ch-img-greg {
 	background-image: url(../img/team_greg.png);
 }
 
