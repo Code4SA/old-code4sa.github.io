@@ -54,11 +54,7 @@ What's the point of gazing at one's navel without actually getting your hands di
 ## Blah Blah Blah - get to the point
 Ok here it is. I wanted to get a general sense of what the City is spending its money on. The graphic below represents all awarded tenders between July and December 2014 as bubbles. The bigger the bubble, the larger the tender. Departments are encoded with colours. Community Services - Blue, Utility Services - Pink, Finance - Cream Soda, etc.
 
-  <div id="view_selection" class="btn-group">
-    <a id="all" class="btn">All Tenders</a>
-    <a id="year" class="btn active">By Department</a>
-  </div>
-  <div id="vis"></div>
+<iframe src="/embeds/tenders.html" width="1050px" frameborder="0" scrolling="no" height="800px" border="0" style="height:800px; width:1050px"></iframe>
 
 ## Disclaimer
 This visualisation uses data that can be found on the City of Cape Town's <a href="http://ctcs.capetown.gov.za/OpenDataPortal/DatasetDetail?DatasetName=Tender%20awards">open data portal</a>. Don't use it to plan your financial future or wring your hands over how your tax money is being mismanaged. The data might be incorrect so it's best to get it from the source if you're going to do something useful with it. According to the <a href="http://ctcs.capetown.gov.za/OpenDataPortal/Images/OpenDataLicence2.pdf">Terms of Use</a> on the site, I am meant to tell you a bunch of stuff about how the City can't be held liable for providing incorrect data. I should also mentioned that:
