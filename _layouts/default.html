@@ -46,7 +46,7 @@
   <body>
 
   <!--Nav Bar -->
-    <div class="navbar navbar-inverse navbar-static-top">
+    <div id="navbar" class="navbar navbar-inverse navbar-static-top">
         <div class="navbar-inner">
             <div class="container">
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -86,7 +86,6 @@
     
     <a href="#" class="scrollToTop hidden-phone"><i class="icon-chevron-up"></i></a>
     
-    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <!-- Google analytics -->
     <script>
@@ -103,6 +102,7 @@
     {% if page.extra_js %}
         {{ page.extra_js }}
     {% endif %}
+    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
 
     </body>
 </html>
