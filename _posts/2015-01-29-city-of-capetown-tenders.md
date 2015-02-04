@@ -45,6 +45,14 @@ extra_style: |
 ## By Adi Eyal
 [@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
+<strong>Update:</strong> 4 February 2015
+
+The response to this blog post has been very positive. However, I don't think that I was very clear about the overall message. The City's data portal has a long way to go but that doesn't mean that they have failed. For it to improve, we need to give the City feedback about what works and what doesn't work. Hopefully this blog encourages others to do just that.
+
+-----
+
+
+
 Cape Town is the [first city in Africa](http://www.politicsweb.co.za/politicsweb/view/politicsweb/en/page71654?oid=923356&sn=Detail&pid=71616) to open up their data. Having played with it quite a bit, I have written down my initial thoughts.
 
 ## But first some bling
