@@ -1,5 +1,13 @@
+body {
+  font-size: 15px;
+}
+
 .navbar {
   margin-bottom: 0px;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
 }
 
 .navbar > .container .navbar-brand {
