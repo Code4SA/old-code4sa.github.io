@@ -16,3 +16,10 @@
 a.thumbnail {
   text-decoration: none;
 }
+
+footer {
+  background-color: #f8f8f8;
+  border-top: 4px solid #e7e7e7;
+  margin-top: 40px;
+  padding: 20px 0px;
+}
