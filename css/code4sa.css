@@ -27,6 +27,55 @@ a.thumbnail {
   min-height: 600px;
 }
 
+.blog-excerpts > li {
+  clear: both;
+  margin-bottom: 40px;
+  display: table;
+  width: 100%;
+}
+
+.blog-excerpts > li .date {
+  float: left;
+  width: 17%;
+  background: #232527;
+  padding: 10px 5px;
+  margin-right: 10px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+.blog-excerpts > li .day,
+.blog-excerpts > li .month {
+  display: block;
+  color: white;
+}
+
+.blog-excerpts > li .day {
+  font-size: 30px;
+}
+
+.blog-excerpts > li .month {
+  font-size: 20px;
+}
+
+.blog-excerpts > li .excerpt {
+  float: left;
+  width: 75%;
+  text-align: justify;
+}
+
+.blog-excerpts > li .excerpt h4 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.blog-excerpts > li .more {
+  float: right;
+  margin-top: 0px;
+}
+
 footer {
   background-color: #f8f8f8;
   border-top: 4px solid #e7e7e7;

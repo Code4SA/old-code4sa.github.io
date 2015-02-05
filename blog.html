@@ -1,51 +1,52 @@
 ---
-layout: default
-title: Code4SA
-scroll_class: nothing
+layout: new
+title: Blog
 ---
 
-<!--News Section-->
-<section id="news">
+<article>
+  <header class="wide-banner">
     <div class="container">
-        <div class="row-fluid">
-            <div class="span12 text-center">
-                <h3 class="section-title"><img src="img/black-line.png" alt="black-line">Latest In Our World</h3>
+      <div class="text-center">
+        <h1>What's new in our world</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>What's been happening</h2>
+
+        <ul class="list-unstyled blog-excerpts">
+        {% for post in site.posts %}
+          <li>
+            <div class="date">
+              <span class="day">{{ post.date | date: "%d" }}</span>
+              <span class="month">{{ post.date | date: "%b" }}</span>
             </div>
-        </div>
-        
-        <div class="row-fluid">
-            
-            <!--Latest News-->
-            <div class="span6 blog-excerpts">
-               <h5>What's been happening</h5>
-                   
-                   {% for post in site.posts %}
-                   <div class="row-fluid news-article">
-                       <div class="span2 date pull-left">
-                           <span class="day">{{ post.date | date: "%d" }}</span><br />
-                           <span class="month">{{ post.date | date: "%b" }}</span><br />
-                       </div>
-                       
-                       <div class="span9 text-left">
-                           <h4>{{ post.title }}</h4>
-                           <p>{{ post.excerpt }}</p>
-                           <a class="more pull-right" href="{{ post.url }}">More</a>
-                       </div>
-                   </div>
-                   {% endfor %}
-                   
-            </div><!--End Latest News-->
-            
 
-            <div class="span5 offset1" style="height:800px">
-                <h5>Twitter</h5>
-
-                <a class="twitter-timeline" href="https://twitter.com/code4sa/site-feed" data-widget-id="377143921974845441">Tweets from @code4sa/site-feed</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
+            <div class="excerpt">
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              <p>
+              {{ post.excerpt }}
+              <a class="more" href="{{ post.url }}">Read more</a>
+              </p>
             </div>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-sm-6" style="height:800px">
+        <h2>Twitter</h2>
+
+        <a class="twitter-timeline" href="https://twitter.com/code4sa/site-feed" data-widget-id="377143921974845441">Tweets from @code4sa/site-feed</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
         </div>
+      </div>
     </div>	
+  </div>	
 </section>
 
