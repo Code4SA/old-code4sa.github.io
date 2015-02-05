@@ -2,6 +2,10 @@
   margin-bottom: 0px;
 }
 
+.navbar > .container .navbar-brand {
+  padding: 10px 15px;
+}
+
 .wide-banner {
   background-color: rgba(248,92,92,0.95);
   padding: 40px 0px;
