@@ -1,0 +1,18 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.wide-banner {
+  background-color: rgba(248,92,92,0.95);
+  padding: 40px 0px;
+  margin-bottom: 20px;
+}
+
+.wide-banner p,
+.wide-banner h1 {
+  color: white;
+}
+
+a.thumbnail {
+  text-decoration: none;
+}
