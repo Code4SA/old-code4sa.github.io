@@ -1,0 +1,99 @@
+---
+---
+
+body {
+  font-size: 15px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.navbar > .container .navbar-brand {
+  padding: 10px 15px;
+}
+
+article > header {
+  padding: 40px 0px;
+  margin-bottom: 20px;
+}
+
+.wide-banner {
+  background-color: rgba(248,92,92,0.95);
+
+  p, h1 {
+    color: white;
+  }
+}
+
+a.thumbnail {
+  text-decoration: none;
+}
+
+.content {
+  min-height: 600px;
+}
+
+.blog-excerpts {
+  > li {
+    clear: both;
+    margin-bottom: 40px;
+    display: table;
+    width: 100%;
+
+    .date {
+      float: left;
+      width: 17%;
+      background: #232527;
+      padding: 10px 5px;
+      margin-right: 10px;
+
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+    }
+
+    .day,
+    .month {
+      display: block;
+      color: white;
+    }
+
+    .day {
+      font-size: 30px;
+    }
+
+    .month {
+      font-size: 20px;
+    }
+
+    .excerpt {
+      float: left;
+      width: 75%;
+      text-align: justify;
+
+      h4 {
+        margin-top: 0px;
+        font-weight: bold;
+      }
+    }
+
+    .more {
+      float: right;
+      margin-top: 0px;
+    }
+  }
+}
+
+footer {
+  background-color: #f8f8f8;
+  border-top: 4px solid #e7e7e7;
+  margin-top: 40px;
+  padding: 20px 0px;
+}
+
