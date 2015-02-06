@@ -1,23 +1,19 @@
 ---
-layout: default
+layout: new
 ---
 
-<section id="blog">
-    <div class="container">
-        <div class="row-fluid project-text">
-            <div class="offset3 span6">
-                {{ content }}
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="offset3 span6">
-                {% include disqus.html %}
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="span6 offset3 back-to-work">
-                <a href="{{ site.url }}/blog.html" class="back-to-work"><i class="icon-double-angle-left"></i> Back to posts</a>
-            </div>
-        </div>
+<div class="container">
+  <header>
+    <h4><a href="/blog.html">← all blog posts</a></h4>
+  </header>
+
+  <article class="blog-post">
+    <div class="post-content">
+      {{ content }}
     </div>
-</section>
+
+    <footer class="comments">
+      {% include disqus.html %}
+    </footer>
+  </article>
+</div>

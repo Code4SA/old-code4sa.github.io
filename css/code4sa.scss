@@ -90,6 +90,31 @@ a.thumbnail {
   }
 }
 
+.blog-post {
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .post-content {
+      p, h1, h2, h3, h4, h5, blockquote, ul, ol {
+        max-width: 600px;
+      }
+    }
+
+    footer {
+      max-width: 600px;
+    }
+  }
+}
+
 footer {
   background-color: #f8f8f8;
   border-top: 4px solid #e7e7e7;

@@ -1,5 +1,5 @@
 ---
-layout: post_wide
+layout: post
 title: The Cape Town open data portal is here - here's a stab at using it.
 excerpt: |
     Despite being disappointed by the City of Cape Town's open data policy, I have been waiting in anticipation for the promised open data portal. It has finally arrived, but is it any good?
@@ -58,6 +58,9 @@ Cape Town is the [first city in Africa](http://www.politicsweb.co.za/politicsweb
 ## But first some bling
 
 What's the point of gazing at one's navel without actually getting your hands dirty. I poked around for a meaty dataset that I could use to put together a visualisation. Firstly, a caveat, I generally hate empty visualisations. Lovingly known as [data porn](https://www.pinterest.com/orondet/data-porn/), these types of graphics forget that data should be used to tell a story. Instead they exist for their own sake, providing 30 seconds worth of entertainment as you click around the screen. In this case, I'm making an exception. Mostly because it's fun but also because I prefer to focus on the portal itself.
+    <aside>
+    It's interesting to note something here.
+    </aside>
 
 ## Blah Blah Blah - get to the point
 Ok here it is. I wanted to get a general sense of what the City is spending its money on. The graphic below represents all awarded tenders between July and December 2014 as bubbles. The bigger the bubble, the larger the tender. Departments are encoded with colours. Community Services - Blue, Utility Services - Pink, Finance - Cream Soda, etc.
