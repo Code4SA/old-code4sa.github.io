@@ -12,15 +12,15 @@ Local development
 To get the site up and running in your local environment, clone the repository with
 
     git clone git@github.com:Code4SA/code4sa.github.io.git
+    cd code4sa.github.io
 
-Install Jekyll with
+Install Jekyll and dependencies with
 
-    gem install jekyll
+    bundle install
 
 Then run the Jekyll server with
 
-    cd code4sa.github.io
-    jekyll serve --watch
+    bundle exec jekyll serve --watch
 
 The site should then be running on http://localhost:4000/ and will reflect changes as you make them.
 
