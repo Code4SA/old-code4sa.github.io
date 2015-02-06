@@ -1,5 +1,5 @@
 ---
-layout: post_wide
+layout: post
 title: Smoking is bad for you ... in pictures
 excerpt: |
     The surgeon general has been warning us for year. I took a look the at Causes of Death data from 2012. Yep - turns out that it's true.
@@ -15,7 +15,7 @@ extra_js: |
 ## By Adi Eyal
 [@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
-StatsSA released the 2012 Causes of Death dataset. I am always surprised by how many interesting stories a dataset can tell. We often hear that boys are more accident-prone than girls. In the early years, twice as many boys drown as girls. In their 20s, four times as many men drown as women. Of the 3980 gun deaths in 2012, 15 - 40 year-olds accounted for 70% of them. 
+StatsSA released the 2012 Causes of Death dataset. I am always surprised by how many interesting stories a dataset can tell. We often hear that boys are more accident-prone than girls. In the early years, twice as many boys drown as girls. In their 20s, four times as many men drown as women. Of the 3,980 gun deaths in 2012, 15 - 40 year-olds accounted for 70% of them. 
 
 Tragically, 8% of all deaths in 2012 involved babies under a year.
 
