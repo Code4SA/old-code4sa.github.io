@@ -1,0 +1,107 @@
+---
+layout: new
+title: About Us
+---
+
+<article>
+  <header class="wide-banner">
+    <div class="container">
+      <div class="text-center">
+        <h1>About Code for South Africa</h1>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <ul class="ch-grid">
+          <li>{% include team.html name="Adi Eyal" title="Data Evangalist" twitter="@soapsudtycoon" image_class="ch-img-adi" %}</li>
+          <li>{% include team.html name="Gabriella Razzano" title="Policy and Strategy" twitter="@jablet" image_class="ch-img-gabriella" %}</li>
+          <li>{% include team.html name="Jason Norwood-Young" title="Data Journalism Advocate" twitter="@j_norwood_young" image_class="ch-img-jason" %}</li>
+          <li>{% include team.html name="Greg Kempe" title="Lead Technologist" twitter="@longhotsummer" image_class="ch-img-greg" %}</li>
+          <li>{% include team.html name="Raymond Joseph" title="Data Journalist" twitter="@rayjoe" image_class="ch-img-ray" %}</li>
+          <li>{% include team.html name="Siyabonga Afrika" title="SABC Specialist Data Journalism Consultant" twitter="@siyafrica" image_class="ch-img-siya" %}</li>
+          <li>{% include team.html name="Hannah Williams" title="Data Journalism Trainer" twitter="@LittleMsNimbus" image_class="ch-img-hannah" %}</li>
+
+          <h2 class="dark-grey">Alumni</h2>
+          <li>{% include team.html name="Osman Siddiqi" title="Visiting Fellow<br/>MPA-ID Candidate<br/>Harvard Kennedy School" image_class="ch-img-osman" %}</li>
+          <li>{% include team.html name="Khutjo Konyana" title="Data Herder" twitter="@SwiftieDarlinG" image_class="ch-img-khutjo" %}</li>
+          <li>{% include team.html name="Petrus J.v.Rensburg" title="Developer" twitter="@petrusjvr" image_class="ch-img-petrus" %}</li>
+          <h2 class="dark-grey">Smart people we consult</h2>
+          <li>{% include team.html name="Katherine Eyal" title="Econometrician" twitter="@katrinayellow" image_class="ch-img-katherine" %}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Contact Us</h2>
+
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-envelope"></i> <a href="mailto:info@code4sa.org">info@code4sa.org</a></li>
+            <li><i class="fa-li fa fa-facebook"></i> <a href="https://www.facebook.com/code4sa" target="_blank">facebook.com/code4sa</a></li>
+            <li><i class="fa-li fa fa-twitter"></i> <a href="https://www.youtube.com/channel/UC3pQh1Hr854ECjIRu8fGg1g" target="_blank">YouTube</a></li>
+            <li><i class="fa-li fa fa-linkedin"></i> <a href="http://www.linkedin.com/company/code-for-south-africa" target="_blank">LinkedIn</a></li>
+
+            <li><i class="fa-li fa fa-slideshare"></i> <a href="http://www.slideshare.net/adieyal" target="_blank">slideshare.net/adieyal</a></li>
+            <li><i class="fa-li fa fa-slides"></i> <a href="https://slid.es/adieyal/" target="_blank">slid.es/adieyal</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6">
+          <h2>Where We are</h2>
+          <p>
+          <address>
+            <strong><a href="http://www.codebridge.co.za">Codebridge - Code Dojo</a></strong><br/>
+            Campground Rd<br/>
+            (entrance via Hemlock St.)<br/>
+            Claremont<br/>
+            Cape Town<br/>
+          </address>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+      var map;
+      function initialize()
+      {
+          var loc = new google.maps.LatLng(-33.976521, 18.466542)
+          var mapOptions = {
+              scrollwheel: false,
+              disableDoubleClickZoom: true,
+              zoom: 16,
+              center: loc,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+          var marker = new google.maps.Marker({
+              position: loc,
+              title: "Code for South Africa"
+          });
+
+          var ctInfoWindow = new google.maps.InfoWindow({
+              content: "Code for South Africa<br>Codebridge, Thicket Street<br>Claremont"
+          });
+          google.maps.event.addListener(marker, 'click', function() {
+            ctInfoWindow.open(map, marker);
+          });
+
+          // To add the marker to the map, call setMap();
+          marker.setMap(map);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <div class="contact-us-map">
+      <div id="map-canvas"></div>
+    </div>
+
+  </section>
+</article>

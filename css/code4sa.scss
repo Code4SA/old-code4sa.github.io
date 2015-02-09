@@ -115,6 +115,14 @@ a.thumbnail {
   }
 }
 
+.contact-us-map {
+  #map-canvas {
+    width: 100%;
+    height: 400px;
+  }
+}
+  
+
 footer {
   background-color: #f8f8f8;
   border-top: 4px solid #e7e7e7;
@@ -122,3 +130,213 @@ footer {
   padding: 20px 0px;
 }
 
+/* ==========================================================================
+   Team Styles
+   ========================================================================== */
+#team {
+	background: url(../img/gray_jean.png) repeat;
+	padding: 130px 0px 10px 0px;
+	background-color: #EEEEEE;
+}
+
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 85px;
+}
+
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow:inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+		
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-img-adi { 
+	background-image: url(../img/team_adi.jpg);
+}
+
+.ch-img-gabriella { 
+	background-image: url(../img/team_gabriella.jpg);
+}
+
+.ch-img-petrus {
+	background-image: url(../img/team_petrus.jpg);
+}
+
+.ch-img-jason {
+	background-image: url(../img/team_jason.jpg);
+}
+
+
+.ch-img-osman {
+	background-image: url(../img/team_osman.jpg);
+	background-position: right top;
+}
+
+.ch-img-greg {
+	background-image: url(../img/team_greg.png);
+}
+
+.ch-img-hannah {
+	background-image: url(../img/team_hannah.jpg);
+}
+
+.ch-img-siya {
+	background-image: url(../img/team_siya.jpg);
+}
+
+.ch-img-ray {
+	background-image: url(../img/team_ray.jpg);
+}
+
+.ch-img-khutjo {
+	background-image: url(../img/team_khutjo.jpg);
+}
+
+.ch-img-katherine {
+	background-image: url(../img/team_katherine.png);
+}
+
+
+.ch-info {
+	position: absolute;
+	background: rgba(69,72,74,0.90);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 19px;
+	margin: 60px 5px 0;
+	padding: 10px 0 0 0;
+	height: 40px;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+	line-height: 20px;
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out 0.4s;
+	-moz-transition: all 0.5s ease-in-out 0.4s;
+	-o-transition: all 0.5s ease-in-out 0.4s;
+	-ms-transition: all 0.5s ease-in-out 0.4s;
+	transition: all 0.5s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+	display: block;
+	color: #75D2D7;
+	color: rgba(117,210,215,0.85);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #75D2D7;
+	text-decoration: none;
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.2),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
+
+
+.team-info-mobile {
+	padding-top: 10px;
+}
+
+.team-info-mobile h3 {
+	color: #232527;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 19px;
+	margin: 0px 30px 0;
+	padding: 10px 0 0 0;
+	height: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.team-info-mobile a, .team-info-mobile a:hover, .team-info-mobile a:active {
+	color: #75D2D7;
+}
