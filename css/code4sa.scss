@@ -22,11 +22,24 @@ article > header {
   margin-bottom: 20px;
 }
 
+article > section {
+  padding-bottom: 20px;
+}
+
 .wide-banner {
   background-color: rgba(248,92,92,0.95);
+  color: white;
 
-  p, h1 {
+  h1 {
+    text-transform: uppercase;
+  }
+
+  h1, h2, h3, h4 {
     color: white;
+  }
+
+  a {
+    color: black;
   }
 }
 
