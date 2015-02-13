@@ -56,7 +56,7 @@ extra_style: |
 
 You often learn a lot about people by looking at data. According to StatsSA in the most recent dataset of marriages and divorces, there were roughly 161,000 civil marriages in 2012. A quick histogram of the wedding month shows that December is the most popular month for getting married. No-one wants to get married in winter.
 
-<center><h2>Marriages by Month</h2></center>
+<h2>Marriages by Month</h2>
 <div id="chart" style="background-color: #fff"></div>
 
 Things start getting weird when you look at the age differences between marital partners. Have a look at the graph below. It maps all civil marriages from 2012 using the marriages and divorces dataset from StatsSA. Every dot represents one or more marriages. As you move up the graph, the age of the bridegroom increases. As you move to the right, the age of the bride increases. 
