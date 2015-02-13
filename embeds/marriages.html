@@ -1,56 +1,54 @@
-<html>
-<head>
-<style>
-.d3-tooltip {    
-  text-align: left;    
-  padding: 5px;    
-  font: 12px sans-serif;    
-  background: #FFE770;
-  border: solid 1px #333333;
-  border-radius: 4px;    
-  padding-top:2px;
-  line-height: 5px;
-  opacity: 0.5;
-}
+---
+layout: embeds
+extra_scripts:
+    - /js/d3.v3.min.js
+    - /js/c3.min.js
+    - /js/pym.js
+    - /js/2015-02-13-valentines-day/d3-tooltip.js
+extra_stylesheets: /css/c3.css
+extra_style: |
+    .d3-tooltip {    
+      text-align: left;    
+      padding: 5px;    
+      font: 12px sans-serif;    
+      background: #FFE770;
+      border: solid 1px #333333;
+      border-radius: 4px;    
+      padding-top:2px;
+      line-height: 5px;
+      opacity: 0.5;
+    }
 
-#graph svg {
-  max-height: 700px;
-}
+    #graph svg {
+      max-height: 700px;
+    }
+extra_js: |
+    <script>
+        d3.xml('marriages.svg', function(xml) {
+            var importedNode = document.importNode(xml.documentElement, true);
+            var img = d3.selectAll('#graph')[0][0].appendChild(importedNode.cloneNode(true));
+            var tooltip = new D3Tooltip(d3);
+            d3.select(".d3-tooltip").on("click", function() {tooltip.hide();});
+            var color = d3.scale.linear()
+                .domain([0, 1000])
+                .range(["#F2F2F2", "red"]);
+            d3.selectAll("#PathCollection_1 use")
+                .style("fill", function(el) {
+                    var me = d3.select(this);
+                    return color(me.attr('count'));
+                })
+                .style("stroke", "#a3a3a3")
+            d3.selectAll("#PathCollection_1 use")
+                .on('mouseover', function(el) {
+                    var bride_age = d3.select(this).attr('bage')
+                    var bridegroom_age = d3.select(this).attr('bgage')
+                    var count = d3.select(this).attr('count')
+                    tooltip.html("<p><strong>Bridge Age:</strong> " + bride_age +  "</p><p><strong>Bridegroom Age:</strong> " + bridegroom_age + "</p><p><strong># of Marriages:</strong> " + count + "</p>")
+                    tooltip.show();
+                })
+            pymChild = new pym.Child();
+        });
+    </script>
 
-
-</style>
-</head>
-<body>
-<div id="graph">
-</div>
-<script type="text/javascript" src="/js/d3.v3.min.js"></script>
-<script type="text/javascript" src="/js/pym.js"></script>
-<script type="text/javascript" src="/js/2015-02-13-valentines-day/d3-tooltip.js"></script>
-<script>
-    d3.xml('marriages.svg', function(xml) {
-        var importedNode = document.importNode(xml.documentElement, true);
-        var img = d3.selectAll('#graph')[0][0].appendChild(importedNode.cloneNode(true));
-        var tooltip = new D3Tooltip(d3);
-        d3.select(".d3-tooltip").on("click", function() {tooltip.hide();});
-        var color = d3.scale.linear()
-            .domain([0, 1000])
-            .range(["#F2F2F2", "red"]);
-        d3.selectAll("#PathCollection_1 use")
-            .style("fill", function(el) {
-                var me = d3.select(this);
-                return color(me.attr('count'));
-            })
-            .style("stroke", "#a3a3a3")
-        d3.selectAll("#PathCollection_1 use")
-            .on('mouseover', function(el) {
-                var bride_age = d3.select(this).attr('bage')
-                var bridegroom_age = d3.select(this).attr('bgage')
-                var count = d3.select(this).attr('count')
-                tooltip.html("<p><strong>Bridge Age:</strong> " + bride_age +  "</p><p><strong>Bridegroom Age:</strong> " + bridegroom_age + "</p><p><strong># of Marriages:</strong> " + count + "</p>")
-                tooltip.show();
-            })
-        pymChild = new pym.Child();
-    });
-</script>
-</body>
-</html>
+---
+<div id="graph"></div>
