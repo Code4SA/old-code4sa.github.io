@@ -5,46 +5,15 @@ excerpt: |
     They say that love knows no age. Does the data agree? Have a look at a weird cross-section of our society as seen through the 2012, civil marriages dataset. 
  
 date: 2015-02-13
-extra_js: |
-    <script src="/js/d3.v3.min.js"></script>
-    <script src="/js/c3.min.js"></script>
-    <script src="/js/pym.js"></script>
-
-    <script>
-    var pymParent = new pym.Parent('graph', '/embeds/marriages.html', {});
-    var chart = c3.generate({
-        bindto:'#chart',
-        x : 'Months',
-        data: {
-            columns: [
-                ['2012', 10866, 11351, 14359, 12941, 10928, 10466, 9850, 10689, 14272, 13491, 14761, 27138]
-            ],
-            type: 'bar'
-        },
-        groups : ['2012'],
-        axis: {
-            x: {
-                type: 'category',
-                categories : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            },
-            y : {
-                label: 'Number of marriages'
-            }
-        }
-    });
-    </script>
+extra_js:
+    - /js/d3.v3.min.js
+    - /js/c3.min.js
+    - /js/pym.js
+extra_stylesheets: /css/c3.css
 extra_style: |
-    <link rel="stylesheet" href="/css/c3.css">
-    <style>
-    #graph {
-        
-        width: 100%;
-       
+    #chart {
+        max-height: 700px;
     }
-    //iframe {
-    //    margin-left: -100px
-    //}
-    </style>
 
 ---
 
@@ -77,7 +46,7 @@ The most disturbing part of the diagram is on the far left. Girls younger than 1
 
 According to the [Western Cape Government Website](http://www.westerncape.gov.za/service/getting-permission-marry-if-you-are-underage):
 
-    Boys under 18 and girls under 15 cannot get married without special permission and anyone under the age of 21 has to get their parents' permission before they can get married.
+> Boys under 18 and girls under 15 cannot get married without special permission and anyone under the age of 21 has to get their parents' permission before they can get married.
 
 So it seems that if you haven't yet reached puberty and you want to get married, you will need your parents' consent. You also need the Minister of Home Affairs to place his rubber stamp on the marriage certificate.
 
@@ -88,3 +57,28 @@ The dot on the top right between the 92 year-old bride and 94 year-old groom is 
 If you want to play around with the data yourself, you can find it [here](https://data.code4sa.org/Government/South-Africa-Civil-Marriages-2012/r4bb-fvka).
 
 
+<script>
+$(function() {
+    var pymParent = new pym.Parent('graph', '/embeds/marriages.html', {});
+    var chart = c3.generate({
+        bindto:'#chart',
+        x : 'Months',
+        data: {
+            columns: [
+                ['2012', 10866, 11351, 14359, 12941, 10928, 10466, 9850, 10689, 14272, 13491, 14761, 27138]
+            ],
+            type: 'bar'
+        },
+        groups : ['2012'],
+        axis: {
+            x: {
+                type: 'category',
+                categories : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            },
+            y : {
+                label: 'Number of marriages'
+            }
+        }
+    });
+});
+</script>
