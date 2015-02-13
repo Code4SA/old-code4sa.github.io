@@ -126,7 +126,7 @@ h1, h2 {
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     .post-content {
-      p, h1, h2, h3, h4, h5, blockquote, ul, ol {
+      p, h1, h2, h3, h4, h5, blockquote, ul, ol, pre {
         max-width: 600px;
       }
     }
