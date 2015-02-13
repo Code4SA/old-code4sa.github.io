@@ -56,6 +56,15 @@ The dot on the top right between the 92 year-old bride and 94 year-old groom is 
 
 If you want to play around with the data yourself, you can find it [here](https://data.code4sa.org/Government/South-Africa-Civil-Marriages-2012/r4bb-fvka).
 
+## The technical stuff
+
+Feel free to embed the marriage visualisation on your own site. Copy and paste the code below into your webpage. 
+
+    <div id="graph"></div>
+    <script src="http://www.code4sa.org/js/pym.js"></script>
+    <script>
+        var pymParent = new pym.Parent('graph', 'http://www.code4sa.org/embeds/marriages.html', {});
+    </script>
 
 <script>
 $(function() {
