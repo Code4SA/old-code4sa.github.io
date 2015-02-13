@@ -23,7 +23,8 @@ article > header {
 }
 
 article > section {
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .wide-banner {
@@ -43,12 +44,20 @@ article > section {
   }
 }
 
+.wide-banner-blue {
+  background-color: #75D2D7;
+}
+
 a.thumbnail {
   text-decoration: none;
 }
 
 .content {
   min-height: 600px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
 }
 
 .blog-excerpts {
