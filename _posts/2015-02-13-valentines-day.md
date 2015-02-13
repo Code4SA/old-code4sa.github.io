@@ -28,7 +28,7 @@ You often learn a lot about people by looking at data. According to StatsSA in t
 <h2>Marriages by Month</h2>
 <div id="chart" style="background-color: #fff"></div>
 
-Things start getting weird when you look at the age differences between marital partners. Have a look at the graph below. It maps all civil marriages from 2012 using the marriages and divorces dataset from StatsSA. Every dot represents one or more marriages. As you move up the graph, the age of the bridegroom increases. As you move to the right, the age of the bride increases. 
+Things start getting weird when you look at the age differences between marital partners. Have a look at the graph below. It maps all civil marriages from 2012. Every dot represents one or more marriages. As you move up the graph, the age of the bridegroom increases. As you move to the right, the age of the bride increases. 
 
 <div id="graph"></div>
 
