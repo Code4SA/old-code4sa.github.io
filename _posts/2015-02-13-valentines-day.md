@@ -9,6 +9,7 @@ extra_js: |
     <script src="/js/d3.v3.min.js"></script>
     <script src="/js/c3.min.js"></script>
     <script src="/js/pym.js"></script>
+
     <script>
     var pymParent = new pym.Parent('graph', '/embeds/marriages.html', {});
     var chart = c3.generate({
