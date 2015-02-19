@@ -374,5 +374,24 @@ h1, h2 {
   &.pushdown img {
     margin-top: 40px;
   }
+}
 
+.thumbnail {
+  .logo {
+    width: 100%;
+    height: 120px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .openbylaws { background-image: url(/img/projects/openbylaws-logo.png); }
+  .wazimap { background-image: url(/img/projects/wazimap-square-500.png); }
+  .pa { background-image: url(/img/projects/pa-logo.png); }
+  .pmg { background-image: url(/img/projects/pmg-logo.png); }
+  .sa-newsmakers { background-image: url(/img/projects/sa-newsmakers-logo.png); }
+  .protest-map { background-image: url(/img/projects/protest-map.png); }
+  .living-wage { background-image: url(/img/projects/living-wage.png); }
+  .mpr { background-image: url(/img/project_medicine2.jpg); }
 }
