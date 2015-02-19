@@ -363,6 +363,19 @@ h1, h2 {
 	color: #75D2D7;
 }
 
+.client {
+  margin-bottom: 10px;
+
+  img {
+    max-width: 170px;
+    height: auto;
+  }
+
+  &.pushdown img {
+    margin-top: 40px;
+  }
+}
+
 .thumbnail {
   .logo {
     width: 100%;
