@@ -362,3 +362,17 @@ h1, h2 {
 .team-info-mobile a, .team-info-mobile a:hover, .team-info-mobile a:active {
 	color: #75D2D7;
 }
+
+.client {
+  margin-bottom: 10px;
+
+  img {
+    max-width: 170px;
+    height: auto;
+  }
+
+  &.pushdown img {
+    margin-top: 40px;
+  }
+
+}
