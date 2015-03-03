@@ -5,25 +5,25 @@ extra_scripts:
     - /js/c3.min.js
 extra_stylesheets: /css/c3.css
 extra_js: |
-<script>
-var chart2 = c3.generate({
-    bindto: '#chart1',
-    data: {
-      columns: [
-        ['Food', 292],
-        ['Stationary', 400],
-        ['Cosmetics', 210],
-        ['Transport', 832],
-        // ['Education', 300, 500, 180],
-        // ['Transport', 220],
-        // ['Nappies', 200],
-        // ['Electricity', 180],
-        // ['Hair', 100],
-        
-      ],
-      type: 'pie'
-    }
-  });
-</script>
+    <script>
+    var chart2 = c3.generate({
+        bindto: '#chart1',
+        data: {
+          columns: [
+            ['Food', 292],
+            ['Stationary', 400],
+            ['Cosmetics', 210],
+            ['Transport', 832],
+            // ['Education', 300, 500, 180],
+            // ['Transport', 220],
+            // ['Nappies', 200],
+            // ['Electricity', 180],
+            // ['Hair', 100],
+            
+          ],
+          type: 'pie'
+        }
+      });
+    </script>
 ---
 <div id="chart1" class="chart"></div>
