@@ -17,7 +17,7 @@ excerpt: |
 Together with [AfricanLII](http://africanlii.org) and funding from [the Indigo Trust](http://indigotrust.org.uk),
 we're building an open-source legislation consolidation and publishng platform. Our goal is to help them
 provide free access to online legislation in Africa. We want to make it simpler to publish legislation
-in standardised formats that is easy to read, navigate, share and analyze.
+in standardised formats that are easy to read, navigate, share and analyse.
 
 In honour of our funding partner, we've called the project the **Indigo Platform**.
 
@@ -69,7 +69,7 @@ be releasing the Python component as a standalone library soon.
 No idea is truly original and we're leaning on a number of existing projects
 for inspiration, ideas and code:
 
-* [legislation.gov.uk](http://www.legislation.gov.uk/) is probably the most advanced free-access to legislation portal in the world
+* [legislation.gov.uk](http://www.legislation.gov.uk/) is probably the most advanced free-access-to-legislation portal in the world
 * [NSESA](http://nsesa.org/) is a Java/GWT toolkit for handling XML documents
 * [LIME](http://lime.cirsfid.unibo.it/) is a web-based editor for Akoma Ntoso documents
 * [OER Pub](http://oerpub.github.io/github-bookeditor/) is a web editor for open education resources
