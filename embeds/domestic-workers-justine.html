@@ -1,0 +1,26 @@
+---
+layout: embeds
+extra_scripts:
+    - /js/d3.v3.min.js
+    - /js/c3.min.js
+extra_stylesheets: /css/c3.css
+extra_js: |
+    <script>
+      var chart2 = c3.generate({
+          bindto: '#chart1',
+          data: {
+            columns: [
+              ['Food', 1500],
+              ['Education', 300, 500, 180],
+              ['Transport', 220],
+              ['Nappies', 200],
+              ['Electricity', 180],
+              ['Hair', 100],
+              ['Cosmetics', 100],
+            ],
+            type: 'pie'
+          }
+        });
+    </script>
+---
+<div id="chart1" class="chart"></div>
