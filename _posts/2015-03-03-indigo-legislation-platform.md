@@ -26,7 +26,7 @@ complicated and our budget is small. That's why we're focusing on only a few
 parts of the larger process -- consolidating and publishing -- and trying
 to keep it simple with an iterative development process and open standards.
 
-Join us for the ride:
+It's still early in the project, but you can join us for the ride:
 
 * Play with the platform: [indigo.code4sa.org](http://indigo.code4sa.org/)
 * Check out our GitHub repo: [Code4SA/indigo](https://github.com/Code4SA/indigo)
