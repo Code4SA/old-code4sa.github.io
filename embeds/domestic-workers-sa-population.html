@@ -1,0 +1,22 @@
+---
+layout: embeds
+extra_scripts:
+    - /js/d3.v3.min.js
+    - /js/c3.min.js
+extra_stylesheets: /css/c3.css
+extra_js: |
+    <script>
+      var chart2 = c3.generate({
+            bindto: '#chart1',
+            data: {
+                columns: [
+                    ['Domestic Workers', 6.8],
+                    ['Employed - Not Domestic Workers', 93.2],
+                ],
+                type: 'pie'
+            }
+        });
+    </script>
+---
+<div id="chart1" class="chart"></div>
+<p>Source: StatsSA Labour Force Survey</p>
