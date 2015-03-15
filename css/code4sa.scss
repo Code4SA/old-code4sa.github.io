@@ -23,8 +23,8 @@ article > header {
 }
 
 article > section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .wide-banner {
@@ -110,6 +110,16 @@ h1, h2 {
       margin-top: 0px;
     }
   }
+}
+
+.get-involved {
+  background-color: #232527;
+  color: #fff;
+  
+  h2, h3, h4 {
+    color: #fff;
+  }
+
 }
 
 .blog-post {
