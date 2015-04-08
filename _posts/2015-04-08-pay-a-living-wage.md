@@ -43,7 +43,7 @@ how many hours you work. At R30 per day for transport, they are taking very litt
 ## Raising the minimum wage will increase unemployment
 *Retort*: [No it won't](http://www.theguardian.com/commentisfree/2014/jun/11/the-evidence-is-clear-increasing-the-minimum-wage-doesnt-cause-unemployment). We are not however suggesting that the minimum wage be increased, only that you make an informed decision the next time that you haggle over R100 per month.
 
-## She doesn't deserve it. She is lazy. Watches TV. Puts the socks in the wrong place etc./
+## She doesn't deserve it. She is lazy. Watches TV. Puts the socks in the wrong place etc.
 *Retort*: Get someone more competent (or pay enough so that she isn't so demoralised in her job).
 
 ## My taxes provide her with free healthcare/education/etc
