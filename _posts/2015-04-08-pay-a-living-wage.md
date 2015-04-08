@@ -12,7 +12,7 @@ excerpt: |
 ## By Adi Eyal
 [@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
-We recently launched our [Living Wage calculator](http://living-wage.co.za), a tool that helps you decide whether you are paying your domestic worker enough. It forms part of a larger story around [domestic worker wages](http://living-wage.news24.com). The response was overwhelming, mostly positive but also many negative (and downright racist). In this post I examine some common excuses that naysayers give when justifying why the pay low wages:
+We recently launched our [Living Wage calculator](http://living-wage.co.za), a tool that helps you decide whether you are paying your domestic worker enough. It forms part of a larger story around [domestic worker wages](http://living-wage.news24.com). The response was overwhelming, mostly positive but also many negative (and downright racist). In this post I examine some common excuses that naysayers give when justifying why they pay low wages:
 
 ## I pay what I can afford.
 *Retort*: If you truly value your domestic worker but can't afford to pay her a decent salary, employ her for fewer days per week and give
