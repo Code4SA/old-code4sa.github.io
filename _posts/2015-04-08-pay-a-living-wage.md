@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 8 excuses people give for not paying a living wage
+title: 11 excuses people give for not paying a living wage
 date: 2015-04-08
 excerpt: |
     We recently launched our Living Wage calculator, a tool that helps you decide whether you are paying your domestic worker enough. The response was overwhelming, mostly positive but also many negative (and downright racist). In this post I examine some common excuses that naysayers give when justifying why they pay low wages.
 ---
 
-# 8 excuses people give for not paying a living wage
+# 11 excuses people give for not paying a living wage
 
 ## Cape Town, 8 April 2015
 ## By Adi Eyal
