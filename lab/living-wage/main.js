@@ -45,7 +45,7 @@ var is_not_province = function(province) {
 }
 
 var sort_by_dayrate = function(r1, r2) {
-    return r1.dayrate - r2.dayrate;
+    return parseInt(r1.dayrate) - parseInt(r2.dayrate);
 }
 
 var normalise = function(ds) {
@@ -55,62 +55,72 @@ var normalise = function(ds) {
     })
     total = ds.sum('count')
     ds.update(function(r) {
-        r.normalised = r.count / total;
+        r.normalised = Math.round(r.count / total * 100) / 2;
         return r;
     });
 }
 
+var histogram = function(ds, filter) {
+    var ds = ds
+        .where(function(r) { return r.dayrate != null})
+        .where({ rows: filter })
+        .countBy("dayrate")
+        .sort(sort_by_dayrate)
+    normalise(ds);
+    return ds
+}
+
+var o;
 ds.fetch({
     success : function(a, b) {
-        var ds2 = this
-            .where(function(r) { return r.dayrate != null})
-            .where({
-                rows: is_province("Western Cape")
-            })
-            .countBy("dayrate")
-            .sort(sort_by_dayrate)
+        var provinces = ["Western Cape", "Eastern Cape", "Northern Cape", "Free State", "KwaZulu Natal", "Gauteng", "North West", "Mpumalanga", "Limpopo"];
+        for (idx in provinces) {
+            var idx = parseInt(idx);
+            var label = provinces[idx];
+            var ds2 = histogram(this, is_province(label))
+            var ds3 = histogram(this, is_not_province(label))
+            o = ds2;
 
-        var ds3 = this
-            .where(function(r) { return r.dayrate != null})
-            .where({
-                rows: is_not_province("Western Cape")
-            })
-            .countBy("dayrate")
-            .sort(sort_by_dayrate)
-
-        normalise(ds2); 
-        normalise(ds3); 
-        var count_col = ds2._columnPositionByName.count;
-        var norm_col = ds2._columnPositionByName.normalised;
-        var dayrate_col = ds2._columnPositionByName.dayrate;
-        var data1 = ['x1'].concat(ds2._columns[norm_col].data);
-        var data2 = ['x2'].concat(ds3._columns[norm_col].data);
-
-        var chart = c3.generate({
-            data: {
-                columns: [
-                    data2,
-                    data1 
-                ],
-                types: {
-                    x1: 'area-spline',
-                    x2: 'area-spline'
+            var dayrate_col = ds2._column("dayrate").data;
+            var data1 = ["x1"].concat(ds2._column("normalised").data);
+            var data2 = ["x2"].concat(ds3._column("normalised").data);
+        
+            var chart = c3.generate({
+                bindto: "#chart" + (idx + 1),
+                data: {
+                    columns: [
+                        data2,
+                        data1 
+                    ],
+                    types: {
+                        x1: 'area-spline',
+                        x2: 'area-spline'
+                    },
+                    names: {
+                        x1: label,
+                        x2: "Outside of " + label
+                    },
+                    colors: {
+                        x2: "rgb(187, 35, 62)"
+                    }
                 },
-                names: {
-                    x1: "Western Cape",
-                    x2: "Outside of Western Cape",
+                axis: {
+                    x: {
+                        type: 'category',
+                        categories: dayrate_col,
+                        label: "Daily wage (Rands)"
+                    },
+                    y: {
+                        label: "% of respondents"
+                    }
                 },
-                colors: {
-                    x2: "rgb(187, 35, 62)"
+                tooltip: {
+                  format: {
+                    title: function (idx) { return "Daily Rate: R" + dayrate_col[idx]; },
+                    value: function (value, ratio, id, index) { return value + "%"; }
+                  }
                 }
-            },
-            axis: {
-                x: {
-                    type: 'category',
-                    categories: ds2._columns[dayrate_col].data
-                }
-            }
-        });
-
+            });
+        }
     }
 })
