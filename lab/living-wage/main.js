@@ -116,7 +116,7 @@ ds.fetch({
                 },
                 tooltip: {
                   format: {
-                    title: function (idx) { return "Daily Rate: R" + dayrate_col[idx]; },
+                    title: function (idx) { console.log(dayrate_col); return idx + "Daily Rate: R" + dayrate_col[idx]; },
                     value: function (value, ratio, id, index) { return value + "%"; }
                   }
                 }

@@ -34,7 +34,7 @@ I tried to respond to nearly all of the very negative comments. It was hard work
 
 Here is a short list of principles that I tried to follow when engaging with trolls, and I think you should to:
 
-1. Remember, you are in a public space, often using your real name. Be polite and curtious.
+1. Remember, you are in a public space, often using your real name. Be polite and courteous.
 2. Decide what your objective is and keep it in mind. What are your arguments? What are you trying to achieve?
 3. Be zen. Grow a thick skin. People are going to be nasty. Only respond in a constructive way.
 4. Do *not* get involved in fights. Don't even engage in back and forth discussions (unless it is constructive). Have your say and move on.
