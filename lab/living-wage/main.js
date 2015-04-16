@@ -32,6 +32,12 @@ var ds = new Miso.Dataset({
     }]
 });
 
+var all_provinces = function() {
+    return function(row) {
+        return true;
+    }
+}
+
 var is_province = function(province) {
     return function(row) {
         return row.province == province;
@@ -73,54 +79,54 @@ var histogram = function(ds, filter) {
 var o;
 ds.fetch({
     success : function(a, b) {
-        var provinces = ["Western Cape", "Eastern Cape", "Northern Cape", "Free State", "KwaZulu Natal", "Gauteng", "North West", "Mpumalanga", "Limpopo"];
+        var provinces = ["Western Cape", "Eastern Cape", "Northern Cape", "Free State", "KwaZulu-Natal", "Gauteng", "North West", "Mpumalanga", "Limpopo"];
+
+        var data = []
+        var types = {}
+        var names = {}
         for (idx in provinces) {
             var idx = parseInt(idx);
             var label = provinces[idx];
-            var ds2 = histogram(this, is_province(label))
-            var ds3 = histogram(this, is_not_province(label))
-            o = ds2;
+            var ds = histogram(this, is_province(label))
+            var data_label = "x" + idx;
+            var province_data = [data_label].concat(ds._column("normalised").data);
 
-            var dayrate_col = ds2._column("dayrate").data;
-            var data1 = ["x1"].concat(ds2._column("normalised").data);
-            var data2 = ["x2"].concat(ds3._column("normalised").data);
-        
-            var chart = c3.generate({
-                bindto: "#chart" + (idx + 1),
-                data: {
-                    columns: [
-                        data2,
-                        data1 
-                    ],
-                    types: {
-                        x1: 'area-spline',
-                        x2: 'area-spline'
-                    },
-                    names: {
-                        x1: label,
-                        x2: "Outside of " + label
-                    },
-                    colors: {
-                        x2: "rgb(187, 35, 62)"
-                    }
-                },
-                axis: {
-                    x: {
-                        type: 'category',
-                        categories: dayrate_col,
-                        label: "Daily wage (Rands)"
-                    },
-                    y: {
-                        label: "% of respondents"
-                    }
-                },
-                tooltip: {
-                  format: {
-                    title: function (idx) { console.log(dayrate_col); return idx + "Daily Rate: R" + dayrate_col[idx]; },
-                    value: function (value, ratio, id, index) { return value + "%"; }
-                  }
+            data.push(province_data);
+            types[data_label] = "area-spline";
+            names[data_label] = label;
+        } 
+        var all_ds = histogram(this, all_provinces())
+        data.push(["x10"].concat(all_ds._column("normalised").data));
+        types["x10"] = "area-spline";
+        names["x10"] = "National";
+
+        var dayrate_col = all_ds._column("dayrate").data;
+        var chart = c3.generate({
+            bindto: "#chart1",
+            data: {
+                columns: data,
+                types: types,
+                names: names,
+                colors: {
+                    x10: "rgb(187, 35, 62)"
                 }
-            });
-        }
+            },
+            axis: {
+                x: {
+                    type: 'category',
+                    categories: dayrate_col,
+                    label: "Daily wage (Rands)"
+                },
+                y: {
+                    label: "% of respondents"
+                }
+            },
+            tooltip: {
+              format: {
+                title: function (idx) { return "Daily Rate: R" + dayrate_col[idx]; },
+                value: function (value, ratio, id, index) { return value + "%"; }
+              }
+            }
+        });
     }
 })
