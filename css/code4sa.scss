@@ -116,7 +116,7 @@ h1, h2 {
 .get-involved {
   background-color: #232527;
   color: #fff;
-  
+
   h2, h3, h4 {
     color: #fff;
   }
@@ -154,7 +154,7 @@ h1, h2 {
     height: 400px;
   }
 }
-  
+
 
 #footer {
   background-color: #f8f8f8;
@@ -209,7 +209,7 @@ h1, h2 {
 	position: relative;
 	cursor: default;
 	box-shadow:inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
-		
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -217,11 +217,11 @@ h1, h2 {
 	transition: all 0.4s ease-in-out;
 }
 
-.ch-img-adi { 
+.ch-img-adi {
 	background-image: url(../img/team_adi.jpg);
 }
 
-.ch-img-gabriella { 
+.ch-img-gabriella {
 	background-image: url(../img/team_gabriella.jpg);
 }
 
@@ -247,6 +247,10 @@ h1, h2 {
 	background-image: url(../img/team_hannah.jpg);
 }
 
+.ch-img-damian {
+  background-image: url(../img/team_damian.png);
+}
+
 .ch-img-siya {
 	background-image: url(../img/team_siya.jpg);
 }
@@ -263,7 +267,6 @@ h1, h2 {
 	background-image: url(../img/team_katherine.png);
 }
 
-
 .ch-info {
 	position: absolute;
 	background: rgba(69,72,74,0.90);
@@ -271,19 +274,19 @@ h1, h2 {
 	height: inherit;
 	border-radius: 50%;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	
+
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
-	
+
 	-webkit-backface-visibility: hidden;
 
 }
@@ -297,8 +300,8 @@ h1, h2 {
 	padding: 10px 0 0 0;
 	height: 40px;
 	font-family: 'Open Sans', sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 	line-height: 20px;
 }
@@ -337,7 +340,7 @@ h1, h2 {
 }
 
 .ch-item:hover {
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 1px rgba(255,255,255,0.2),
 		0 1px 2px rgba(0,0,0,0.1);
 }
