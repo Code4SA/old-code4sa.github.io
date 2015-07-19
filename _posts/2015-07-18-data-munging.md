@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Data Munging - A quick and dirty way to filter addresses
+title: Data Munging - A quick and dirty way to filter dirty address data
 date: 2015-07-18
 excerpt: |
     We haven't written any technical blogs about how we play with data. In this quick post I explain how I managed to create a database of addresses of all the early childhood development centres in Zululand. 
 ---
 
-# Data Munging: A quick and dirty way to filter addresses
+# Data Munging: A quick and dirty way to filter dirty address data
 
 ## Cape Town, 18 July 2015
 ## By Adi Eyal
