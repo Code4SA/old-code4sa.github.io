@@ -4,3 +4,6 @@ _site
 .idea/
 *.DS_Store
 .ruby-version
+
+.sass-cache/
+/bower
