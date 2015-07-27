@@ -21,12 +21,12 @@ article > header {
 }
 
 article > section {
-  padding-top: 50px;
+  // padding-top: 50px;
   padding-bottom: 60px;
 }
 
 .wide-banner {
-  background-color: rgba(248,92,92,0.95);
+  background-color: #444444;
   color: white;
 
   h1 {
@@ -57,6 +57,12 @@ a.thumbnail {
 
 h1, h2 {
   margin-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: #444444;
+  text-shadow: none;
+  padding: 50px;
 }
 
 .blog-excerpts {
