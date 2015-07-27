@@ -3,27 +3,22 @@ layout: new
 title: Welcome
 ---
 
-<article class="wide-banner">
+<div class="jumbotron">
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-
-          <div class="text-center">
-            <h2>Code for South Africa is a civic technology lab using data and technology to change lives.</h2>
-            <h2><a href="projects.html">Check out our projects →</a></h2>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 hidden-xs">
-          <img src="img/logo-367x200.png">
-        </div>
-      </div>
+  <div class="container">
+    <div class="col-sm-6">
+      <h2>Code for South Africa <br>
+          is a civic technology lab <br>
+          using data and technology <br>
+          to change lives.</h2>
+      <h2><a href="projects.html">Check out our projects →</a></h2>
     </div>
-  </section>
-</article>
+    <div class="col-sm-6">
+      <img src="img/badge_dark_grey.png">
+    </div>
+  </div>
+
+</div>
 
 <article>
   <section>
@@ -43,7 +38,7 @@ title: Welcome
         </div>
 
         <div class="col-sm-6 col-sm-offset-1">
-          <h2 style="margin: 0 0 30px;">From Our Blog</h2>
+          <h2>From Our Blog</h2>
           <ul class="list-unstyled blog-excerpts">
           {% for post in site.posts limit:2 %}
             <li>
@@ -89,7 +84,7 @@ title: Welcome
           <h4>Subscribe by clicking on the link:</h4>
           <dl>
             <dt><a href="http://lists.okfn.org/mailman/admindb/okfn-za">Open Knowledge Foundation - CT</a></dt><dd>General open knowledge discussions, Cape Town</dd>
-          </dl>   
+          </dl>
         </div>
 
         <!--2nd Column-->
@@ -105,7 +100,7 @@ title: Welcome
         </div>
 
       </div>
-    </div>	
+    </div>
   </section>
 
   <!--Github Issues Section -->
