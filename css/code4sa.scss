@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "code4sa-custom-bootstrap";
+
 body {
   font-size: 15px;
 }
@@ -13,22 +15,18 @@ body {
   text-transform: uppercase;
 }
 
-.navbar > .container .navbar-brand {
-  padding: 10px 15px;
-}
-
 article > header {
   padding: 40px 0px;
   margin-bottom: 20px;
 }
 
 article > section {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 
 .wide-banner {
-  background-color: rgba(248,92,92,0.95);
+  background-color: #444444;
   color: white;
 
   h1 {
@@ -55,10 +53,22 @@ a.thumbnail {
 
 .content {
   min-height: 600px;
+  // Temp fix:
+  background-color: #fff;
 }
 
 h1, h2 {
   margin-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: #444444;
+  text-shadow: none;
+  padding: 50px;
+
+  img {
+    margin-top: 20px;
+  }
 }
 
 .blog-excerpts {
