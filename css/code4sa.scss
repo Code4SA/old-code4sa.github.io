@@ -21,7 +21,7 @@ article > header {
 }
 
 article > section {
-  // padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 
@@ -65,6 +65,10 @@ h1, h2 {
   background-color: #444444;
   text-shadow: none;
   padding: 50px;
+
+  img {
+    margin-top: 20px;
+  }
 }
 
 .blog-excerpts {
