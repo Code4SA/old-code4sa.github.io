@@ -257,6 +257,10 @@ h1, h2 {
 	background-image: url(../img/team_hannah.jpg);
 }
 
+.ch-img-jen {
+  background-image: url(../img/team_jen.png);
+}
+
 .ch-img-damian {
   background-image: url(../img/team_damian.jpg);
 }
@@ -322,7 +326,6 @@ h1, h2 {
 	font-style: italic;
 	margin: 0 30px;
 	font-size: 12px;
-	border-top: 1px solid rgba(255,255,255,0.5);
 	opacity: 0;
 	-webkit-transition: all 0.5s ease-in-out 0.4s;
 	-moz-transition: all 0.5s ease-in-out 0.4s;
