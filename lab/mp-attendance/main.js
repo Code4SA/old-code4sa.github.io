@@ -160,7 +160,7 @@ var draw_meeting = function(el) {
                         var escaped_name = data_statics.escaped_name(el);
                         d3.selectAll('.' + escaped_name).classed('selected', true);
                         d3.select('#mp-details h2').text(data_statics.fullname(el));
-                        d3.select('#mp-details h3').text(el.party_affiliation);
+                        d3.select('#mp-details h3 #party').text(el.party_affiliation);
                     })
                     .on('mouseout', function(el) {
                         d3.selectAll('.participant').classed('selected', false);
