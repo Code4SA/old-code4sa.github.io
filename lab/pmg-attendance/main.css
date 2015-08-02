@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+    font-size: 10px;
+}
+
+circle.mp {
+    fill: #343434;
+    stroke: #454545;
+}
+
+circle.mp.ANC {
+    fill: green;
+}
+
+circle.mp.DA {
+    fill: blue;
+}
+
+circle.mp.EFF {
+    fill: yellow;
+}
+.axis {
+    stroke-width: 2px;
+    stroke: #000;
+}
+
+.axis-text {
+    font-face: Arial;
+    font-size: 10px;
+    fill: #000;
+}
+
+.meeting {
+    float:left;
+    width: 150px;
+    border-right: solid thin black;
+    border-bottom: solid thin black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.meeting-slice {
+    stroke : black;
+    fill: none;
+}
+
+.attendance .ANC {
+    fill: green;
+}
+
+.attendance .DA {
+    fill: blue;
+}
+
+.attendance .EFF {
+    fill: yellow;
+}
+
+/*
+.attendance .absent {
+    fill: red;
+}
+
+.attendance .arrived-late {
+    fill: purple;;
+}
+
+.attendance .departed-early {
+    fill: pink;
+}
+
+.attendance .present {
+    fill: green;
+}
+*/
+
+.attendance .participant.empty {
+    fill: #eee;
+    stroke: #ddd;
+}
+
+.attendance .participant.selected {
+    fill: yellow;
+}
