@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
     font-size: 10px;
+    padding: 5px;
 }
 
 circle.mp {
@@ -32,13 +33,19 @@ circle.mp.EFF {
 
 .meeting {
     float:left;
-    width: 150px;
+    width: 170px;
     border-right: solid thin black;
     border-bottom: solid thin black;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+    text-align: center;
 }
+
+.meeting span {
+    font-weight: bold;
+}
+
 .meeting-slice {
     stroke : black;
     fill: none;
@@ -81,4 +88,5 @@ circle.mp.EFF {
 
 .attendance .participant.selected {
     fill: yellow;
+    stroke: #ddd;
 }
