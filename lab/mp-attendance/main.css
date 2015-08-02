@@ -44,6 +44,7 @@ circle.mp.EFF {
     fill: none;
 }
 
+/*
 .attendance .ANC {
     fill: green;
 }
@@ -55,8 +56,8 @@ circle.mp.EFF {
 .attendance .EFF {
     fill: yellow;
 }
+*/
 
-/*
 .attendance .absent {
     fill: red;
 }
@@ -72,7 +73,6 @@ circle.mp.EFF {
 .attendance .present {
     fill: green;
 }
-*/
 
 .attendance .participant.empty {
     fill: #eee;
