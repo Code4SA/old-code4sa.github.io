@@ -18,7 +18,7 @@ Participants will team up to find stories in data and then prepare a multimedia 
 
 Are you a journalist, a designer, a scientist, an analyst  or a developer? Are you just nuts about data and the great things that can be done with it? We’d love for you to participate! You can view details of the event on [Facebook] (https://www.facebook.com/events/1653107801578804/) and [MeetUp] (http://www.meetup.com/Code-for-South-Africa-Hackers/events/224371074/). If you’d like to just go ahead and register, you can click [here] (http://goo.gl/forms/WzW5MbrxHr). It will be great fun, great exposure, and it’s free! Plus, you might just get your work published. Since this is a SciBraai event, we’ll be having a lekker braai, and there are even prizes on offer for the best stories and graphics.
 
-Prizes on the day will be sponsored by SafariNow, Waterford Wine Estate and the South African Water Research Commission. Other sponsors include the International Centre for Journalists and Libstar.
+Prizes on the day will be sponsored by [SafariNow] (http://www.safarinow.com/), Waterford Wine Estate and the South African Water Research Commission. Other sponsors include the International Centre for Journalists and Libstar.
 
 *About SciBraai*
 
