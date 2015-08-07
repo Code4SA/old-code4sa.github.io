@@ -38,9 +38,8 @@ title: Welcome
         </div>
 
         <div class="col-sm-6 col-sm-offset-1">
-          <h2>From Our Blog</h2>
           <ul class="list-unstyled blog-excerpts">
-          {% for post in site.posts limit:2 %}
+          {% for post in site.posts limit:3 %}
             <li>
               <div class="date">
                 <span class="day">{{ post.date | date: "%d" }}</span>
