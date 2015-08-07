@@ -413,11 +413,22 @@ h1, h2 {
     background-size: contain;
   }
 
-  .openbylaws { background-image: url(/img/projects/openbylaws-logo.png); }
+  .openbylaws {
+    background-image: url(/img/projects/openbylaws-logo.png);
+    background-color: white;
+    border: 5px solid white;
+  }
   .wazimap { background-image: url(/img/projects/wazimap-square-500.png); }
   .pa { background-image: url(/img/projects/pa-logo.png); }
-  .pmg { background-image: url(/img/projects/pmg-logo.png); }
-  .sa-newsmakers { background-image: url(/img/projects/sa-newsmakers-logo.png); }
+  .pmg {
+    background-image: url(/img/projects/pmg-logo.png);
+    background-color: white;
+    border: 5px solid white;
+  }
+  .sa-newsmakers {
+    background-image: url(/img/projects/sa-newsmakers-logo.png);
+    background-color: white;
+  }
   .protest-map { background-image: url(/img/projects/protest-map.png); }
   .living-wage { background-image: url(/img/projects/living-wage.png); }
   .mpr { background-image: url(/img/project_medicine2.jpg); }
