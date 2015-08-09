@@ -4,11 +4,9 @@
     <title>Women's Day Resources</title>
     <meta charset="utf-8">
     <script src="d3.v3.min.js"></script>
-    <!--<script src="http://d3js.org/d3.v3.min.js"></script>-->
     <script src="d3-masonic.js"></script>
     <script src="lunr.min.js"></script>
-    <style>
-    </style>
+    <script src="resources.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -32,16 +30,6 @@
     <script> 
         var wall = d3.select("#wall"),
             q = 100,
-            index = lunr(function () {
-                this.ref("id");
-                this.field('province');
-                this.field('city');
-                this.field('suburb');
-                this.field('category');
-                this.field('services');
-                this.field('name');
-            }),
-
             category_filter = "",
             query_text = "",
 
@@ -90,43 +78,6 @@
                 return bricks;
         }
 
-        var load_index = function(resources) {
-            for (var idx in resources) {
-                var r = resources[idx];
-                index.add({
-                    id: idx,
-                    name: r["Name"],
-                    category: r["Category"],
-                    services: r["Services"],
-                    province: r["Province"], 
-                    city: r["City"],
-                    suburb: r["Suburb"],
-                });
-            }
-        }
-
-        var filter_results = function() {
-            query = (query_text + " " + category_filter).trim();
-            var results = index.search(query);
-            var results_set = {};
-            for (var idx in results) {
-                results_set[results[idx]["ref"]] = "";
-            }
-
-            bricks.style("display", "none"); 
-            if (query != "") {
-                bricks = d3.selectAll(".brick")
-                    .filter(function(el, idx) {
-                        if (results_set[idx] != undefined)
-                            return true
-                        return false;
-                    })
-                    .style("display", "block")
-                } else {
-                    bricks = d3.selectAll(".brick");
-                }
-                resize();
-            }
 
         var masonic = d3.masonic()
             .width(function(d) { return randomSize(1, 1) - 5})
@@ -153,20 +104,40 @@
             wall.style("height", masonic.outerHeight() + "px");
         }
 
+        var filter_bricks = function() {
+            query = (query_text + " " + category_filter).trim();
+            results_set = filter_results(query);
+
+            bricks.transition().duration(250).style("opacity", 0)
+            if (query != "") {
+                bricks = d3.selectAll(".brick")
+                    .filter(function(el, idx) {
+                        if (results_set[idx] != undefined)
+                            return true
+                        return false;
+                    })
+                bricks.transition().duration(250).style("opacity", 1)
+            } else {
+                bricks = d3.selectAll(".brick");
+                bricks.transition().duration(250).style("opacity", 1)
+            }
+                resize();
+        }
 
         d3.csv('data.csv', function(resources) {
 
-            load_index(resources);
+            index = load_index(resources);
             d3.select("#place_filter").on("input", function(d) {
                 query_text =  d3.event.target.value;
-                filter_results()
+                query = (query_text + " " + category_filter).trim();
+                filter_bricks()
             });
 
             d3.selectAll(".icon").on("click", function(el) {
                 d3.selectAll(".icon").classed("selected", false);
                 category_filter = d3.select(this).attr("data-category")
                 d3.select(this).classed("selected", true);
-                filter_results();
+                filter_bricks()
             });
 
             bricks = create_bricks(resources);
