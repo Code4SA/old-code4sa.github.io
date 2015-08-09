@@ -44,7 +44,7 @@ h1 a {
 }
 
 .icon {
-    width: 25px;
+    width: 35px;
     cursor: pointer;
     stroke: none;
     border: solid thin white;
@@ -65,8 +65,8 @@ h1 a {
 }
 
 .icon.all {
-    height: 25px;
-    line-height: 25px;
+    height: 35px;
+    line-height: 35px;
     float: left;
     text-align: center;
 }
