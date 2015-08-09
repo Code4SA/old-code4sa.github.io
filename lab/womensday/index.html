@@ -104,9 +104,9 @@
             wall.style("height", masonic.outerHeight() + "px");
         }
 
-        var filter_bricks = function() {
+        var filter_bricks = function(index) {
             query = (query_text + " " + category_filter).trim();
-            results_set = filter_results(query);
+            results_set = index.filter_results(query);
 
             bricks.transition().duration(250).style("opacity", 0)
             if (query != "") {
@@ -126,18 +126,17 @@
 
         d3.csv('data.csv', function(resources) {
 
-            index = load_index(resources);
+            index = new Index(resources);
             d3.select("#place_filter").on("input", function(d) {
                 query_text =  d3.event.target.value;
-                query = (query_text + " " + category_filter).trim();
-                filter_bricks()
+                filter_bricks(index)
             });
 
             d3.selectAll(".icon").on("click", function(el) {
                 d3.selectAll(".icon").classed("selected", false);
                 category_filter = d3.select(this).attr("data-category")
                 d3.select(this).classed("selected", true);
-                filter_bricks()
+                filter_bricks(index)
             });
 
             bricks = create_bricks(resources);
