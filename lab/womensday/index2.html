@@ -1,16 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Women's Day Resources</title>
     <meta charset="utf-8">
     <script src="d3.v3.min.js"></script>
+    <script src="d3-masonic.js"></script>
     <script src="lunr.min.js"></script>
     <script src="resources.js"></script>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="container">
-        <input type="text" id="place_filter" placeholder="Search for Service e.g. 'Cape Town drugs'"/>
+        <input type="text" id="place_filter" placeholder="Search for Service"/>
         <div data-category="" class="icon all" title="Clear Filters">ALL</div>
         <img src="icons/hand-1.png" title="Children and Teenagers" data-category="children" class="icon"/>
         <img src="icons/operator.png" title="Crisis intervention" data-category="crisis" class="icon"/>
@@ -23,99 +24,129 @@
         <img src="icons/family27.png" data-category="marriage family counsellor" title="Marriage / Family Counsellor"  class="icon"/>
         <img src="icons/bed65.png" data-category="Shelters" title="Shelters" class="icon"/>
         <img src="icons/warning41.png" data-category="violence rape abuse" title="Violence / Abuse / Rape" class="icon"/>
-      <div id="list">
-      </div>
+      <div id="wall"></div>
     </div>
 
     <script> 
-        var category_filter = "",
-            query_text = ""
+        var wall = d3.select("#wall"),
+            q = 100,
+            category_filter = "",
+            query_text = "",
 
-        var create_list = function(node, resources) {
-            var cards = node.selectAll('.card')
-                .data(resources)
-                .enter()
-                .append('div')
-                    .classed('card', true)
-                    .append('dl')
+            randomSize = function(min, max) {
+              return Math.round(min + Math.random() * (max - min)) * q;
+            },
 
-            cards.append('dt').text('Name');
-            cards.append('dd').text(function(el) { return el['Name']; });
-            cards.append('dt').text('Suburb');
-            cards.append('dd').text(function(el) { return el['Suburb']; });
-            cards.append('dt').text('City');
-            cards.append('dd').text(function(el) { return el['City']; });
-            cards.append('dt').text('Province');
-            cards.append('dd').text(function(el) { return el['Province']; });
-            cards.append('dt').text('Category');
-            cards.append('dd').text(function(el) { return el['Category']; });
-            cards.append('dt').text('Services');
-            cards.append('dd').text(function(el) { return el['Services']; });
-            cards.append('dt').text('Availability of Service');
-            cards.append('dd').text(function(el) { return el['Availability of service']; });
-            cards.append('dt').text('Address');
-            cards.append('dd').text(function(el) { return el['Where are they?']; });
-            cards.append('dt').text('Crisis/Counselling Line');
-            cards.append('dd').text(function(el) { return el['Crisis/Counselling Line']; });
-            cards.append('dt').text('Contact');
-            cards.append('dd').text(function(el) { return el['Contact']; });
-            cards.append('dt').text('Telephone');
-            cards.append('dd').text(function(el) { return el['Telephone']; });
-            cards.append('dt').text('Web Contact');
-            cards.append('dd').text(function(el) { return el['Web contact']; });
-        }
+            
+            color = d3.scale.ordinal()
+                .range(['rgb(141,211,199)','rgb(255,255,179)','rgb(190,186,218)','rgb(251,128,114)','rgb(128,177,211)','rgb(253,180,98)','rgb(179,222,105)','rgb(252,205,229)'])
 
-        var filter_list = function(node, index) {
-            var query = (query_text + " " + category_filter).trim();
+            create_bricks = function(resources) {
+                var not_empty = function(val) {
+                    return val != "N/A" && val != "";
+                }
 
-            if (query != '') {
-                var results = index.filter_results(query);
+                bricks = wall.selectAll(".brick")
+                    .data(resources)
+                    .enter()
+                    .append("div")
+                        .attr("class", "brick")
+                        .style("background", function() {
+                            return color(Math.random());
+                        })
 
-                var not_result = d3.selectAll(".card")
-                    .filter(function(el, idx) {
-                        if (results[idx] != undefined)
-                            return false
-                        return true;
+                bricks.append("span")
+                    .text(function(d) {
+                        return d["Name"];
                     })
 
-                not_result.style('display', 'none');
+                bricks.append("address")
+                    .text(function(d) {
+                        var str = "";
+                        if (not_empty(d["Suburb"])) {
+                            str = d["Suburb"]
+                            if (d["City"] != "N/A")
+                                return str + ", " + d["City"];
+                        }
+                        if (not_empty(d["City"]))
+                            return d["City"]
+                        if (not_empty(d["Province"]))
+                            return d["Province"]
+                        return "";
+                    });
 
-                var cards = d3.selectAll(".card")
+                return bricks;
+        }
+
+
+        var masonic = d3.masonic()
+            .width(function(d) { return randomSize(1, 1) - 5})
+            .height(function(d) { return randomSize(1, 2) - 0 })
+            .columnWidth(100);
+
+        function resize() {
+            var outerWidth = wall.property("offsetWidth");
+            masonic
+                .outerWidth(outerWidth)
+                .reset();
+
+            bricks
+                .datum(masonic)
+                .style("width", function(d) { return d.width + "px"; })
+                .style("height", function(d) { return d.height + "px"; })
+                .style("left", function(d) { return d.x + "px"; })
+                .style("top", function(d) { return d.y + "px"; })
+                .style("display", "block")
+                .datum(function(d) {
+                    return d.data;
+                });
+
+            wall.style("height", masonic.outerHeight() + "px");
+        }
+
+        var filter_bricks = function(index) {
+            query = (query_text + " " + category_filter).trim();
+            results_set = index.filter_results(query);
+
+            bricks.transition().duration(250).style("opacity", 0)
+            if (query != "") {
+                bricks = d3.selectAll(".brick")
                     .filter(function(el, idx) {
-                        if (results[idx] != undefined)
+                        if (results_set[idx] != undefined)
                             return true
                         return false;
                     })
-                cards.style('display', 'block');
+                bricks.transition().duration(250).style("opacity", 1)
             } else {
-                d3.selectAll('.card').style('display', 'block');
+                bricks = d3.selectAll(".brick");
+                bricks.transition().duration(250).style("opacity", 1)
             }
-
+                resize();
         }
 
         d3.csv('data.csv', function(resources) {
 
-            var index = new Index(resources);
-            var root_node = d3.select('#list');
-
+            index = new Index(resources);
             d3.select("#place_filter").on("input", function(d) {
                 query_text =  d3.event.target.value;
-                filter_list(root_node, index);
+                filter_bricks(index)
             });
 
             d3.selectAll(".icon").on("click", function(el) {
                 d3.selectAll(".icon").classed("selected", false);
                 category_filter = d3.select(this).attr("data-category")
                 d3.select(this).classed("selected", true);
-                filter_list(root_node, index);
+                filter_bricks(index)
             });
 
-            list_of_resources = create_list(root_node, resources);
+            bricks = create_bricks(resources);
              
+            resize();
+            window.addEventListener("resize", resize);
+            d3.select("#place_filter").on("input". resize);
         });
 
     </script>
   </body>
 </html>
-
 
