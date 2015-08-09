@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Women's Day Resources</title>
+    <meta charset="utf-8">
+    <script src="d3.v3.min.js"></script>
+    <!--<script src="http://d3js.org/d3.v3.min.js"></script>-->
+    <script src="d3-masonic.js"></script>
+    <script src="lunr.min.js"></script>
+    <style>
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+        <input type="text" id="place_filter" placeholder="Search for Service"/>
+        <div data-category="" class="icon all">ALL</div>
+        <img src="icons/hand-1.png" data-category="children" class="icon"/>
+        <img src="icons/operator.png" data-category="crisis" class="icon"/>
+        <img src="icons/pill12.png" data-category="drugs" class="icon"/>
+        <img src="icons/hot51.png" data-category="food" class="icon"/>
+        <img src="icons/disease.png" data-category="HIV" class="icon"/>
+        <img src="icons/employee7.png" data-category="homeless destitute unemployed" class="icon"/>
+        <img src="icons/legal10.png" data-category="legal advice" class="icon"/>
+        <img src="icons/gays.png" data-category="lesbian gay bisexual transgender" class="icon"/>
+        <img src="icons/family27.png" data-category="marriage family counsellor" class="icon"/>
+        <img src="icons/bed65.png" data-category="homeless shelter" class="icon"/>
+        <img src="icons/warning41.png" data-category="violence rape abuse" class="icon"/>
+      <div id="wall"></div>
+    </div>
+
+    <script> 
+        var wall = d3.select("#wall"),
+            q = 100,
+            index = lunr(function () {
+                this.ref("id");
+                this.field('province');
+                this.field('city');
+                this.field('suburb');
+                this.field('category');
+                this.field('services');
+                this.field('name');
+            }),
+
+            category_filter = "",
+            query_text = "",
+
+            randomSize = function(min, max) {
+              return Math.round(min + Math.random() * (max - min)) * q;
+            },
+
+            
+            color = d3.scale.ordinal()
+                .range(['rgb(141,211,199)','rgb(255,255,179)','rgb(190,186,218)','rgb(251,128,114)','rgb(128,177,211)','rgb(253,180,98)','rgb(179,222,105)','rgb(252,205,229)'])
+
+            create_bricks = function(resources) {
+                var not_empty = function(val) {
+                    return val != "N/A" && val != "";
+                }
+
+                bricks = wall.selectAll(".brick")
+                    .data(resources)
+                    .enter()
+                    .append("div")
+                        .attr("class", "brick")
+                        .style("background", function() {
+                            return color(Math.random());
+                        })
+
+                bricks.append("span")
+                    .text(function(d) {
+                        return d["Name"];
+                    })
+
+                bricks.append("address")
+                    .text(function(d) {
+                        var str = "";
+                        if (not_empty(d["Suburb"])) {
+                            str = d["Suburb"]
+                            if (d["City"] != "N/A")
+                                return str + ", " + d["City"];
+                        }
+                        if (not_empty(d["City"]))
+                            return d["City"]
+                        if (not_empty(d["Province"]))
+                            return d["Province"]
+                        return "";
+                    });
+
+                return bricks;
+        }
+
+        var load_index = function(resources) {
+            for (var idx in resources) {
+                var r = resources[idx];
+                index.add({
+                    id: idx,
+                    name: r["Name"],
+                    category: r["Category"],
+                    services: r["Services"],
+                    province: r["Province"], 
+                    city: r["City"],
+                    suburb: r["Suburb"],
+                });
+            }
+        }
+
+        var filter_results = function() {
+            query = (query_text + " " + category_filter).trim();
+            var results = index.search(query);
+            var results_set = {};
+            for (var idx in results) {
+                results_set[results[idx]["ref"]] = "";
+            }
+
+            bricks.style("display", "none"); 
+            if (query != "") {
+                bricks = d3.selectAll(".brick")
+                    .filter(function(el, idx) {
+                        if (results_set[idx] != undefined)
+                            return true
+                        return false;
+                    })
+                    .style("display", "block")
+                } else {
+                    bricks = d3.selectAll(".brick");
+                }
+                resize();
+            }
+
+        var masonic = d3.masonic()
+            .width(function(d) { return randomSize(1, 1) - 5})
+            .height(function(d) { return randomSize(1, 2) - 0 })
+            .columnWidth(100);
+
+        function resize() {
+            var outerWidth = wall.property("offsetWidth");
+            masonic
+                .outerWidth(outerWidth)
+                .reset();
+
+            bricks
+                .datum(masonic)
+                .style("width", function(d) { return d.width + "px"; })
+                .style("height", function(d) { return d.height + "px"; })
+                .style("left", function(d) { return d.x + "px"; })
+                .style("top", function(d) { return d.y + "px"; })
+                .style("display", "block")
+                .datum(function(d) {
+                    return d.data;
+                });
+
+            wall.style("height", masonic.outerHeight() + "px");
+        }
+
+
+        d3.csv('data.csv', function(resources) {
+
+            load_index(resources);
+            d3.select("#place_filter").on("input", function(d) {
+                query_text =  d3.event.target.value;
+                filter_results()
+            });
+
+            d3.selectAll(".icon").on("click", function(el) {
+                d3.selectAll(".icon").classed("selected", false);
+                category_filter = d3.select(this).attr("data-category")
+                d3.select(this).classed("selected", true);
+                filter_results();
+            });
+
+            bricks = create_bricks(resources);
+             
+            resize();
+            window.addEventListener("resize", resize);
+            d3.select("#place_filter").on("input". resize);
+        });
+
+    </script>
+  </body>
+</html>
+
