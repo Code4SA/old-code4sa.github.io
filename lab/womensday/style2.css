@@ -1,0 +1,60 @@
+.icon {
+    width: 25px;
+    cursor: pointer;
+    border: solid thin white;
+}
+
+.icon:hover {
+    border: solid thin black;
+}
+
+.icon.selected {
+    border: solid thin black;
+}
+
+#list {
+    padding-top: 10px;
+}
+
+.card {
+    font-family: "Helvetica" "Arial" "sans-serif";
+    padding-bottom: 4px;
+    margin-top: 4px;
+    width: 50%;
+    font-size: 12px;
+}
+
+
+dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+}
+
+dt:after {
+    content: ":";
+}
+
+dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+}
+
+.card.invisible dd, .card.invisible dt, .card.invisible dl, .card.invisible {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    border: 0;
+    opacity: 0;
+}
+
+input#place_filter {
+    width: 300px;
+}

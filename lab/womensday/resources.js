@@ -1,5 +1,5 @@
-var load_index = function(resources) {
-    var index = lunr(function () {
+Index = function(resources) {
+    this.index = lunr(function () {
         this.ref("id");
         this.field('province');
         this.field('city');
@@ -11,7 +11,7 @@ var load_index = function(resources) {
 
     for (var idx in resources) {
         var r = resources[idx];
-        index.add({
+        this.index.add({
             id: idx,
             name: r["Name"],
             category: r["Category"],
@@ -21,11 +21,10 @@ var load_index = function(resources) {
             suburb: r["Suburb"],
         });
     }
-    return index;
 }
 
-var filter_results = function(query) {
-    var results = index.search(query);
+Index.prototype.filter_results = function(query) {
+    var results = this.index.search(query);
     var results_set = {};
     for (var idx in results) {
         results_set[results[idx]["ref"]] = "";
