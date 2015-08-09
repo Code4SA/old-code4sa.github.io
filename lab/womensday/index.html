@@ -54,11 +54,23 @@
             cards.append('dt').text('Address');
             cards.append('dd').text(function(el) { return el['Where are they?']; });
             cards.append('dt').text('Crisis Line');
-            cards.append('dd').text(function(el) { return el['Crisis/Counselling Line']; });
-            cards.append('dt').text('Contact');
-            cards.append('dd').text(function(el) { return el['Contact']; });
+            cards.append('dd')
+                .append('a')
+                    .attr('href', function(el) {
+                        return 'tel:' + el['Crisis/Counselling Line'];
+                    })
+                    .text(
+                        function(el) { return el['Crisis/Counselling Line'];
+                    });
             cards.append('dt').text('Telephone');
-            cards.append('dd').text(function(el) { return el['Telephone']; });
+            cards.append('dd')
+                .append('a')
+                    .attr('href', function(el) {
+                        return 'tel:' + el['Telephone'];
+                    })
+                    .text(
+                        function(el) { return el['Telephone'];
+                    });
             cards.append('dt').text('Web Contact');
             cards.append('dd').text(function(el) { return el['Web contact']; });
         }
