@@ -1,4 +1,3 @@
-
 body {
     font-family: "Helvetica", "Arial", sans-serif;
     padding: 20px;
@@ -9,38 +8,15 @@ a {
     color: #666;
 }
 
-h1 {
-    font-weight: normal;
-    font-style: italic;
-}
-
-h1 b {
-    font-style: normal;
-    font-weight: normal;
-}
-
-h1 a {
-    text-decoration: none;
-}
-
 #container {
     width: 80%;
     margin: 0 auto;
 }
 
-#wall {
-    position: relative;
-}
-
-#wall .brick {
-    position: absolute;
-    border:solid thin black;
-    padding: 2px;
-}
-
-#wall .brick address {
-    font-size: 0.8em;
-    font-style: italic;
+#container input {
+    float: left;
+    margin-right: 10px;
+    line-height: 20px;
 }
 
 .icon {
@@ -56,12 +32,6 @@ h1 a {
 
 .icon.selected {
     border: solid thin black;
-}
-
-#container input {
-    float: left;
-    margin-right: 10px;
-    line-height: 20px;
 }
 
 .icon.all {
