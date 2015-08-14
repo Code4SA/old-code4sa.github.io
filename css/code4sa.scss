@@ -403,6 +403,13 @@ h1, h2 {
   }
 }
 
+.teaser-header {
+  img {
+    max-width: 280px;
+    max-height: 110px;
+  }
+}
+
 .thumbnail {
   .logo {
     width: 100%;
@@ -434,14 +441,12 @@ h1, h2 {
     background-image: url(/img/journo/ct-budget-logo.png);
     background-color: #808080;
   }
-  
   .peoples-assembly {
     background-image: url(/img/journo/peoples-assembly-logo.png);
     background-color: white;
   }
-  
   .siyazana {
-    background-image: url(/img/journo/Siyazana-logo.png);  
+    background-image: url(/img/journo/Siyazana-logo.png);
     background-color: white;
   }
   .protest-map { background-image: url(/img/projects/protest-map.png); }
