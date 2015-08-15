@@ -42,8 +42,8 @@
      id="namedview123"
      showgrid="false"
      inkscape:zoom="0.70710678"
-     inkscape:cx="239.63603"
-     inkscape:cy="858.25904"
+     inkscape:cx="307.51828"
+     inkscape:cy="292.57362"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -341,7 +341,7 @@
            id="tspan8300"
            x="365"
            y="706"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle">Cote d'Ivoure</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle">Fatal Extraction</tspan></text>
 </g><rect
        y="1108.032"
        x="178.03195"
@@ -370,16 +370,16 @@
            id="g8363"><g
              style="fill:#ffffff;fill-opacity:1"
              id="g8365"><path
-               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.42591882;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.81157923;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                inkscape:connector-curvature="0"
-               d="m -4643.8038,588.03963 -53.8213,53.84717 -53.8213,-53.84717 -35.9065,35.90647 53.8472,53.8213 -53.8213,53.8213 35.8806,35.8813 53.8213,-53.8213 53.8213,53.8213 35.8813,-35.8813 -53.8213,-53.8213 53.8213,-53.8213 -35.8813,-35.90647 z m 89.7279,-53.8213 c -79.2732,-79.2731 -207.8252,-79.2731 -287.0983,0 -79.2731,79.27307 -79.2731,207.82507 0,287.09817 79.2731,79.2732 207.8251,79.2732 287.0983,0 79.2731,-79.2724 79.2731,-207.8251 0,-287.09817 z m -35.8807,251.21757 c -59.455,59.4543 -155.8567,59.4543 -215.3111,0 -59.455,-59.455 -59.455,-155.8567 0,-215.31107 59.455,-59.455 155.8561,-59.455 215.3111,0 59.4543,59.45437 59.4543,155.83087 0,215.31107 z"
+               d="m -4459.4503,586.38419 -40.1916,40.21091 -40.1916,-40.21091 -26.8136,26.81352 40.211,40.19159 -40.1916,40.1916 26.7942,26.79472 40.1916,-40.1916 40.1916,40.1916 26.7947,-26.79472 -40.1916,-40.1916 40.1916,-40.19159 -26.7947,-26.81352 z m 67.0052,-40.19159 c -59.1981,-59.19798 -155.1956,-59.19798 -214.3935,0 -59.198,59.19796 -59.198,155.19545 0,214.39343 59.1979,59.19806 155.1954,59.19806 214.3935,0 59.198,-59.19746 59.198,-155.19547 0,-214.39343 z m -26.7943,187.59923 c -44.3986,44.3981 -116.3875,44.3981 -160.7857,0 -44.3986,-44.39861 -44.3986,-116.38755 0,-160.78569 44.3986,-44.39862 116.3871,-44.39862 160.7857,0 44.3981,44.39814 44.3981,116.36826 0,160.78569 z"
                id="path8367" /></g></g></g></g><g
        id="g4447"><foreignObject
          width="345"
          height="130"
          y="970"
          x="190"><xhtml:p
-           class="body-text">kjhkjh kjh kjh kjh kjh kjh kjh kjhkjh kjh kj h</xhtml:p></foreignObject></g></g><g
+           class="body-text">Hover your mouse over each highlighted country for more information.</xhtml:p></foreignObject></g></g><g
      id="pointers"><g
        class="pointer"
        id="Ghana_pointer"><circle
