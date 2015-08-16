@@ -1,13 +1,15 @@
-#map {
-    width: 600px;
-    height: 600px;
+html, body { margin:0; padding:0; overflow:hidden }
+svg { position:fixed; top:0; left:0; height:100%; width:100% }
+
+#infobox foreignObject {
+    overflow: hidden;
 }
 
 #infobox .body-text {
     font-family: 'Helvetica';
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .story-country:hover, .story-country.selected {
-    fill: yellow !important;
+    fill: #DE753A !important;
 }

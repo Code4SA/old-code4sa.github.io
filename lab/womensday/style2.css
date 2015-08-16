@@ -26,10 +26,10 @@ body {
 }
 
 .icon {
-    width: 35px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 50px;
     cursor: pointer;
-    border: solid thin white;
-    background-color: white;
 }
 
 .icon:hover {
