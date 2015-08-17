@@ -17,7 +17,6 @@ svg { position:fixed; top:0; left:0; height:100%; width:100% }
 #country-paths path {
     fill-opacity: 1;
     stroke: #d0d4de;
-    stroke-width: 0;
 }
 
 #country-paths .story-country {
