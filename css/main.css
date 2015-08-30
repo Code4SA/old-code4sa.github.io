@@ -426,9 +426,15 @@ a:hover.back-to-work, a:active.back-to-work {
 	padding-top: 10px;
 }
 
-.partner-heading {border-bottom: 1px dotted #ccc;}
+.partner-heading,
+.donor-heading
+{
+    border-bottom: 1px dotted #ccc;
+}
 
-.partner-heading h6{
+.partner-heading h6,
+.donor-heading h6
+{
 	margin-bottom: 3px;
 }
 
