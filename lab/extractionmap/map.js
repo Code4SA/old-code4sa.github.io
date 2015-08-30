@@ -44,7 +44,9 @@ MapObj.prototype = {
         if (data[country] != undefined) {
             infobox.select('.body-text').text(data[country]['body']); 
             infobox.select('image').attr('xlink:href', data[country]['image']);
-            infobox.select('#read-more').attr('xlink:href', data[country]['url']);
+            infobox.select('#read-more')
+                .attr('xlink:href', data[country]['url'])
+                .attr('xlink:show', 'new')
         }
     }
 }

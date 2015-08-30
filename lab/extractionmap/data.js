@@ -10,6 +10,12 @@ var data = {
         image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/adele%20looking_1600.jpg',
         url : '#',
     },
+    DRC : {
+
+        body : 'Australian state and federal government entities, including government workers’ pension funds, have invested in controversial Australian mining companies operating in Africa.',
+        image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/adele%20looking_1600.jpg',
+        url : 'http://www.icij.org/project/fatal-extraction/australian-mining-companies-digging-deadly-footprint-africa',
+    },
     Ghana : {
         body : 'A pattern of links between mining activities and deaths, disfigurement, environmental destruction and displacement suggests a troubling track record for Australian companies ',
         image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/DickayKunda_1600.jpg',
@@ -43,7 +49,7 @@ var data = {
     Niger : {
         body : 'The fact that Paladin evacuated Mr. Sichinga and his co-workers to Millpark Hospital in Johannesburg, South Africa, regarded as one of the finest medical facilities in Africa for the treatment of burns cases, is evidence that Paladin made no distinction based on race',
         image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/Prison.Still001%20edit_1600.jpg',
-        url : '#',
+        url : 'niger.pdf',
     },
     Senegal : {
         body : 'Australian mining companies are more numerous than those from other mining giants such as Canada, the United Kingdom and China.',
@@ -63,7 +69,7 @@ var data = {
     Zambia : {
         body : 'There is no need to employ more than one individual in this area since continual cleaning by one person is sufficient to keep the area clean. Furthermore, this was not an isolated area and Mr. Mhlathuszana was not isolated at this work station.',
         image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/miners_centered_1600.jpg',
-        url : '#',
+        url : 'munali_mine.pdf',
     },
 };
 
