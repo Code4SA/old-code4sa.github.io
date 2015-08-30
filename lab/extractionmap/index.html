@@ -18,83 +18,14 @@
         <div id="map"></div>
         <script src="d3.v3.js"></script>
         <script src="data.js"></script>
+        <script src="map.js"></script>
         <script>
-
-            var MapObj = function(root_node) {
-                this.selected = false;
-                this.mapobj = root_node;
-                this.pointers = d3.selectAll('.pointer');
-                this.pointers.style('display', 'none');
-
-                this.enable_mouseover();
-                this.enable_click();
-            }
-
-            MapObj.prototype = {
-                enable_mouseover : function() {
-                    var me = this;
-                    this.mapobj.selectAll('.story-country').on('mouseover', function(el) {
-                        var country = this.id;
-                        me.process_mouseover(country)
-                    });
-                },
-                disable_mouseover : function() {
-                    this.mapobj.selectAll('.story-country').on('mouseover', null);
-                },
-                enable_click : function() {
-                    var me = this;
-                    this.mapobj.selectAll('.story-country').on('click', function() {
-                        var country = d3.select(this);
-                        var is_pressed = country.classed('selected');
-
-                        d3.selectAll('.story-country').classed('selected', false);
-                        if (is_pressed) {
-                            me.enable_mouseover();
-                        } else {
-                            country.classed('selected', true);
-                            me.disable_mouseover();
-                            me.process_mouseover(this.id);
-                        }
-                    });
-                },
-                process_mouseover : function(country) {
-                    var country_obj = d3.select('#' + country);
-                    var infobox = d3.select('#infobox');
-                    pointers.hide_all();
-                    pointers.display_pointer(country);
-                    infobox.select('#title').text(country_obj.attr('data-name'));
-                    if (data[country] != undefined) {
-                        infobox.select('.body-text').text(data[country]['body']); 
-                        infobox.select('image').attr('xlink:href', data[country]['image']);
-                        infobox.select('#read-more').attr('xlink:href', data[country]['url']);
-                    }
-                }
-            }
-
-            var Pointers = function(root_node) {
-                this.root_node = root_node;
-                this.pointers = this.root_node.selectAll('.pointer');    
-            }
-
-            Pointers.prototype = {
-                hide_all : function() {
-                    this.pointers.style('display', 'none');
-                },
-                display_pointer : function(country) {
-                    var pointer = this.root_node.select('#' + country + '_' + 'pointer');
-                    pointer.style('display', 'block');
-                }
-            }
-
-            var pointers = null, mapobj = null;
 
             d3.xml('map.svg', function(xml) {
                 var map = d3.select('#map');
                 var importedNode = document.importNode(xml.documentElement, true);
                 var img = map[0][0].appendChild(importedNode.cloneNode(true));
-                mapobj = new MapObj(map);
-                pointers = new Pointers(map);
-
+                var mapobj = new MapObj(map);
             });
         </script>
     </body>
