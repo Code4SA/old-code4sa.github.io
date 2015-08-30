@@ -1,33 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>Extraction</title>
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        
-        <meta property="og:title" content="">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="">
-        <meta property="og:site_name" content="">
-        <meta property="og:image" content="">
-        <meta property="og:description" content="">
-        <link rel="stylesheet" href="style.css"/>
+        <style>
+            body {
+                font-family: helvetica, arial, sans-serif;
+                font-size: 14px;
+                background-color: #5F5F5F;
+            }
+
+            .textblock {
+                border-radius: 5px;
+                background-color: white;
+                padding: 15px;
+                margin:auto;
+                padding-top: 5px;
+                width: 50%; 
+                margin-top : 5px;
+                margin-bottom: 15px;
+            }
+            
+            .textblock h2 {
+                margin-top: 1px;
+            }
+
+            .embedcode {
+                margin-top:15px;  
+            }
+        </style>
     </head>
     <body>
-        <div id="map"></div>
-        <script src="d3.v3.js"></script>
-        <script src="data.js"></script>
-        <script src="map.js"></script>
-        <script>
+        <div class="textblock">
+            <h2>Fatal Extraction Map</h2>
+            This map is implemented as an embedded iframe. It has a transparent background so that it will fit seamlessly in your website and will behave like any other html element.
+        </div>
+        <iframe src="map.html" height="100%" width="100%" scrolling="no" marginheight="0" frameborder="0" height="0px" style="height: 100%;"></iframe>
 
-            d3.xml('map.svg', function(xml) {
-                var map = d3.select('#map');
-                var importedNode = document.importNode(xml.documentElement, true);
-                var img = map[0][0].appendChild(importedNode.cloneNode(true));
-                var mapobj = new MapObj(map);
-            });
-        </script>
+        <code>
+        <div class="textblock embedcode">
+            <h2>Embed this map with the following code:</h2>
+            &lt;iframe src=&quot;http://www.code4sa.org/lab/extractionmap/map.html&quot; height=&quot;100%&quot; width=&quot;100%&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; height=&quot;0px&quot; style=&quot;height: 100%;&quot;&gt;&lt;/iframe&gt;
+        </div>
+        </code>
     </body>
 </html>
-
