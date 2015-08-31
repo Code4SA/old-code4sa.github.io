@@ -16,7 +16,7 @@ date: 2014-09-04
 
 In August I spent three intense days at [Media Party 2014](http://mediaparty.info/2014/) in Buenos Aires, Argentina. It’s a [Hacks/Hackers](http://hackshackers.com/) event at the intersection of journalism and technology, with over 1200 people — the biggest digital media gathering in Latin America. We explored tools, technology and approaches to bringing tech to the newsroom. My trip was very kindly sponsored by the International Center for Journalism and (ICFJ) and African Media Initiative (AMI).
 
-<img src="/img/media-party-2014/konex-top.png" style="width: 100%">
+<img src="/img/media-party-2014/konex-top.png">
 [Konex by nefiger](http://instagram.com/p/sSLQN1zMPd/)
 
 Hacks/Hackers have been incredibly successful in making the newsroom attractive to coders, hackers and other technologists. This has driven creativity in both the tech space (much of the work is open source) and in the newsrooms.
@@ -41,7 +41,7 @@ When we’re building tools to help journalists with their investigations our re
 
 In the second post of this series I’ll go into detail on some of the cool projects that were on show at Media Party.
 
-<img src="/img/media-party-2014/ba-building.png" style="width: 100%">
+<img src="/img/media-party-2014/ba-building.png">
 [Building by nefiger](http://instagram.com/p/sVo-ZnzMF4/)
 
 *This post originally appeard on [my personal blog](http://kempe.net/blog/2014/09/04/media-part-part-one.html).*

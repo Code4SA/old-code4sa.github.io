@@ -108,7 +108,6 @@ h1, h2 {
     .excerpt {
       float: left;
       width: 75%;
-      text-align: justify;
 
       h4 {
         margin-top: 0px;
@@ -140,8 +139,8 @@ h1, h2 {
     text-align: center;
   }
 
-  p {
-    text-align: justify;
+  img {
+    max-width: 100%;
   }
 
   /* Medium devices (desktops, 992px and up) */
