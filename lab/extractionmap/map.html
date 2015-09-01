@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Extraction</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        
+        <meta property="og:title" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script src="d3.v3.js"></script>
+        <script src="data.js"></script>
+        <script src="map.js"></script>
+        <script>
+
+            d3.xml('map.svg', function(xml) {
+                var map = d3.select('#map');
+                var importedNode = document.importNode(xml.documentElement, true);
+                var img = map[0][0].appendChild(importedNode.cloneNode(true));
+                var mapobj = new MapObj(map);
+            });
+        </script>
+    </body>
+</html>
+
