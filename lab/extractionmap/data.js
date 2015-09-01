@@ -68,8 +68,8 @@ var data = {
     },
     Zambia : {
         body : 'Munali mine residents complain of ‘open prison’ living conditions',
-        image : 'http://cloudfront-files-1.publicintegrity.org/apps/2015/04/africamining/media/03_IMAGES/miners_centered_1600.jpg',
-        url : 'img/zambia.jpg',
+        image : 'img/zambia.jpg',
+        url : 'zambia.pdf',
     },
 };
 

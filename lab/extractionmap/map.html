@@ -26,6 +26,19 @@
                 var importedNode = document.importNode(xml.documentElement, true);
                 var img = map[0][0].appendChild(importedNode.cloneNode(true));
                 var mapobj = new MapObj(map);
+
+                // cache images
+                images = []
+                for (k in data) {
+                    images.push(data[k].image);
+                }
+                d3.select("body").append("div")
+                    .style("display", "none")
+                    .selectAll("img")
+                    .data(images)
+                    .enter()
+                    .append("img")
+                        .attr("href", String)
             });
         </script>
     </body>
