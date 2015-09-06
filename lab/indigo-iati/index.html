@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Extraction</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        
+        <meta property="og:title" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+        <style>
+            circle {
+                stroke: #ddd;
+                fill: #eee;
+            }
+
+            circle.selected {
+                fill: red;
+            }
+
+            
+            .d3-tip {
+              border: solid thin black;
+              padding: 12px;
+              background: #F9F959;
+              color: #2F2A2A;
+              border-radius: 15px;
+              max-width: 300px;
+              font-family: helvetica, arial, sans;
+            }
+
+            /* Creates a small triangle extender for the tooltip */
+            .d3-tip:after {
+              box-sizing: border-box;
+              display: inline;
+              font-size: 10px;
+              width: 100%;
+              line-height: 1;
+              color: rgba(0, 0, 0, 0.8);
+              content: "\25BC";
+              position: absolute;
+              text-align: center;
+            }
+
+            /* Style northward tooltips differently */
+            .d3-tip.n:after {
+              margin: -1px 0 0 0;
+              top: 100%;
+              left: 0;
+            }
+
+            #countries, #chart {
+                border: solid thin black;
+                float:left;
+            }
+
+            #countries {
+                min-width: 400px;
+            }
+        </style>
+    </head>
+<br><br><br>
+<br><br><br>
+    <body>
+        <div>
+            <div id="chart"></div>
+            <div id="countries">
+                <h2>Select a country</h2>
+                <input type="radio" id="code_za" name="country" data-code="ZA"/><label for="code_za">South Africa</label><br/>
+                <input type="radio" id="code_gb" name="country" data-code="GB"/><label for="code_gb">Great Britain</label><br/>
+                <input type="radio" id="code_ug" name="country" data-code="UG"/><label for="code_ug">Uganda</label><br/>
+                <input type="radio" id="code_ng" name="country" data-code="NG"/><label for="code_ng">Nigeria</label><br/>
+                <input type="radio" id="code_ke" name="country" data-code="KE"/><label for="code_ke">Kenya</label><br/>
+                <input type="radio" id="code_cm" name="country" data-code="CM"/><label for="code_cm">Cameroon</label><br/>
+                <input type="radio" id="code_gh" name="country" data-code="GH"/><label for="code_gh">Ghana</label><br/>
+                <input type="radio" id="code_tz" name="country" data-code="TZ"/><label for="code_tz">Tanzania</label><br/>
+                <input type="radio" id="code_lr" name="country" data-code="LR"/><label for="code_lr">Liberia</label><br/>
+                <input type="radio" id="code_us" name="country" data-code="US"/><label for="code_us">United States</label><br/>
+                <input type="radio" id="code_ma" name="country" data-code="MA"/><label for="code_ma">Morocco</label><br/>
+                <input type="radio" id="code_zw" name="country" data-code="ZW"/><label for="code_zw">Zimbabwe</label><br/>
+                <input type="radio" id="code_tg" name="country" data-code="TG"/><label for="code_tg">Togo</label><br/>
+            </div>
+        <script src="d3.v3.min.js"></script>
+        <script src="d3.tip.js"></script>
+        <script src="xml2json.min.js"></script>
+        <script>
+            var width = 1200;
+            var height = 800;
+            var margin = {top: 40, right: 40, bottom: 40, left:60}
+            var x2js = new X2JS();
+
+            var start_date = new Date(2010, 6, 1)
+            var end_date = new Date(2016, 1, 1)
+
+            var get_country = function(d) {
+                var country = "";
+                if (d['recipient-country'] != undefined)
+                    country = d['recipient-country']._code;
+                return country;
+            }
+
+            var get_organisation = function(d) {
+                console.log(d)
+                if (d['participating-org'].__text != undefined)
+                    return d['participating-org'].__text
+                if (d['transaction']['receiver-org'] != undefined)
+                    return d['transaction']['receiver-org'].__text
+                return "No organisation found"
+            }
+
+            var get_country_color = function(d) {
+                var country = get_country(d);
+                if (country == "UG")
+                    return "red"
+                return "#eee"
+            
+            }
+
+            var get_budget = function(d) {
+                if (d["budget"] == undefined)
+                    return d["transaction"]["value"]
+                return money_scale(parseInt(d["budget"]["value"]["__text"]))
+            }
+
+            var color_scale = d3.scale.ordinal()
+                .domain(["ZA", "GB", "TZ", "UG", "NG", "RW", "KE", "CM", "MA", "SL"])
+                .range(["red", "blue", "green", "pink", "orange", "grey", "yellow", "purple", "cyan", "lightgreen"])
+            var time_scale = d3.time.scale().domain([start_date, end_date]).range([0, width])
+            var x_axis = d3.svg.axis()
+                .scale(time_scale)
+                .orient('bottom')
+                .ticks(d3.time.months, 6)
+                .tickFormat(d3.time.format('%b %Y'))
+                .tickSize(0.4)
+                .tickPadding(8);
+
+            var money_scale = d3.scale.linear().domain([0, 60000]).range([height - margin.top, 0 + margin.bottom])
+            var svg = d3.select('#chart').append('svg')
+                .attr('class', 'chart')
+                .attr('width', width)
+                .attr('height', height)
+                .style("border", "solid thin black")
+                .append('g')
+                    .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
+
+            var y_axis = d3.svg.axis()
+                .scale(money_scale)
+                .orient('left')
+                .tickSize(0)
+                .tickPadding(8);
+
+            svg.append('g')
+                .attr('class', 'x axis')
+                .attr('transform', 'translate(0, ' + (height - margin.top - margin.bottom) + ')')
+                .call(x_axis);
+
+            svg.append('g')
+                .attr('class', 'y axis')
+                .attr('transform', 'translate(0, ' + -margin.bottom + ')')
+                .call(y_axis)
+
+            var paint_circles = function(d) {
+                var country_code = get_country(d)
+                d3.selectAll("circle")
+                    .each(function() {
+                        var me = d3.select(this)
+                        if (me.attr("data-code") == country_code) {
+                            me.classed("selected", true)
+                        }
+                        else
+                            me.classed("selected", false)
+                    })
+            }
+
+            var tip = d3.tip()
+              .attr('class', 'd3-tip')
+              .offset([-10, 0])
+              .html(function(d) {
+                return "<dl>" +
+                    "<dt>Title:</dt><dd>" + d.title + "</dd>" +
+                    "<dt>Value:</dt><dd>&pound;" + d.budget.value + "</dd>" +
+                    "<dt>Recipient:</dt><dd>" + get_organisation(d) + "</dd>" +
+                    "<dt>Country:</dt><dd>" + get_country(d) + "</dd>" +
+                "</dl>" +
+                "<div>" + d.description + "</div>"
+              })
+
+            svg.call(tip);
+
+            d3.xml("indtrust-activities.xml", function(xml) {
+                
+                var json = x2js.xml2json(xml)
+                var data = json["iati-activities"]["iati-activity"]
+                svg
+                    .append("g")
+                        .attr("transform", "translate(0, " + -margin.bottom + ")")
+                        .selectAll("circle")
+                        .data(data)
+                        .enter()
+                        .append("circle")
+                            .attr("r", 5)
+                            .attr("cx", function(d) {
+                                if (d["activity-date"][0])
+                                    return time_scale(Date.parse(d["activity-date"][0]["_iso-date"]))
+                                return time_scale(Date.parse(d["activity-date"]["_iso-date"]))
+                            })
+                            .attr("cy", function(d) {
+                                return get_budget(d)
+                                
+                            })
+                            .attr("data-code", get_country)
+                            .on('mouseover', tip.show)
+                            .on('mouseout', tip.hide)
+                            .on('mousemove', paint_circles)
+                d3.selectAll("#countries input").on("click", function() {
+                    var me = d3.select(this);
+                    d3.selectAll("circle")
+                        .each(function() {
+                            var me2 = d3.select(this)
+                            console.log(me.attr("data-code"))
+                            if (me.attr("data-code") == me2.attr("data-code"))
+                                me2.classed("selected", true)
+                            else
+                                me2.classed("selected", false)
+                        })
+                })
+            })
+
+        </script>
+    </body>
+</html>
+
