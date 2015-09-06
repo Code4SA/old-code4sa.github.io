@@ -1,0 +1,58 @@
+circle {
+    stroke: #ddd;
+    fill: #eee;
+}
+
+circle.selected {
+    fill: red;
+}
+
+
+.d3-tip {
+  border: solid thin black;
+  padding: 12px;
+  background: #F9F959;
+  color: #2F2A2A;
+  border-radius: 15px;
+  max-width: 300px;
+  font-family: helvetica, arial, sans;
+  overflow: hidden;
+  max-height: 30em;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+#chart {
+    margin-left: 20px;
+}
+
+.d3-tip .dl-horizontal dt, .d3-tip .dl-horizontal dd {
+    text-align: left;
+}
+
+.d3-tip .dl-horizontal dd {
+    margin-left: 0px;
+}
+
+.d3-tip .dl-horizontal dt {
+    width: 100px;
+}
+
