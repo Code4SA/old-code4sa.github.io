@@ -40,7 +40,7 @@ circle.selected {
   left: 0;
 }
 
-#chart {
+#chart, #countries {
     margin-left: 20px;
 }
 
