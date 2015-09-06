@@ -16,6 +16,7 @@ circle.selected {
   border-radius: 15px;
   max-width: 300px;
   font-family: helvetica, arial, sans;
+  font-size: 12px;
   overflow: hidden;
   max-height: 30em;
 }
@@ -42,6 +43,10 @@ circle.selected {
 
 #chart, #countries {
     margin-left: 20px;
+}
+
+dl {
+    margin-bottom: 0
 }
 
 .d3-tip .dl-horizontal dt, .d3-tip .dl-horizontal dd {
