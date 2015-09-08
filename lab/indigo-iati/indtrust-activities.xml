@@ -5926,4 +5926,618 @@ Seed funding will go to MEPA, a diet advisory SMS app helping those with chronic
     </transaction>
     <activity-website>https://sobanukirwa.rw/</activity-website>
   </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND306</iati-identifier>
+    <title>Core Costs</title>
+    <description>To contribute towards the core costs of establishing 360 Giving as a UK registered charity.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-08-03" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">360 Giving</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND306">Indigo Trust</provider-org>
+      <receiver-org>360 Giving</receiver-org>
+      <value currency="GBP" value-date="2015-08-03">5000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-08-14" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND299</iati-identifier>
+    <title>Digital Education Platform</title>
+    <description>To cover content development for a digital education platform in Ethiopia and includes an additional Ł500 to cover the training of government staff..</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Ahadoo Tec ICT Solutions Plc</participating-org>
+    <recipient-country code="ET" percentage="100">Ethiopia</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND299">Indigo Trust</provider-org>
+      <receiver-org>Ahadoo Tec ICT Solutions Plc</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND289</iati-identifier>
+    <title>Business Incubation Manager</title>
+    <description>This grant covers salary costs of a business incubation manager working in a technology innovation hub in Zambia and covers 12 months salary.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-04-20" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Bongo Hive</participating-org>
+    <recipient-country code="ZM" percentage="100">ZAMBIA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND289">Indigo Trust</provider-org>
+      <receiver-org>Bongo Hive</receiver-org>
+      <value currency="GBP" value-date="2015-04-20">16585</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-05-13" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND293</iati-identifier>
+    <title>xHub Core costs</title>
+    <description>For the xHub Innovative Society initiative which will contribute towards the core costs of the xHub technology innovation hub in Addis Ababa.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-05-20" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Centre for African Leadership Studies</participating-org>
+    <recipient-country code="ET" percentage="100">Ethiopia</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND293">Indigo Trust</provider-org>
+      <receiver-org>Centre for African Leadership Studies</receiver-org>
+      <value currency="GBP" value-date="2015-05-20">20000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-07-02" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND298</iati-identifier>
+    <title>Community Action Toolkit</title>
+    <description>To produce and disseminate a Community Action Toolkit which enables their youth community radio reporters and members of other civil society organisations to engage with local leaders and other decision-makers and public institutions about issues that matter to them.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-06-10" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Children's Radio Foundation</participating-org>
+    <recipient-country code="ZA" percentage="100">South Africa</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND298">Indigo Trust</provider-org>
+      <receiver-org>Children's Radio Foundation</receiver-org>
+      <value currency="GBP" value-date="2015-06-10">5000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-06-18" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND297</iati-identifier>
+    <title>School of Data Fellowships South Africa</title>
+    <description>To jointly run three School of Data (SCODA) fellowships in South Africa with Open Knowledge Foundation, which will enable technologists, data wranglers, civil society and possibly a government department to work together to utilise data to promote social change. Ł18,000 will cover the fellowship salaries and the remainder will cover management costs and travel.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-06-10" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Code for South Africa</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND297">Indigo Trust</provider-org>
+      <receiver-org>Code for South Africa</receiver-org>
+      <value currency="GBP" value-date="2015-06-10">26000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-06-15" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND302</iati-identifier>
+    <title>Data Journalism School Project</title>
+    <description>To contribute towards a data journalism school project, focusing on ensuring that relevant stories and issues from civil society are addressed by the school. This project to be run jointly with Dim Sum Digital.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Code for South Africa</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND302">Indigo Trust</provider-org>
+      <receiver-org>Code for South Africa</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">10000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-08-05" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND303</iati-identifier>
+    <title>Core Costs</title>
+    <description>Towards core costs.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Code for South Africa</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND303">Indigo Trust</provider-org>
+      <receiver-org>Code for South Africa</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND304</iati-identifier>
+    <title>Corporate Data</title>
+    <description>For scoping potential uses of corporate data in campaigns and programmes with civil society and the media in South Africa.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Code for South Africa</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND304">Indigo Trust</provider-org>
+      <receiver-org>Code for South Africa</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND286</iati-identifier>
+    <title>To support Mxit platform</title>
+    <description>To support Corruption Watch's Mxit platform which is used to report and monitor corruption.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-04-16" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Corruption Watch (RF) NPC</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND286">Indigo Trust</provider-org>
+      <receiver-org>Corruption Watch (RF) NPC</receiver-org>
+      <value currency="GBP" value-date="2015-04-16">15320</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-04-20" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND301</iati-identifier>
+    <title>Data Journalism School Project</title>
+    <description>To contribute towards a data journalism school project, focusing on ensuring that relevant stories and issues from civil society are addressed by the school. This project to be run jointly with Code4SA.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Dim Sum Digital Limited</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND301">Indigo Trust</provider-org>
+      <receiver-org>Dim Sum Digital Limited</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND287</iati-identifier>
+    <title>Schools project</title>
+    <description>To work with schools to identify a social issue within their community and a charity working to address it. The first project will be Parliament Hill School.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-04-16" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">First Give</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND287">Indigo Trust</provider-org>
+      <receiver-org>First Give</receiver-org>
+      <value currency="GBP" value-date="2015-04-16">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND307</iati-identifier>
+    <title>Mobile Layaway Platform for Farmers</title>
+    <description>To conduct SMS trials and hire a data analyst.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-08-19" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">myAGRO</participating-org>
+    <recipient-country code="ML" percentage="100">Mali</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND307">Indigo Trust</provider-org>
+      <receiver-org>myAGRO</receiver-org>
+      <value currency="GBP" value-date="2015-08-19">0</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND305</iati-identifier>
+    <title>Core Costs</title>
+    <description>To cover core costs for their team to work with partner organisations in African countries to develop and improve upon civic websites for parliamentary monitoring and citizen feedback.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-29" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">MySociety</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND305">Indigo Trust</provider-org>
+      <receiver-org>MySociety</receiver-org>
+      <value currency="GBP" value-date="2015-07-29">40000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-08-10" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND294</iati-identifier>
+    <title>Question Box</title>
+    <description>Core costs for Question Box.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-05-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Open Mind</participating-org>
+    <recipient-country code="US" percentage="100">USA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND294">Indigo Trust</provider-org>
+      <receiver-org>Open Mind</receiver-org>
+      <value currency="GBP" value-date="2015-05-27">20000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-06-02" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND300</iati-identifier>
+    <title>People's Assembly parliamentary monitoring site</title>
+    <description>To contribute towards the development, management and promotion of the Peopleâs Assembly parliamentary monitoring site.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-07-27" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Parliamentary Monitoring Group</participating-org>
+    <recipient-country code="ZA" percentage="100">SOUTH AFRICA</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND300">Indigo Trust</provider-org>
+      <receiver-org>Parliamentary Monitoring Group</receiver-org>
+      <value currency="GBP" value-date="2015-07-27">20000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-07-30" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND288</iati-identifier>
+    <title>Aid transparency work in the US</title>
+    <description>This organisation campaigns for greater aid transparency. This grant will help further PWYF advocacy work in the US and to pursue registration as a 501(c)(3) organisation..</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-04-16" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Publish What You Fund</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND288">Indigo Trust</provider-org>
+      <receiver-org>Publish What You Fund</receiver-org>
+      <value currency="GBP" value-date="2015-04-16">30000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-04-23" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND292</iati-identifier>
+    <title>Mobile SMS Internet Radio platform</title>
+    <description>To enable ToroDev to implement an innovative Mobile-SMS-Internet-Radio polling system to seek local citizensâ views on service delivery in seven districts in the Rwenzori region of western Uganda. The results will be fed back to decision makers to improve service delivery.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-05-13" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Toro Development Network</participating-org>
+    <recipient-country code="UG" percentage="100">Uganda</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND292">Indigo Trust</provider-org>
+      <receiver-org>Toro Development Network</receiver-org>
+      <value currency="GBP" value-date="2015-05-13">21466</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-05-19" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND291</iati-identifier>
+    <title>SMS/voice platform to improve maternal and child health</title>
+    <description>This organisation has developed an SMS/Voice platform to improve maternal and child health. This grant will be used to expand their platform to six of Kenyaâs 15 counties (with an aim of registering 800 parents in each county). A small amount (approximately USD$2,500) would be spent on monitoring and evaluation, as well as data verification.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-05-13" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Totohealth</participating-org>
+    <recipient-country code="KE" percentage="100">Kenya</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND291">Indigo Trust</provider-org>
+      <receiver-org>Totohealth</receiver-org>
+      <value currency="GBP" value-date="2015-05-13">11872</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-06-02" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" last-updated-datetime="2015-09-03T11:32:11" xml:lang="en">
+    <reporting-org ref="GB-CHC-1075920" type="60">Indigo Trust</reporting-org>
+    <contact-info>
+      <person-name>Matt O'Reilly</person-name>
+      <telephone />
+      <email>matthew.oreilly@sfct.org.uk</email>
+      <mailing-address>The Peak, 5 Wilton Road, London, SW1V 1AP, UK</mailing-address>
+    </contact-info>
+    <iati-identifier>GB-CHC-1075920-IND290</iati-identifier>
+    <title>Interest free concessionary loan</title>
+    <description>An interest free concessionary loan of Ł30,000 to Truppr. The loan will be used to support a mobile platform which has the charitable objective of assisting Nigerians to connect to events and people associated with them, in order to encourage them to make regular exercise part of their lifestyle, with the long-term aim of improving the health of users.</description>
+    <activity-status code="2">Implementation</activity-status>
+    <activity-date type="end-planned" />
+    <activity-date iso-date="2015-04-29" type="start-planned" />
+    <participating-org role="Funding" type="60">Indigo Trust</participating-org>
+    <participating-org role="Extending" />
+    <participating-org role="Implementing">Truppr Ltd</participating-org>
+    <recipient-country code="GB" percentage="100">UK</recipient-country>
+    <transaction>
+      <aid-type code="C01">Project-type interventions</aid-type>
+      <flow-type code="30">Private NGO and other private sources</flow-type>
+      <provider-org provider-activity-id="GB-CHC-1075920-IND290">Indigo Trust</provider-org>
+      <receiver-org>Truppr Ltd</receiver-org>
+      <value currency="GBP" value-date="2015-04-29">30000</value>
+      <finance-type code="110"> Aid grant excluding debt reorganisation </finance-type>
+      <tied-status code="5">Untied</tied-status>
+      <transaction-date iso-date="2015-05-20" />
+      <transaction-type code="3">Disbursement</transaction-type>
+      <description>Full disbursement of grant</description>
+    </transaction>
+  </iati-activity>
 </iati-activities>
