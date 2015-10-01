@@ -17,7 +17,7 @@ The [Promotion of Access to Information Act (PAIA)](http://www.dfa.gov.za/depart
 
 Manual recapture of the data was out of the question, there were 16 pdf documents, of around 16 pages each, all scans of spreadsheet data.  This is what they looked like:
 
-<img src="/img/Blog/scannedPDF.png">
+<img src="/img/blog/scannedPDF.png">
 
 What I discovered is that [Adobe Acrobat Professional](https://acrobat.adobe.com/us/en/products/acrobat-pro.html) can convert such a scanned image into text, somewhat messily, but it can be done.  Without the licensed software, however, I utilised the trial version, which gave me 30 days of usage, ample time to convert each of these documents.
 
@@ -29,17 +29,17 @@ But before I could gain any of these insights, I needed to create a new dataset 
 
 <div class="row p" style="padding-bottom: 20px">
   <div class="col-xs-6">
-    <img src="/img/Blog/GISprntscrn.png">
+    <img src="/img/blog/GISprntscrn.png">
   </div>
   <div class="col-xs-6">
-    <img src="/img/Blog/GEprntscrn.png">
+    <img src="/img/blog/GEprntscrn.png">
   </div>
 </div>
 
 
 What I discovered was that in many instances the Census Small Area Layer boundaries matched exactly the boundaries of these clusters of shiny tin roofs on the satellite images, which tells me that the census sampling took them into account.  In the below image the blue line indicates the boundary of a Small Area Layer polygon which matches a portion of the settlement know as “Los Angeles” neatly:
 
-<img src="/img/Blog/exSALmatch.png">
+<img src="/img/blog/exSALmatch.png">
 
 There were also many instances where the boundaries of the informal settlements had no correlation at all with the Census boundaries, as can be seen in the above image - the portion of Los Angeles to the North West has no SAL polygon containing it. Did these settlements exist at the time of the survey and were simply not counted? Or alternatively, are they new settlements that have mushroomed since the survey was conducted?
 
