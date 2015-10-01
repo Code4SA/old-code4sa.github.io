@@ -37,7 +37,7 @@ But before I could gain any of these insights, I needed to create a new dataset 
 </div>
 
 
-What I discovered was that in many instances the Census Small Area Layer boundaries matched exactly the boundaries of these clusters of shiny tin roofs on the satellite images, which tells me that the census sampling took them into account.  In the below image the blue line indicates the boundary of a Small Area Layer polygon which matches a portion of the settlement know as “Los Angeles” neatly:
+What I discovered was that in many instances the Census Small Area Layer boundaries matched exactly the boundaries of these clusters of shiny tin roofs on the satellite images, which tells me that the census sampling took them into account.  In the below image the blue line indicates the boundary of a Small Area Layer polygon which matches a portion of the settlement known as “Los Angeles” neatly:
 
 <img src="/img/blog/exSALmatch.png">
 
@@ -46,3 +46,5 @@ There were also many instances where the boundaries of the informal settlements 
 The joy of having one's hands on accurate geographic data like this is that you can start to find these interesting questions, and begin to pursue the answers.  But it’s always the data that  kick starts this process.  Without the data, in an accessible format, without the time dedicated to cleaning and ensuring accuracy, and without the tools like Google Earth which enable the entire process, we wouldn’t even know which questions to ask.
 
 The [data](https://data.code4sa.org/dataset/Informal-Settlements-CTn-Detailed/fnr6-38xe) is available in Excel format on [Code for South Africa’s open data portal](https://data.code4sa.org/), along with some demographics, counts of available toilet facilities per settlement, travel distances and drive times to the Cape Town CBD.  A cautionary note on using the demographics - there is a detailed metadata document available in pdf that is attached to the dataset on the portal.  Please refer to it, and ensure that you understand how to use the data.  The assigned demographics can and do, only describe the portion of the areas that were represented on the Census survey.  
+
+The dataset consists of 326 informal settlements in the greater Cape Town metropole.  The Census Survey in 2011 counted a total population of 581,854 human beings living in 197,907 households with an average of 3 people per household in these areas, 18% of which show a predominant age group of under 10 years.
