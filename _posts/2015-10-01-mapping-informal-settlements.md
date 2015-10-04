@@ -4,7 +4,7 @@ title: Mapping Toilets in Informal Settlements
 date: 2015-10-01
 excerpt: |
     Getting your hands on a tasty dataset is great, but unless that dataset is in a useable format, acquisition of it is only the beginning. This is our experience of mapping toilets in informal settlements in Cape Town.
-image: /img/blog/exSALmatch.png
+image: http://code4sa.org/img/blog/exSALmatch.png
 ---
 
 # Mapping Toilets in Informal Settlements
