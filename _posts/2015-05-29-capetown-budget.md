@@ -4,6 +4,7 @@ title: Mapping Cape Town's budget
 date: 2015-05-29
 excerpt: |
   A new website from social activist organisations Ndifuna Nkwazi, the Social Justice Coalition and International Budget Partnership, which uses modern data journalism techniques, is helping make the Cape Town budget both accessible and interesting.
+image: http://capetownbudgetproject.org.za/wp/wp-content/uploads/2015/04/nu_LOGO.png
 ---
 
 # Mapping Cape Town’s budget

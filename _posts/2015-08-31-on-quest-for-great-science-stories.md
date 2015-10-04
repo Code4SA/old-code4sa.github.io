@@ -4,6 +4,7 @@ title: SciBraai Data Quest!
 date: 2015-08-31
 excerpt: |
     Data questing for great science stories
+image: http://code4sa.org/img/SciBraai/SciBraai1.jpeg
 ---
 
 # On a quest for great science stories

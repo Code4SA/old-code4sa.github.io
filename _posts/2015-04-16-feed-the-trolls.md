@@ -4,6 +4,7 @@ title: Why you should feed the trolls
 date: 2015-04-16
 excerpt: |
     "Don't feed the trolls" is part of the Internet folklore, passed down from father to son, mother to daughter. I would like to challenge that idea and explain why sometimes you need to engage with the trolls.
+image: http://img15.deviantart.net/32b2/i/2004/111/0/e/don__t_feed_the_troll.jpg
 ---
 
 # Why you should feed the trolls

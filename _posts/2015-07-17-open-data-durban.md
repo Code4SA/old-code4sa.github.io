@@ -4,6 +4,7 @@ title: Open Data Durban!
 date: 2015-07-17
 excerpt: |
     Open Data Durban, founded by Richard Gevers (@richardgevers) is up and running. Whoop Whoop!
+image: http://code4sa.org/img/opendatadurban.png
 ---
 
 # Open Data Durban (but please don't call them odd)
