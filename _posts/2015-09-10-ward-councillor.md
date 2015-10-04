@@ -4,6 +4,7 @@ title: Who's Your Ward Councillor?
 date: 2015-09-10
 excerpt: |
     Announcing a new tool to get in touch with your ward councillor.
+image: http://code4sa.org/img/ward-cllr-form.png
 ---
 
 # Who's Your Ward Councillor?
