@@ -25,11 +25,11 @@ This is a step-by-step description of the process we followed. Hopefully sharing
 
 Using the tool [Wazimap](http://www.wazimap.co.za), we came across the data we wanted: [households divided by head-gender, district and by income](http://wazimap.co.za/data/distribution/?table=ANNUALHOUSEHOLDINCOME_GENDEROFHOUSEHOLDHEAD&geo_ids=municipality%7Ccountry-ZA&primary_geo_id=country-ZA). As with life, things are never that straightforward and when we downloaded it, the format was not exactly what we needed. Time to put some trusty OpenRefine skills to work.
 
-<img src="/img/blog/REFINE_1.jpg">
+<a href="http://code4sa.org/img/blog/REFINE_1.jpg" target="_blank"><img src="/img/blog/REFINE_1.jpg"></a>
 _This is what we received. Note that every branch of income has three different columns;  overall total, total male and total female samples._
 
 
-<img src="/img/blog/REFINE_2.jpg">
+<a href="http://code4sa.org/img/blog/REFINE_2.jpg" target="_blank"><img src="/img/blog/REFINE_2.jpg"></a>
 
 _In less than 10 minutes, we had our final format._
 
@@ -37,67 +37,67 @@ _In less than 10 minutes, we had our final format._
 
 1. Upload the Excel document to Open Refine and transpose the cells so the listed column categories become rows. 
 	
-	<img src="/img/blog/REFINE_3.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_3.jpg" target="_blank"><img src="/img/blog/REFINE_3.jpg"></a>
 	
 	In the next window, name the two new two columns, choose the option “fill down” and then click transpose. 
 	
 	(If you have columns with blank spaces in the dataset you will have to do this process manually. To do this click on the arrow to view the dropdown on the column you want to transpose. Select “edit cells” and “fill down”. Tip: If you have blank spaces it is better to edit it with a value - like “null” - before you do upload it to OpenRefine)
 	
-	<img src="/img/blog/REFINE_4.jpg">	
+	<a href="http://code4sa.org/img/blog/REFINE_4.jpg" target="_blank"><img src="/img/blog/REFINE_4.jpg"></a>
 	
 	Your data will now look like this:
 	
-	<img src="/img/blog/REFINE_5.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_5.jpg" target="_blank"><img src="/img/blog/REFINE_5.jpg"></a>
 	
 2. Next, create a column named “gender” using category as the base.
 
-	<img src="/img/blog/REFINE_6.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_6.jpg" target="_blank"><img src="/img/blog/REFINE_6.jpg"></a>
 
 	Now in a new window you will have access to Google Refine Expression Language. This will give you multiple opportunities to analyse the data (You’ll find all you need to know [here](https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language).)
 
 	Similar to Excel, you will use the formula “if”. If the cell contains Female, output Female. If it contains Male, output Male. Otherwise, set the value as null.  You will see the result in the right column.	
 
-	<img src="/img/blog/REFINE_7.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_7.jpg" target="_blank"><img src="/img/blog/REFINE_7.jpg"></a>
 
 	Now click OK and you will get:
 
-	<img src="/img/blog/REFINE_8.jpg">	
+	<a href="http://code4sa.org/img/blog/REFINE_8.jpg" target="_blank"><img src="/img/blog/REFINE_8.jpg"></a>
 
 3. You now have a column named “gender”. In order to analyse it, we no longer need the “total” since is just summarises both values. You can also cluster all the values and remove any “female” or “male”:
 
-	<img src="/img/blog/REFINE_9.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_9.jpg" target="_blank"><img src="/img/blog/REFINE_9.jpg"></a>
 
-	<img src="/img/blog/REFINE_10.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_10.jpg" target="_blank"><img src="/img/blog/REFINE_10.jpg"></a>
 
 	If something “escapes” - is hidden or still not correct - filter it out  and delete it:
 
-	<img src="/img/blog/REFINE_11.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_11.jpg" target="_blank"><img src="/img/blog/REFINE_11.jpg"></a>
 
 	Hovering over the cell you will find an “edit” function:
 
-	<img src="/img/blog/REFINE_12.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_12.jpg" target="_blank"><img src="/img/blog/REFINE_12.jpg"></a>
 
 4. Now we can use the “facet” function and try to find all the blank rows in the gender columns (remember that in this case blank rows means it is neither assigned to male nor female, but is a total)
 
 	Now press the arrow again and choose “facet” and then choose the customised option “facet by blanks”. 
 
-	<img src="/img/blog/REFINE_13.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_13.jpg" target="_blank"><img src="/img/blog/REFINE_13.jpg"></a>
 
 	You will see a new window in the left hand with all the cells that match the criteria of blank (true), and those that don’t (false). Select true to see them all. 
 
-	<img src="/img/blog/REFINE_14.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_14.jpg" target="_blank"><img src="/img/blog/REFINE_14.jpg"></a>
 
 5. For the final step, press the arrow sign in the column “All”, go to edit rows and remove all the rows that match your criteria:
 
-	<img src="/img/blog/REFINE_15.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_15.jpg" target="_blank"><img src="/img/blog/REFINE_15.jpg"></a>
 
 	Now close the “facet” and the cleaned up data will be ready to export and analyse:
 
-	<img src="/img/blog/REFINE_16.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_16.jpg" target="_blank"><img src="/img/blog/REFINE_16.jpg"></a>
 
 	The final result ready to export to excel. 
 
-	<img src="/img/blog/REFINE_17.jpg">
+	<a href="http://code4sa.org/img/blog/REFINE_17.jpg" target="_blank"><img src="/img/blog/REFINE_17.jpg"></a>
 
 If you read this and know of an even easier way to do this, we would love to hear from you.
 	
