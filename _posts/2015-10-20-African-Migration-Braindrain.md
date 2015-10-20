@@ -4,7 +4,7 @@ title: Africa Migration and Brain Drain (how I navigated a data nightmare)
 date: 2015-10-20
 excerpt: |
      How did a seemingly simple question about mapping African migration lead me to some dark places and how I navigated my way out of there.
-image: http://code4sa.org/img/blog/plenary.jpg
+image: http://code4sa.org/img/blog/MIGRATION_11.jpg
 ---
 
 # Africa Migration and Brain Drain (how I navigated a data nightmare)
