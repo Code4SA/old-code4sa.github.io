@@ -1,7 +1,7 @@
 ---
 layout: post
 title: National Data Liberation
-date: 2015-10-28
+date: 2015-11-03
 excerpt: |
    What happens when 3 cities and a couple of hundred citizens get together to liberate their country's data.
 image: http://code4sa.org/img/blog/ogp-hackathon_fb-banner_v1.1.png
@@ -9,7 +9,7 @@ image: http://code4sa.org/img/blog/ogp-hackathon_fb-banner_v1.1.png
 
 # National Data Liberation
 
-## 28 October 2015
+## 03 November 2015
 ## By Jennifer Walker
 [@nefiger](https://twitter.com/nefiger)
 
@@ -61,7 +61,9 @@ We saw many teams keeping it topical by digging into the cost of education, the 
   </div>
 </div>
 
-An incredible thank you to all participants, organisers and sponsors - without you, this could never have happened. Even though these events weren't really about winners and prizes, there were ultimately a few teams who stood out above the rest. Special mention to the CT teams, #DataHasFallen and #FeesHaveFallen for being recognised as the winning teams for the day. PTA winners were the Ddevels and DBN recognised #NowTrending, The Wizards and Team Coega for their outstanding visualisation, analysis and story, respectively.
+An incredible thank you to all participants, organisers and sponsors - without you, this could never have happened. 
+
+Even though the events weren't really about winners and prizes, there were a few teams who stood out above the rest. In CT, the #DataHasFallen and #FeesHaveFallen teams, in PTA the Ddevels and in DBN The Wizards, #NowTrending and Team Coega for their outstanding visualisation, story and analysis, respectively.
 
 Over the next month or so, we will be working with the winning teams to flesh out their stories and develop their angles and visualisations some more.
 
