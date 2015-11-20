@@ -5,6 +5,7 @@
 
 body {
   font-size: 15px;
+  background-color: white;
 }
 
 .navbar {
@@ -53,8 +54,6 @@ a.thumbnail {
 
 .content {
   min-height: 600px;
-  // Temp fix:
-  background-color: #fff;
   padding-bottom: 40px;
 }
 
