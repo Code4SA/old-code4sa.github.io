@@ -16,6 +16,14 @@ body {
   text-transform: uppercase;
 }
 
+.page article > header.jumbotron {
+  padding-top: 68px;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
 article > header {
   padding: 40px 0px;
   margin-bottom: 20px;
