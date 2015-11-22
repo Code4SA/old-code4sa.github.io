@@ -103,6 +103,15 @@ h1, h2 {
     max-width: 100%;
   }
 
+  .author-details {
+    position: absolute;
+    margin-left: 650px;
+
+    img {
+      max-width: 150px;
+    }
+  }
+
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     .post-content {
@@ -184,24 +193,24 @@ h1, h2 {
 }
 
 .ch-img-adi {
-	background-image: url(../img/team_adi.jpg);
+	background-image: url(../img/team_adi.png);
 }
 
 .ch-img-gabriella {
-	background-image: url(../img/team_gabriella.jpg);
+	background-image: url(../img/team_gabriella.png);
 }
 
 .ch-img-petrus {
-	background-image: url(../img/team_petrus.jpg);
+	background-image: url(../img/team_petrus.png);
 }
 
 .ch-img-jason {
-	background-image: url(../img/team_jason.jpg);
+	background-image: url(../img/team_jason.png);
 }
 
 
 .ch-img-osman {
-	background-image: url(../img/team_osman.jpg);
+	background-image: url(../img/team_osman.png);
 	background-position: right top;
 }
 
@@ -210,15 +219,15 @@ h1, h2 {
 }
 
 .ch-img-hannah {
-	background-image: url(../img/team_hannah.jpg);
+	background-image: url(../img/team_hannah.png);
 }
 
 .ch-img-jen {
-  background-image: url(../img/team_jen.png);
+  background-image: url(../img/team_jennifer.png);
 }
 
 .ch-img-damian {
-  background-image: url(../img/team_damian.jpg);
+  background-image: url(../img/team_damian.png);
 }
 
 .ch-img-daniela {
@@ -226,15 +235,15 @@ h1, h2 {
 }
 
 .ch-img-siya {
-	background-image: url(../img/team_siya.jpg);
+	background-image: url(../img/team_siyabonga.png);
 }
 
 .ch-img-ray {
-	background-image: url(../img/team_ray.jpg);
+	background-image: url(../img/team_raymond.png);
 }
 
 .ch-img-khutjo {
-	background-image: url(../img/team_khutjo.jpg);
+	background-image: url(../img/team_khutjo.png);
 }
 
 .ch-img-katherine {
