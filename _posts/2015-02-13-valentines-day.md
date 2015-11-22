@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Valentine's Day Edition - Love knows no age
+author: Adi Eyal
 excerpt: |
     They say that love knows no age. Does the data agree? Have a look at a weird cross-section of our society as seen through the 2012, civil marriages dataset. 
  
@@ -14,14 +15,7 @@ extra_style: |
     #chart {
         max-height: 700px;
     }
-
 ---
-
-# Valentine's Day Edition - Love knows no age
-
-## Cape Town, 13 February 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 You often learn a lot about people by looking at data. According to StatsSA in the most recent dataset of marriages and divorces, there were roughly 161,000 civil marriages in 2012. A quick histogram of the wedding month shows that December is the most popular month for getting married. No-one wants to get married in winter.
 

@@ -2,18 +2,13 @@
 layout: post
 title: Mapping Cape Town's budget
 date: 2015-05-29
+author: Jason Norwood-Young
 excerpt: |
   A new website from social activist organisations Ndifuna Nkwazi, the Social Justice Coalition and International Budget Partnership, which uses modern data journalism techniques, is helping make the Cape Town budget both accessible and interesting.
 image: http://capetownbudgetproject.org.za/wp/wp-content/uploads/2015/04/nu_LOGO.png
 ---
 
-# Mapping Cape Town’s budget
-
-## Cape Town, 29 May 2015
-## By Jason Norwood-Young
-[@j\_norwood\_young](https://twitter.com/j_norwood_young)
-
-# Press Release: Mapping Cape Town’s budget
+## Press Release: Mapping Cape Town’s budget
 
 Despite the Constitution of South Africa promoting community involvement in local government, community organisations have found the City of Cape Town’s budgets too complex and convoluted to understand, and the process of the community engaging with the City on the budget has been met with hostility.
 

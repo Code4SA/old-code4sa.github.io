@@ -2,16 +2,11 @@
 layout: post
 title: Why you should feed the trolls
 date: 2015-04-16
+author: Adi Eyal
 excerpt: |
     "Don't feed the trolls" is part of the Internet folklore, passed down from father to son, mother to daughter. I would like to challenge that idea and explain why sometimes you need to engage with the trolls.
 image: http://img15.deviantart.net/32b2/i/2004/111/0/e/don__t_feed_the_troll.jpg
 ---
-
-# Why you should feed the trolls
-
-## Cape Town, 16 April 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 Last week we launched our [Living Wage calculator](http://living-wage.co.za), a tool that helps you decide whether you are paying your domestic worker enough. You can read a blog post about it [here](/2015/04/08/pay-a-living-wage.html). In this short post, I would like to describe the response to the calculator and how I dealt with it. You can read the original article [here](www.fin24.com/Economy/Labour/News/Are-you-paying-your-domestic-worker-enough-20150330). Make sure you scroll down to the comments below.
 

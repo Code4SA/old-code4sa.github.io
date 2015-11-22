@@ -2,17 +2,12 @@
 layout: post
 title: The Indigo Legislation Platform
 date: 2015-03-03
+author: Greg Kempe
 excerpt: |
   Together with AfricanLII and funding from the Indigo Trust, we're building an
   open-source legislation consolidation and publishng platform. Our goal is to
   help them provide free access to online legislation in Africa.
 ---
-
-# The Indigo Legislation Platform
-
-## Cape Town, 3 March 2015
-## By Greg Kempe
-[@longhotsummer](https://twitter.com/longhotsummer)
 
 Together with [AfricanLII](http://africanlii.org) and funding from [the Indigo Trust](http://indigotrust.org.uk),
 we're building an open-source legislation consolidation and publishng platform. Our goal is to help them

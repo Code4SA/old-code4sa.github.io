@@ -2,15 +2,10 @@
 layout: post
 title: Learn how to find the story in the data
 date: 2015-07-23
+author: Raymond Joseph
 excerpt: |
     Data journalism is a hot buzzword among journalists in South Africa these days, yet very few journalists or newsrooms are actually practicing it. 
 ---
-
-# Learn how to find the story in the data
-
-## Cape Town, 23 July 2015
-## By Raymond Joseph
-[@rayjoe](https://twitter.com/rayjoe)
 
 Data journalism is a hot buzzword among journalists in South Africa these days, yet very few journalists or newsrooms are actually practicing it.
 And a big part of the problem is that journalists believe that they need to be tech ninjas to be a data journalist.

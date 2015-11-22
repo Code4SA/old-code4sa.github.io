@@ -2,16 +2,12 @@
 layout: post
 title: Opening up 17 years of Parliamentary monitoring
 date: 2015-03-31
+author: Greg Kempe
+image: /img/national-assembly.jpg
 excerpt: |
   Together with PMG.org.za we've made 17 years worth of Parliamentary monitoring information
   open and available through an API under a CC-BY 3.0 ZA license.
 ---
-
-# Opening up 17 years of Parliamentary monitoring
-
-## Cape Town, 31 March 2015
-## By Greg Kempe
-[@longhotsummer](https://twitter.com/longhotsummer)
 
 <img src="/img/national-assembly.jpg">
 
