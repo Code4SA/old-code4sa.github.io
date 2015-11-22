@@ -1,11 +1,11 @@
 ---
 layout: post
+author: Adi Eyal
+title: Department of Basic Education - why? why? why?
 excerpt: |
     In a time where "open" has become the new mantra of the socially conscious everywhere, the department of Basic Education is embracing "closed". Open data, open government, open access and open source all suggest freedom and democracy. The Department prefers closed data and closed source. 
 ---
 
-Department of Basic Education - why? why? why?
-==============================================
 In a time where "open" has become the new mantra of the socially conscious everywhere, the department of Basic Education is embracing "closed". Open data, open government, open access and open source all suggest freedom and democracy. The Department prefers closed data and closed source. 
 
 The annual survey of ordinary schools, a national study that collects information at a school level has been declared closed to the public. This study identifies a secondary school in Kwa-Zulu Natal where 46 scholars died from violence and homicide in 2011. In another school in the Eastern Cape, 78 scholars died of an unspecified illness. What are our kids dying of? It sounds like unreported out-breaks of war and the black plague are taking place in our schools. This information and more has been declared confidential and will not be released at a disaggregated level. 

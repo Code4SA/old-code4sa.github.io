@@ -1,5 +1,7 @@
 ---
 layout: post
+author: Adi Eyal
+title: IDP Hackathon Feedback
 excerpt: |
     Know your hood. Who are your neighbours. How do they vote? What do they earn and what are their houses worth? Learn more about the schools in your area. How do you contact your ward councillor and what are they spending their ward allocation budgets on? Many of us don't know although the data exists. Code for South Africa hosted a mini-hackathon last year with the Open Democracy Advice centre to explore just that.
 ---

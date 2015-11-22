@@ -1,11 +1,10 @@
 ---
 layout: post
+author: Adi Eyal
+title: Hackathons are not for hackers...
 excerpt: |
     Hackathons are not for hackers
 ---
-
-Hackathons are not for hackers ...
-==================================
 
 ... well not exclusively. The problem with hackathons is that they're extremely intimidating to people who can't code. That completely contradicts the aim of creating a popular open data movement. We need to be inclusive, not exclusive. We need to make the circle wider and physically force the developer from the centre of it. 
 

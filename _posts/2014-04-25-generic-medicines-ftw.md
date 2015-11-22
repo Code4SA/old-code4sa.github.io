@@ -1,13 +1,11 @@
 ---
 layout: post
+author: Adi Eyal
 title: Open Data FTW!
 excerpt: |
     Open Data for the win! How to save on your medicines bill using open data.
    
 ---
-
-Open Data for the win!
-==============================
 
 If you haven't seen it yet, take a peek at our [Medicine Prices App](http://mpr.code4sa.org). Few people know, but medicine prices are regulated in South Africa. The [Single-exit price mechanism](http://www.mpr.gov.za/) determines the maximum price that you should pay for a medicine at your local pharmacy. The problem is that the information is available in a [cumbersome](http://www.mpr.gov.za/PublishedDocuments.aspx#DocCatId=21) 40mb excel spreadsheet which contains the 17,000 registered medicines in South Africa. 
 

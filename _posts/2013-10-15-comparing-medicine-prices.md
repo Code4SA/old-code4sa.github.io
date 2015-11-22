@@ -1,11 +1,11 @@
 ---
 layout: post
+author: Adi Eyal
+title: How much should you be paying for your medicines?
 excerpt: |
    Did you know that medicine prices are regulated in South Africa? Most people don't. We've built an application that makes price comparisons between branded medicines and their generic equivalents easier.
 ---
 
-How much should you be paying for your medicines?
-=================================================
 Did you know that medicine prices are regulated in South Africa? It's actually quite difficult to find this information. You need to go to [www.mpr.gov.za](http://www.mpr.gov.za) and download the latest single exit price database. Then you need to open up a very large spreadsheet and search for your medicine. To find generics you need to search by ingredient and discard all those alternatives that have a different strength (200mg vs 400mg) and dosage form (e.g. table vs syrup). Once you've done that, you need to add pharmacist dispensing fees as well as VAT. The process is complex and well beyond the abilities of most people. We've simplified it and made this information available through a [simple mobile interface](http://mpr.code4sa.org). 
 
 **Using this application you can:**

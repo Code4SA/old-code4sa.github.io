@@ -5,14 +5,8 @@ date: 2015-11-03
 excerpt: |
    What happens when 3 cities and a couple of hundred citizens get together to liberate their country's data.
 image: http://code4sa.org/img/blog/ogp-hackathon_fb-banner_v1.1.png
+author: Jennifer Walker
 ---
-
-# National Data Liberation
-
-## 03 November 2015
-## By Jennifer Walker
-[@nefiger](https://twitter.com/nefiger)
-
 
 We sent out a call a few weeks back, appealling to data junkies, storytellers, vizualisation wizards and general active citizens to get involved in assisting to liberate our country's data. And they listened. 
 

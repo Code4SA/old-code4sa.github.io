@@ -1,14 +1,13 @@
 ---
 layout: post
+author: Adi Eyal
+title: Why our work matters
 excerpt: |
     Occasionally I wonder why our work matters. How does it make our lives easier and promote better engagement with government. I have a sad tale to tell about a garden that I planted which was subsequently destroyed by the council and how I plan to get to the bottom of it.
 ---
 
 **[Update 04 October 2015]**
 Finally, after quite some time, we developed a tool that helps users find their ward councillor. This replaces the old one mentioned in the blog below (which no longer works). You can find it [here](http://nearby.code4sa.org/councillor/). The ward councillor tool is pretty neat because you can embed it into your website and it also covers the entire country.
-
-Why our work matters
-====================
 
 Occasionally I wonder why our work matters. How does it make our lives easier and promote better engagement with government. I have a sad tale to tell about a garden that I planted which was subsequently destroyed by the council and how I plan to get to the bottom of it.
 
