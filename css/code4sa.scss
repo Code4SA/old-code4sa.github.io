@@ -130,6 +130,12 @@ h1, h2 {
   }
 }
 
+.social-buttons {
+  a {
+    text-decoration: none;
+  }
+}
+
 .contact-us-map {
   #map-canvas {
     width: 100%;
