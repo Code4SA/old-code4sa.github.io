@@ -1,15 +1,9 @@
 ---
 layout: post
-title: Transparency in Municipal Budgets
+title: Transparency in Municipal Budgets - or does PAIA work?
 excerpt: Code4SA School of Data Workshops in Cape Town and Johannesburg set four organisations on the path of open data
-date: 2014-11-11
+author: Katherine Eyal
 ---
-
-#Transparency in Municipal Budgets - or does PAIA work?
-
-##Cape Town, 11 November 2014##
-##By Katherine Eyal##
-[@katrkief](https://twitter.com/katrkief)
 
 I don’t know too much about open data, although if your husband is Adi Eyal, you tend to pick up a few things. I’m an Economist at the School of Economics at UCT – which means that while I’m very good at working with data, and being able to evaluate fairly well whether an impact can be considered a correlation, or a causal effect – I don’t know that much about transparency, accountability etc. 
 
