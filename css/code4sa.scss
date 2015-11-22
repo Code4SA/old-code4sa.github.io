@@ -24,36 +24,9 @@ body {
   }
 }
 
-article > header {
-  padding: 40px 0px;
-  margin-bottom: 20px;
-}
-
 article > section {
   padding-top: 30px;
   padding-bottom: 60px;
-}
-
-.wide-banner {
-  background-color: #444444;
-  color: white;
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  h1, h2, h3, h4 {
-    color: white;
-  }
-
-  a {
-    color: black;
-    text-decoration: underline;
-  }
-}
-
-.wide-banner-blue {
-  background-color: #75D2D7;
 }
 
 a.thumbnail {
