@@ -2,15 +2,11 @@
 layout: post
 title: Who's Your Ward Councillor?
 date: 2015-09-10
+author: Greg Kempe
 excerpt: |
     Announcing a new tool to get in touch with your ward councillor.
 image: http://code4sa.org/img/ward-cllr-form.png
 ---
-
-# Who's Your Ward Councillor?
-
-## Cape Town, 10 September 2015
-## By Greg Kempe
 
 <p>
 <a href="http://speakupmzansi.org.za/"><img src="http://nearby.code4sa.org/static/images/speakup-logo.png" style="height: 50px; float: left"></a>

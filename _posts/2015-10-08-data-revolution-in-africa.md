@@ -2,17 +2,11 @@
 layout: post
 title: The Data Revolution in Africa
 date: 2015-10-08
+author: Julia Renouprez
 excerpt: |
     School of Data at the Africa Open data Conference in Tanzania.
 image: http://code4sa.org/img/blog/plenary.jpg
 ---
-
-# The Data Revolution in Africa
-
-## Cape Town, 08 October 2015
-## By Julia Renouprez
-[@SI_Stellies](https://twitter.com/SI_Stellies)
-
 
 Last month I was fortunate enough to attend the [African Open Data Conference](http://www.africaopendata.net/) as a Fellow for the [School of Data](http://schoolofdata.org/), a global network of trainers, who provide data literacy skills training to public sector, non profit organisations, civil society organisations and data journalists to better understanding the data processing pipeline.  There is a wealth of open source tools for the scraping, cleaning and verification, and visualisation of data if one is only aware of them and how to use them.
 

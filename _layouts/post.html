@@ -1,19 +1,45 @@
 ---
-layout: new
+layout: page
 ---
 
 <div class="container">
-  <header>
+  <div class="slab-white">
     <h4><a href="/blog.html">← all blog posts</a></h4>
-  </header>
 
-  <article class="blog-post">
-    <div class="post-content">
-      {{ content }}
-    </div>
+    <article class="blog-post" data-title="{{ page.title }}">
+      <header>
+        <h1>{{ page.title }}</h1>
 
-    <footer class="comments">
-      {% include disqus.html %}
-    </footer>
-  </article>
+        <aside class="author-details hidden-xs hidden-sm">
+          {% for author in site.data.authors %}
+            {% if page.author == author.name %}
+              <p><img class="img-response img-circle" src="/img/team_{{ author.name|split:" "|first|downcase }}.png"></p>
+              <h5>{{ author.name }}</h5>
+              <h5><a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a></h5>
+            {% endif %}
+          {% endfor %}
+        </aside>
+
+        <h3>by {{ page.author }}</h2>
+        <h3>{{ page.date|date: "%-d %B %Y" }}</h2>
+
+        <ul class="list-inline social-buttons">
+          <li><a class="twitter-share" href="#" data-tweet="{{ page.title }}"><i class="fa fa-twitter"></i> Tweet</a></li>
+          <li><a class="fb-share" href="#"><i class="fa fa-facebook-square"></i> Share</a></li>
+        </ul>
+      </header>
+
+      <section>
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </section>
+
+      <hr>
+
+      <footer class="comments">
+        {% include disqus.html %}
+      </footer>
+    </article>
+  </div>
 </div>

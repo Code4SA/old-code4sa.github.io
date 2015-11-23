@@ -2,16 +2,10 @@
 layout: post
 title: Open Data Resources for South African Women
 date: 2015-09-23
+author: Julia Renouprez
 excerpt: |
     Developing Open Data Resources for South African Women
 ---
-
-# Open Data Resources for SA Women
-
-## Cape Town, 23 September 2015
-## By Julia Renouprez
-[@SI_Stellies](https://twitter.com/SI_Stellies)
-
 
 I once heard South Africa described as a country with a legacy of disrespect for women.  Without debating the validity of that, it is certainly true that we have a high incidence of abuse of women, and given poverty and education levels, how easy is it for South African women to find resources in a time of crisis? 
 

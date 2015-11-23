@@ -1,15 +1,9 @@
 ---
 layout: post
 title: Cape Town's open data policy. Time to celebrate?
+author: Adi Eyal
 excerpt: We've been waiting for this for a long time. Cape Town is the first government entity to embrace open data. It is time to rejoice? I don't think so.
-date: 2014-09-27
 ---
-
-#Cape Town's open data policy. Time to celebrate?#
-
-##Cape Town, 27 September 2014##
-##By Adi Eyal##
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 Finally, the City of Cape Town is the first government entity in South Africa to embrace open data by approving an open data policy. Code for South Africa has been participating in a working group providing advice to the City and the Government of the Western Cape on their policy efforts. After approximately a year of sitting around a table convened by MEC of Economic Opportunities Alan Winde and driven by then-Shadow Minister of Finance Tim Harris, the City's policy was approved by the mayor on Thursday (the province's policy is still being developed).
 

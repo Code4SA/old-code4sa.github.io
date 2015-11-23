@@ -1,14 +1,11 @@
 ---
 layout: post
 title: Launch of Open Contracting Standard
+author: Open Contracting Partnership
 excerpt: Standard launched to ensure transparency and efficiency in contracting 
 date: 2014-11-18
 ---
 
-#Launch of Open Contracting Standard
-
-##Costa Rica, 18 November 2014##
-##By the Open Contracting Partnership##
 [@opencontracting](https://twitter.com/opencontracting)
 
 Standard launched to ensure transparency and efficiency in contracting

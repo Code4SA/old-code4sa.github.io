@@ -1,49 +1,18 @@
 ---
 layout: post
-title: The Cape Town open data portal is here - here's a stab at using it.
+title: The Cape Town open data portal is here - here's a stab at using it
+author: Adi Eyal
 excerpt: |
     Despite being disappointed by the City of Cape Town's open data policy, I have been waiting in anticipation for the promised open data portal. It has finally arrived, but is it any good?
  
 date: 2015-01-29
-extra_js: |
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="/js/2015-01-29-city-of-capetown-tenders/CustomTooltip.js"></script>
-    <script src="/js/d3.v3.min.js"></script>
-    <script src="/js/2015-01-29-city-of-capetown-tenders/vis.js"></script>
-    <script type="text/javascript">
-
-    d3.csv("/data/tenders/tenders.csv", function(csv) {
-      chart = new BubbleChart(csv);
-      chart.start();
-      chart.display_by_department();
-
-      d3.selectAll("#view_selection a")
-        .on("click", function() {
-            var me = d3.select(this);
-            var view_type = me.attr("id");
-            chart.toggle_view(view_type);
-            d3.selectAll("#view_selection a").each(function() {
-              var me = d3.select(this);
-              if (me.classed("active")) {
-                me.classed("active", false)  
-              } else {
-                me.classed("active", true)  
-              }
-            })
-        });
-    });
-    </script>
-
-extra_style: |
-    <link rel="stylesheet" href="/css/2015-01-29-city-of-capetown-tenders/style.css">
+extra_stylesheets:
+  - /css/2015-01-29-city-of-capetown-tenders/style.css
+extra_js:
+  - /js/2015-01-29-city-of-capetown-tenders/CustomTooltip.js
+  - /js/d3.v3.min.js
+  - /js/2015-01-29-city-of-capetown-tenders/vis.js
 ---
-
-# Is Cape Town's new <a href="http://ctcs.capetown.gov.za/OpenDataPortal">open data portal</a> any good?
-
-## Cape Town, 29 January 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 <strong>Update:</strong> 4 February 2015
 
@@ -52,6 +21,7 @@ The response to this blog post has been very positive. However, I don't think th
 -----
 
 
+## Is Cape Town's new <a href="http://ctcs.capetown.gov.za/OpenDataPortal">open data portal</a> any good?
 
 Cape Town is the [first city in Africa](http://www.politicsweb.co.za/politicsweb/view/politicsweb/en/page71654?oid=923356&sn=Detail&pid=71616) to open up their data. Having played with it quite a bit, I have written down my initial thoughts.
 
@@ -123,3 +93,28 @@ Finally, I am not really impressed with the datasets in general. They have inclu
 In short, I think that the City's open data portal has a way to go. I get that they are trying to be conservative starting out. But they have given us so little that they might be dooming themselves to failure. Having said that, I don't want to be overly negative. All software systems have teething problems. Taking an iterative approach gives you time to learn about your users and what they want. Hopefully the City is forward looking on this and has plans to actually support and grow it. 
 
 We finally have an open data portal. The only way that it will improve is if users like you and me actually use it and bang on the City's door <a href="http://ctcs.capetown.gov.za/OpenDataPortal/SuggestDataset">requesting more datasets</a>. Hopefully, when the open data steering committee meets again in 3 months time, a whole lot of new, more useful data will be released.
+
+<script type="text/javascript">
+$(function() {
+    d3.csv("/data/tenders/tenders.csv", function(csv) {
+      chart = new BubbleChart(csv);
+      chart.start();
+      chart.display_by_department();
+
+      d3.selectAll("#view_selection a")
+        .on("click", function() {
+            var me = d3.select(this);
+            var view_type = me.attr("id");
+            chart.toggle_view(view_type);
+            d3.selectAll("#view_selection a").each(function() {
+              var me = d3.select(this);
+              if (me.classed("active")) {
+                me.classed("active", false)  
+              } else {
+                me.classed("active", true)  
+              }
+            })
+        });
+    });
+});
+</script>

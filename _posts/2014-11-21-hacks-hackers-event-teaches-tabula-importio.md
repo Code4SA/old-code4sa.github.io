@@ -2,14 +2,8 @@
 layout: post
 title: Scraping Data with import.io and Tabula
 excerpt: Hacks/Hackers event teaches journalists to scrape with Tabula and import.io
-date: 2014-11-21
+author: Siyabonga Africa
 ---
-
-#Scraping Data with import.io and Tabula
-
-##Johannesburg, 21 November 2014##
-##By Siyabonga Africa##
-[@siyafrica](https://twitter.com/siyafrica)
 
 If you have ever found yourself beginning a data journalism project and looking for the data that would power your narrative you’ve probably wondered where is this fabled "data". We live in a digital age where datasets are now hosted by on government and NGO websites. 
 

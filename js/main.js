@@ -1,17 +1,24 @@
-//Scroll To
-$(".scroll").click(function(event){		
-	event.preventDefault();
-	$("html,body").animate({scrollTop:$(this.hash).offset().top}, 400)
-});
+$(function() {
+  var url = window.location.toString();
 
-//Scroll Spy Refresh
-$('#navbar').scrollspy()
+  // social buttons
+  $('.fb-share').on('click', function(e) {
+    e.preventDefault();
 
-//Scroll To Top
-$(document).ready(function(){
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
+    window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url),
+                "share", "width=600, height=400, scrollbars=no");
+    ga('send', 'social', 'facebook', 'share', url);
+  });
+
+  $('.twitter-share').on('click', function(e) {
+    e.preventDefault();
+		var tweet = $(this).data('tweet') || '';
+
+    window.open("https://twitter.com/intent/tweet?" +
+                "text=" + encodeURIComponent(tweet) +
+                "&url=" + encodeURIComponent(url) +
+                "&via=" + encodeURIComponent('Code4SA'),
+                "share", "width=364, height=250, scrollbars=no");
+    ga('send', 'social', 'twitter', 'share', url);
+  });
 });

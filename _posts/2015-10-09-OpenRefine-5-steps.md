@@ -1,17 +1,12 @@
 ---
 layout: post
 title: Five steps in OpenRefine that can save hours of time
+author: Daniela Q. Lépiz
 date: 2015-10-09
 excerpt: |
      In the data journalism world, there are repetitive “cleaning and re-formatting” tasks. These are five steps you will probably need many times to get your data in a useful format before you can analyze it. 
 image: http://code4sa.org/img/blog/plenary.jpg
 ---
-
-# Five steps in OpenRefine that can save hours of time
-
-### Cape Town, 09 October 2015
-### By Daniela Q. Lépiz
-[@Dqlepiz](https://twitter.com/Dqlepiz)
 
 It is a frequent lament that governments and organisations tend to release information with the intention of it just being read and consumed without much thought of making the underlying data accessible for analysis. In order to actually use this data then, one first needs to ensure that it is in a useable format. In these cases, we often turn to [OpenRefine](http://openrefine.org/) to pull things into the format we need.
 

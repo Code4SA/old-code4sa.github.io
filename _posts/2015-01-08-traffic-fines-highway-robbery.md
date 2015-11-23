@@ -1,17 +1,11 @@
 ---
 layout: post
+author: Adi Eyal
 title: Are traffic fines highway robbery?
 excerpt: |
     Traffic accidents in South Africa are a serious cause for concern in South Africa. In 2009, traffic accidents accounted for 31.9 deaths per 100,000 people. Despite this, speed traps often seem to be engineered to trick drivers instead of aiming to reduce road deaths. I decided to investigate whether municipalities are cynically using fines as an excuse to raise revenue.
-  
 date: 2015-01-08
 ---
-
-# Are traffic fines highway robbery?
-
-## Cape Town, 08 January 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 <style>
     .roadmap {

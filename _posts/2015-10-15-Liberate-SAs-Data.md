@@ -2,16 +2,11 @@
 layout: post
 title: Liberate SA's Data
 date: 2015-10-15
+author: Raymond Joseph
 excerpt: |
      The open data movement in South Africa is on a roll and we need you to join us on October 24 for game-changing events in Durban, Pretoria and Cape Town. 
 image: http://code4sa.org/img/blog/ogp-hackathon_fb-banner_v1.1.png
 ---
-
-# Liberate SA's Data
-
-### Cape Town, 15 October 2015
-### By Raymond Joseph
-[@rayjoe](https://twitter.com/rayjoe)
 
 <a href="http://code4sa.org/img/blog/ogp-hackathon_fb-banner_v1.1.png" target="_blank"><img src="/img/blog/ogp-hackathon_fb-banner_v1.1.png"></a>
 

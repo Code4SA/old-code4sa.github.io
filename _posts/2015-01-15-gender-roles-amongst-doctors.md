@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Genders roles in different fields of medicine.
+author: Adi Eyal
+title: Genders roles in different fields of medicine
 excerpt: |
     Medicine is one of those fields that parents secretly (and sometimes not so secretly) wish for for their children. It's a respectable line of work. You'll never go hungry. And, it's merit based. In this day and age, gender should be completely irrelevant. But is it?
+extra_stylesheets:
+  - /css/c3.css
 style: |
     svg {
         background-color: white;
@@ -16,13 +19,6 @@ style: |
  
 date: 2015-01-15
 ---
-
-<link rel="stylesheet" href="{{ site.url }}/css/c3.css">
-# Gender roles in different fields of medicine.
-
-## Cape Town, 15 January 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 I've been playing with a new dataset over the last week. It's amazing what stories you can find in data which are completely unexpected. Last week I found some <a href="/2015/01/08/traffic-fines-highway-robbery.html">interesting revenue models</a> used by a handful of municipalities in the country using their statements of operating revenue and expenditure. This week I have been looking at the history of gender equality in the medical profession. 
 

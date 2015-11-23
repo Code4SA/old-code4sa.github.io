@@ -1,11 +1,10 @@
 ---
 layout: post
+author: Adi Eyal
+title: International Open Data Day
 excerpt: |
     February 22nd is <a href="http://opendataday.org">International Open Data Day</a>. Code for South Africa is hosting a data party. Come through and roll up your sleeves.
 ---
-
-International Open Data Day
-===========================
 
 Our first [Open Data Day](http://opendataday.org) event. We're hosting a speed data(ing) event (along with HacksHackers Cape Town and JHB) which will likely be the first in South Africa.
 

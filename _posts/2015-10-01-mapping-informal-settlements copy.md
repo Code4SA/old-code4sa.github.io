@@ -2,17 +2,11 @@
 layout: post
 title: Mapping Toilets in Informal Settlements
 date: 2015-10-01
+author: Julia Renouprez
 excerpt: |
     Getting your hands on a tasty dataset is great, but unless that dataset is in a useable format, acquisition of it is only the beginning. This is our experience of mapping toilets in informal settlements in Cape Town.
 image: http://code4sa.org/img/blog/exSALmatch.png
 ---
-
-# Mapping Toilets in Informal Settlements
-
-## Cape Town, 01 October 2015
-## By Julia Renouprez
-[@SI_Stellies](https://twitter.com/SI_Stellies)
-
 
 The [Promotion of Access to Information Act (PAIA)](http://www.dfa.gov.za/department/accessinfo_act.pdf) enacts the constitutional right of access to state information, and it was through such a PAIA request to the City of Cape Town that [Ndifuna Ukwazi](http://nu.org.za/), a Code for South Africa partner, received a “data dump” that contained a very interesting dataset.  It was a database of toilet facilities in informal settlements, and it was contained in a series of pdf documents.  Most exciting was the accurate xy-coordinates for every public toilet facility. Using these coordinates,we can pinpoint the location of Cape Town’s informal settlements.  The most depressing aspect of the data was that the files contained text that had been previously printed out, and then scanned in.  This makes it impossible to extract with traditional PDF scraping tools like [Tabula](http://tabula.technology/).
 

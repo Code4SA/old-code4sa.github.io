@@ -1,15 +1,9 @@
 ---
 layout: post
 title: Cheaper medicines - an unexpected user
+author: Adi Eyal
 excerpt: Sometimes you can't anticipate how your work is going to be used. Here is a story that really motivates me to continue doing what we do.
-date: 2014-09-22
 ---
-
-#Cheaper medicines - an unexpected user#
-
-##Cape Town, 22 September 2014##
-##By Adi Eyal##
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 > To Whom It May Concern,
 > 

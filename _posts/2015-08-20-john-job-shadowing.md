@@ -1,15 +1,11 @@
 ---
 layout: post
-title: My Job Shadowing Experience
+title: My Job Shadowing Experience at Code for SA
 date: 2015-08-20
+author: John Claude and Greg Kempe
 excerpt: |
     High school student John Claude spent a week shadowing us, here's what he said.
 ---
-
-# My Job Shadowing Experience at Code for SA
-
-## Cape Town, 20 August 2015
-## By John Claude and Greg Kempe
 
 In July we hosted a young, highly motivated high school student as a job shadower. John Claude has a keen interest in programming and his time with us made it possible to add faceting to the search on [OpenBylaws.org.za](http://openbylaws.org.za/search.html). Thanks for joining us, John!
 
@@ -34,4 +30,4 @@ Absolutely! I really loved the fact that I was given the opportunity to first ta
 ### Other notes
 
 I also liked the fact that this organisation is very different from other software companies out there in that they work on applications that deal with open data which I personally think that it helps to get much needed and important information to the public in a way that is for them to understand and use. The [Open Bylaws website](http://openbylaws.org.za) is a good example of that.
-This was a wonderful experience that far exceeded my expectations and one which I will treasure. My thanks go out to Damian, Greg and everyone at code for SA.
+This was a wonderful experience that far exceeded my expectations and one which I will treasure. My thanks go out to Damian, Greg and everyone at code for SA1G

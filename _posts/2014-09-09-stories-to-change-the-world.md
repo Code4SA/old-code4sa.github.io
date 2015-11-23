@@ -2,16 +2,11 @@
 layout: post
 title: Stories to change the world
 excerpt: Stories define and grow a culture, what if we can harness that power and use them to change the world?
-date: 2014-09-09
+author: Jennifer Walker
 ---
 
-#Stories to Change the World#
-
-##Cape Town, 09 September 2014##
-##By Jennifer Walker##
-[@nefiger](https://twitter.com/nefiger)
-
-*Care to hear a story?*
+Care to hear a story?
+---------------------
 
 I've been having a conversation with myself (and a few others, admittedly) about the power of stories. Given that stories are often big culture influencers, I want to understand whether stories can be used as a tool to help direct and lead millennials, specifically in a work environment. That was my initial thought. As stories do, this one has evolved along the way.
 

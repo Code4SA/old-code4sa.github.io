@@ -1,11 +1,10 @@
 ---
 layout: post
+title: Stress testing the system
+author: Adi Eyal
 excerpt: |
     "Your data or your life" or "Please please please, I beg of you". How to ask for data from government?
 ---
-
-Stress testing the system
-=========================
 
 I'm currenty on a working group developing open data policies for the Western Cape Government and the City of Cape Town. I have been challenging the top-down approach of developing a policy, turning it into law and unleashing it on the world. I am advocating for a test-driven approach which iteratively tests policies in restricted environments in order to evaluate the implication of policy design.  The group agreed to let me test this approach out (possibly just to shut me up) by making initial requests for data and reporting with case studies identifying whether data is available what my experiences have been trying to access it.
 

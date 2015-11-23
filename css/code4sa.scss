@@ -5,6 +5,7 @@
 
 body {
   font-size: 15px;
+  background-color: white;
 }
 
 .navbar {
@@ -15,36 +16,17 @@ body {
   text-transform: uppercase;
 }
 
-article > header {
-  padding: 40px 0px;
-  margin-bottom: 20px;
+.page article > header.jumbotron {
+  padding-top: 68px;
+
+  p {
+    margin-bottom: 0px;
+  }
 }
 
 article > section {
   padding-top: 30px;
   padding-bottom: 60px;
-}
-
-.wide-banner {
-  background-color: #444444;
-  color: white;
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  h1, h2, h3, h4 {
-    color: white;
-  }
-
-  a {
-    color: black;
-    text-decoration: underline;
-  }
-}
-
-.wide-banner-blue {
-  background-color: #75D2D7;
 }
 
 a.thumbnail {
@@ -53,23 +35,11 @@ a.thumbnail {
 
 .content {
   min-height: 600px;
-  // Temp fix:
-  background-color: #fff;
   padding-bottom: 40px;
 }
 
 h1, h2 {
   margin-bottom: 20px;
-}
-
-.jumbotron {
-  background-color: #444444;
-  text-shadow: none;
-  padding: 50px;
-
-  img {
-    margin-top: 20px;
-  }
 }
 
 .blog-excerpts {
@@ -123,25 +93,23 @@ h1, h2 {
   }
 }
 
-.get-involved {
-  background-color: #232527;
-  color: #fff;
-
-  h2, h3, h4 {
-    color: #fff;
-  }
-
-}
-
 .blog-post {
 
   h1 {
     text-transform: uppercase;
-    text-align: center;
   }
 
   img {
     max-width: 100%;
+  }
+
+  .author-details {
+    position: absolute;
+    margin-left: 650px;
+
+    img {
+      max-width: 150px;
+    }
   }
 
   /* Medium devices (desktops, 992px and up) */
@@ -159,6 +127,12 @@ h1, h2 {
     footer {
       max-width: 600px;
     }
+  }
+}
+
+.social-buttons {
+  a {
+    text-decoration: none;
   }
 }
 
@@ -225,24 +199,24 @@ h1, h2 {
 }
 
 .ch-img-adi {
-	background-image: url(../img/team_adi.jpg);
+	background-image: url(../img/team_adi.png);
 }
 
 .ch-img-gabriella {
-	background-image: url(../img/team_gabriella.jpg);
+	background-image: url(../img/team_gabriella.png);
 }
 
 .ch-img-petrus {
-	background-image: url(../img/team_petrus.jpg);
+	background-image: url(../img/team_petrus.png);
 }
 
 .ch-img-jason {
-	background-image: url(../img/team_jason.jpg);
+	background-image: url(../img/team_jason.png);
 }
 
 
 .ch-img-osman {
-	background-image: url(../img/team_osman.jpg);
+	background-image: url(../img/team_osman.png);
 	background-position: right top;
 }
 
@@ -251,15 +225,15 @@ h1, h2 {
 }
 
 .ch-img-hannah {
-	background-image: url(../img/team_hannah.jpg);
+	background-image: url(../img/team_hannah.png);
 }
 
 .ch-img-jen {
-  background-image: url(../img/team_jen.png);
+  background-image: url(../img/team_jennifer.png);
 }
 
 .ch-img-damian {
-  background-image: url(../img/team_damian.jpg);
+  background-image: url(../img/team_damian.png);
 }
 
 .ch-img-daniela {
@@ -267,15 +241,15 @@ h1, h2 {
 }
 
 .ch-img-siya {
-	background-image: url(../img/team_siya.jpg);
+	background-image: url(../img/team_siyabonga.png);
 }
 
 .ch-img-ray {
-	background-image: url(../img/team_ray.jpg);
+	background-image: url(../img/team_raymond.png);
 }
 
 .ch-img-khutjo {
-	background-image: url(../img/team_khutjo.jpg);
+	background-image: url(../img/team_khutjo.png);
 }
 
 .ch-img-katherine {

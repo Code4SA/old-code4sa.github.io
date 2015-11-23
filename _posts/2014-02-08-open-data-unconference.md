@@ -1,11 +1,10 @@
 ---
 layout: post
+author: Adi Eyal
+title: South African Open Data Unconference
 excerpt: |
     The time is ripe to scale up the open data movement in South Africa. Let's meet up and find out how.
 ---
-
-South African Open Data Unconference
-====================================
 
 18 months have passed since the Coding for Democracy hackathon, the first open data event in SouthAfrica. Since then, a community has slowly grown. Various groups such as HacksHackers, Open Data and Democracy Initiative (now defunct) and the Cape Town Chapter of the Open Knowledge Foundation. 
 

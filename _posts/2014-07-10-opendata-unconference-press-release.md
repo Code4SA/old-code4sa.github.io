@@ -1,15 +1,13 @@
 ---
 layout: post
+author: Adi Eyal
+title: Government commits to global open data movement
 excerpt: |
     Over 90 of South Africa’s open data experts from government, civic organisations and private enterprise met at the #OpenDataNow Unconference in Cape Town last week to take the first steps in creating an open data society.
    
 ---
 
-#Government commits to global open data movement#
 <iframe style="width:100%;height:360px" width="360" height="640" src="//www.youtube.com/embed/zFidGnw90yY?rel=0" frameborder="0" allowfullscreen></iframe>
-
-##ISSUED BY:	Code for South Africa##
-##DATE:		Cape Town, 10 July 2014##
 
 Over 90 of South Africa’s open data experts from government, civic organisations and private enterprise met at the #OpenDataNow Unconference in Cape Town last week to take the first steps in creating an open data society. Delegates promised, amongst other commitments, to build a government API catalogue and create a South African data visualization community for open data experiments.
 

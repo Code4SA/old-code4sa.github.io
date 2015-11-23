@@ -1,17 +1,12 @@
 ---
 layout: post
-title: Open Data Durban!
+title: Open Data Durban (but please don't call them odd)
+author: Adi Eyal
 date: 2015-07-17
 excerpt: |
     Open Data Durban, founded by Richard Gevers (@richardgevers) is up and running. Whoop Whoop!
 image: http://code4sa.org/img/opendatadurban.png
 ---
-
-# Open Data Durban (but please don't call them odd)
-
-## Cape Town, 17 July 2015
-## By Adi Eyal
-[@soapsudtycoon](https://twitter.com/soapsudtycoon)
 
 Open Data Durban is now up and running. I presented at their second meeting this Tuesday. The turnout was a great mix of programmers, government types, a cadre of economists and a motley crew of really interesting people. I would like to think that I was the drawcard but I suspect founder Richard Gever's ([@richardgevers](https://twitter.com/richardgevers)) supply of craft beer had something to do with it.
 
