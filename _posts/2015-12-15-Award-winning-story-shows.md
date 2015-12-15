@@ -4,9 +4,12 @@ title: Award-winning story shows impact, potential of data journalism tools
 date: 2015-12-15
 excerpt: |
    Sometimes the best story ideas come from a random discussion that sparks a light bulb moment.
-image: http://code4sa.org/img/blog/living-wage.png
+image: http://code4sa.org/img/blog/domworkersscreenshot.jpg
 author: Raymond Joseph
 ---
+
+
+<img src="/img/blog/domworkersscreenshot.jpg">
 
 Sometimes the best story ideas come from a random discussion that sparks a light bulb moment.
 
