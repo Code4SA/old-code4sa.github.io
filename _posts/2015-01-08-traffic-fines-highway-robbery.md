@@ -38,9 +38,7 @@ That's the national average. What happens when we only focus on national roads?
 
 The image below gives you an idea of what to expect when you drive on the N1 from Cape Town to Johannesburg:
 
-<center>
-    <div id="n1" class="roadmap"></div>
-</center>
+<div id="n1" class="roadmap"></div>
 
 Each bubble represents a municipality. The larger the bubble the more the municipality earns from fines relative to the national average. Bear in mind that large municipalities such as the Cities of Johannesburg and Cape Town earn a lot more from fines in rand terms. There are simply more motorists to fine. In order to compare apples with apples, I normalised in two ways:
 
@@ -55,13 +53,8 @@ So what is all the fuss about? Well, 49% of the municipality's revenue comes fro
 
 What about the other major routes? 
 
-<center>
-    <div id="n2" class="roadmap"></div>
-</center>
-
-<center>
-    <div id="n3" class="roadmap"></div>
-</center>
+<div id="n2" class="roadmap"></div>
+<div id="n3" class="roadmap"></div>
 
 I think that these images tell a pretty compelling tale. One thing to notice is that municipalities in the Western Cape seem to earn a lot more from fines than muncipalities in other provinces. Driving through the Eastern Cape and Free State seems to be relatively safe (from a fines point-of-view).
 
@@ -81,3 +74,20 @@ I don't have a real conclusion here. Hopefully these graphics, at the very least
 <strong>UPDATE: 9 Jan 2015</strong> - You can find the raw data <a href="/traffic-fines/times/documents/2015%20Q4.xlsx">here</a>.
 
 <script src="http://www.code4sa.org/traffic-fines/times/libs/fines.js"></script>
+
+
+## The technical stuff
+
+Feel free to embed any of these visualisations on your own site.
+
+Place any of these anywhere on the page.
+
+        <div id="n1" class="roadmap"></div>
+        <div id="n2" class="roadmap"></div>
+        <div id="n3" class="roadmap"></div>
+
+Place at the bottom of the page
+
+    <script src="http://www.code4sa.org/traffic-fines/times/libs/fines.js"></script>
+
+The embeds are responsive and will resize according to the screen size. They are especially suited to mobile viewing.
