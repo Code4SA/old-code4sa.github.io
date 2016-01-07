@@ -8,7 +8,7 @@ excerpt: |
 image: http://img15.deviantart.net/32b2/i/2004/111/0/e/don__t_feed_the_troll.jpg
 ---
 
-Last week we launched our [Living Wage calculator](http://living-wage.co.za), a tool that helps you decide whether you are paying your domestic worker enough. You can read a blog post about it [here](/2015/04/08/pay-a-living-wage.html). In this short post, I would like to describe the response to the calculator and how I dealt with it. You can read the original article [here](www.fin24.com/Economy/Labour/News/Are-you-paying-your-domestic-worker-enough-20150330). Make sure you scroll down to the comments below.
+Last week we launched our [Living Wage calculator](http://living-wage.co.za), a tool that helps you decide whether you are paying your domestic worker enough. You can read a blog post about it [here](/2015/04/08/pay-a-living-wage.html). In this short post, I would like to describe the response to the calculator and how I dealt with it. You can read the original article [here](http://www.fin24.com/Economy/Labour/News/Are-you-paying-your-domestic-worker-enough-20150330). Make sure you scroll down to the comments below.
 
 Internet folklore tells us that you should never read the comments on most news websites. They are generally written by a small subset of horrible nasty people who are often illiterate. This article was no exception. 200 hundred odd, mean, ill-informed, racist comments. Here are some examples:
 
@@ -28,7 +28,7 @@ Intelligent people avoid the comments or at least read them and are able to crit
 
 I tried to respond to nearly all of the very negative comments. It was hard work. I took a zen-like attitude and promised myself not to get angry or hurt or engage in any sort of unproductive conflict. My objective was to provide balance. To some extent, I think that I succeeded. I received many messages from people who benefited the discussions.
 
-Here is a short list of principles that I tried to follow when engaging with trolls, and I think you should to:
+Here is a short list of principles that I tried to follow when engaging with trolls, and I think you should too:
 
 1. Remember, you are in a public space, often using your real name. Be polite and courteous.
 2. Decide what your objective is and keep it in mind. What are your arguments? What are you trying to achieve?
