@@ -3,9 +3,9 @@ layout: post
 title: Valentine's Day Edition - Love knows no age
 author: Adi Eyal
 excerpt: |
-    They say that love knows no age. Does the data agree? Have a look at a weird cross-section of our society as seen through the 2012, civil marriages dataset. 
- 
-date: 2015-02-13
+    They say that love knows no age. Does the data agree? Have a look at a weird cross-section of our society as seen through the 2012/13 civil marriages datasets.
+
+date: 2015-02-13, updated 2016-01-27
 extra_js:
     - /js/d3.v3.min.js
     - /js/c3.min.js
@@ -17,26 +17,27 @@ extra_style: |
     }
 ---
 
-You often learn a lot about people by looking at data. According to StatsSA in the most recent dataset of marriages and divorces, there were roughly 161,000 civil marriages in 2012. A quick histogram of the wedding month shows that December is the most popular month for getting married. No-one wants to get married in winter.
+You often learn a lot about people by looking at data. Accordeing to StatsSA in the most recent dataset of marriages and divorces, there were roughly 161,000 civil marriages in 2012 and 158,642 in 2013.
+The number of marriages per month in both years are comparable. A quick look at the histogram of the wedding month below shows that December was by far the most popular month for getting married. Fewer couple choose to marry in winter.
 
 <h2>Marriages by Month</h2>
 <div id="chart" style="background-color: #fff"></div>
 
-Things start getting weird when you look at the age differences between marital partners. Have a look at the graph below. It maps all civil marriages from 2012. Every dot represents one or more marriages. As you move up the graph, the age of the bridegroom increases. As you move to the right, the age of the bride increases. 
+ Things start getting weird when you look at the age differences between marital partners. Have a look at the graph below. It maps all civil marriages from 2012. Every dot represents one or more marriages. As you move up the graph, the age of the bridegroom increases. As you move to the right, the age of the bride increases.
 
 <div id="graph"></div>
 
-It seems that the majority of all marriages are between people who are more or less the same age. There are however a significant number of marriages that don't fit that mould. 
+It seems that the majority of all marriages are between people who are more or less the same age. There are however a significant number of marriages that don't fit that mould.
 
-Let's define a sugar mommy or sugar daddy as someone who is married with a 20-year or more age difference between them and their Ben Ten/Sugar Baby. All the dots outside those diagonal lines in the graph represent sugar marriages. Note that there are far more sugar daddies than sugar mommies. In all, 3,400 sugar marriages. 
+Let's define a sugar mommy or sugar daddy as someone who is married with a 20-year or more age difference between them and their Ben Ten/Sugar Baby. All the dots outside those diagonal lines in the graph represent sugar marriages. Note that there are far more sugar daddies than sugar mommies. In all, 3,400 sugar marriages.
 
-There are some odd unions. Have a look at the dot on the bottom right. It represents a marriage between an 86 year-old woman and a 16 year-old boy. 
+There are some odd unions. Have a look at the dot on the bottom right. It represents a marriage between an 86 year-old woman and a 16 year-old boy.
 
 *Gobsmacked*
 
-There are also examples of very old men marrying younger women. 
+There are also examples of very old men marrying younger women.
 
-The most disturbing part of the diagram is on the far left. Girls younger than 16 are getting married. Two 12 year-olds were married off, one to a 20 year old man, another to a 67 year-old. Is this even legal? Turns out that it is. 
+The most disturbing part of the diagram is on the far left. Girls younger than 16 are getting married. Two 12 year-olds were married off, one to a 20 year old man, another to a 67 year-old. Is this even legal? Turns out that it is.
 
 According to the [Western Cape Government Website](http://www.westerncape.gov.za/service/getting-permission-marry-if-you-are-underage):
 
@@ -46,13 +47,13 @@ So it seems that if you haven't yet reached puberty and you want to get married,
 
 *shudder*
 
-The dot on the top right between the 92 year-old bride and 94 year-old groom is heartwarming. It's clear that you can still find your soulmate, even after 9 decades of searching. 
+The dot on the top right between the 92 year-old bride and 94 year-old groom is heartwarming. It's clear that you can still find your soulmate, even after 9 decades of searching.
 
 If you want to play around with the data yourself, you can find it [here](https://data.code4sa.org/Government/South-Africa-Civil-Marriages-2012/r4bb-fvka).
 
 ## The technical stuff
 
-Feel free to embed the marriage visualisation on your own site. Copy and paste the code below into your webpage. 
+Feel free to embed the marriage visualisation on your own site. Copy and paste the code below into your webpage.
 
     <div id="graph"></div>
     <script src="http://www.code4sa.org/js/pym.js"></script>
@@ -68,11 +69,12 @@ $(function() {
         x : 'Months',
         data: {
             columns: [
-                ['2012', 10866, 11351, 14359, 12941, 10928, 10466, 9850, 10689, 14272, 13491, 14761, 27138]
+                ['2012', 10866, 11351, 14359, 12941, 10928, 10466, 9850, 10689, 14272, 13491, 14761, 27138],
+                ['2013', 10106, 10360, 13873, 12805, 10905, 10218, 9776, 11183, 13455, 13507, 15735, 26719]
             ],
             type: 'bar'
         },
-        groups : ['2012'],
+        groups : ['2012', '2013'],
         axis: {
             x: {
                 type: 'category',
