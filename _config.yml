@@ -1,5 +1,4 @@
 name: Code4SA
-highlighter: pygments
 defaults:
   -
     scope:
