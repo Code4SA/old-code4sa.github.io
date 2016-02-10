@@ -1,5 +1,4 @@
 name: Code4SA
-markdown: redcarpet
 highlighter: pygments
 defaults:
   -
