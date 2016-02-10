@@ -7,3 +7,4 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: http://code4sa.org/img/logo-big.png
