@@ -13,7 +13,7 @@ layout: page
         <aside class="author-details hidden-xs hidden-sm">
           {% for author in site.data.authors %}
             {% if page.author == author.name %}
-              <p><img class="img-response img-circle" src="/img/team_{{ author.name|split:" "|first|downcase }}.png"></p>
+              <p><img class="img-response img-circle" src="/img/team_{{ author.name|split:" "|first|downcase }}.jpg"></p>
               <h5>{{ author.name }}</h5>
               <h5><a href="https://twitter.com/{{ author.twitter }}">{{ author.twitter }}</a></h5>
             {% endif %}
