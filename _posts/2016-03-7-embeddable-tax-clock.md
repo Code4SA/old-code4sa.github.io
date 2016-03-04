@@ -9,7 +9,9 @@ author: Lenina Rassool
 ---
 
 <div class="row">
-
+    <div class="col-md-8">
+         Alongside preparing the <a href="http://code4sa.org/2016/02/25/have-your-say-on-the-budget.html">Vote for the Budget</a> tool, we created the 2016 Tax Clock. This lets the user understand how the budget applies to their own hard-earned income. Feel free to use it on your own site or send your friends to the standalone <a href="http://code4sa.org/taxclock">Tax Clock</a>
+    </div>
 </div>
 <div class="row">
     <h2>Embed code</h2>
