@@ -5,26 +5,26 @@ date: 2016-03-07
 excerpt: |
   It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
 image: https://static.code4sa.org/taxclock/preview.jpg
-author: Lenina Rassool
+author: JD Bothma
 ---
 
-<div class="row">
-    <div class="col-md-8">
-         Alongside preparing the <a href="http://code4sa.org/2016/02/25/have-your-say-on-the-budget.html">Vote for the Budget</a> tool, we created the 2016 Tax Clock. This lets the user understand how the budget applies to their own hard-earned income. Feel free to embed it on your own site using the following code, or send your friends to the standalone <a href="http://code4sa.org/taxclock">2016 Tax Clock</a>
+<div class="">
+    <div class="">
+         <p>Alongside preparing the <a href="http://code4sa.org/2016/02/25/have-your-say-on-the-budget.html">Vote for the Budget</a> tool, we created the 2016 Tax Clock. This lets the user understand how the budget applies to their own hard-earned income. Feel free to embed it on your own site using the following code, or send your friends to the standalone <a href="http://code4sa.org/taxclock">2016 Tax Clock</a></p>
     </div>
 </div>
-<div class="row">
+<div class="">
     <h2>Embed code</h2>
-    <div class="col-md-8">
+    <div class="">
       Place this anywhere on the page where you want to embed the tax clock.
         <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
     </div>
 </div>
 <div class="row">
-    <h2>Story</h2>
-    <div class="col-md-8">
+    <div class="col-xs-12 col-md-6" style="">
+      <h2>Story</h2>
       <p>The following story accompanies the tax clock and can be published with it:</p>
-      <div class="story">
+      <div class="" style="border: 1px solid black; padding: 5px">
         <h1>Working for The Man - and for yourself</h1>
 
         <p><em>By Lenina Rassool</em></p>
@@ -41,10 +41,18 @@ author: Lenina Rassool
         <p>Follow <a href="https://twitter.com/code4sa">@code4sa</a> on Twitter</p>
       </div>
     </div>
-</div>
-<div class="row">
-  <h2>Example</h2>
-  <div class="col-md-8">
+  <div class="col-xs-12 col-md-6">
+    <h2>Example</h2>
     <script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
+  </div>
+  <div class="">
+    <div class="col-xs-12 col-md-12">
+      <h2>Social/Open Graph metadata</h2>
+      You can use the following metadata for stylish sharing on social networks and apps:
+      <pre>&lt;meta property=&quot;og:title&quot; content=&quot;The 2016 Tax Clock&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.&quot; /&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://static.code4sa.org/taxclock/preview.jpg&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://static.code4sa.org/taxclock/index.html?show-embed-link=true&quot; /&gt;</pre>
+    </div>
   </div>
 </div>
