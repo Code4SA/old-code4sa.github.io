@@ -47,12 +47,14 @@ author: JD Bothma
   </div>
   <div class="">
     <div class="col-xs-12 col-md-12">
-      <h2>Social/Open Graph metadata</h2>
+      <h2>Social/<a href="http://ogp.me/">Open Graph</a> metadata</h2>
       Web Developers! You can use the following metadata for stylish sharing on social networks and apps:
-      <pre>&lt;meta property=&quot;og:title&quot; content=&quot;The 2016 Tax Clock&quot; /&gt;
-        &lt;meta property=&quot;og:description&quot; content=&quot;It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.&quot; /&gt;
-        &lt;meta property=&quot;og:image&quot; content=&quot;https://static.code4sa.org/taxclock/preview.jpg&quot; /&gt;
-        &lt;meta property=&quot;og:url&quot; content=&quot;https://static.code4sa.org/taxclock/index.html?show-embed-link=true&quot; /&gt;</pre>
+      <pre>
+og:title       The 2016 Tax Clock
+og:description It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
+og:image       https://static.code4sa.org/taxclock/preview.jpg
+og:url         http://code4sa.org/taxclock/index.html?show-embed-link=true
+      </pre>
     </div>
   </div>
 </div>
