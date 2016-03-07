@@ -16,13 +16,14 @@ author: JD Bothma
 <div class="">
     <h2>Embed code</h2>
     <div class="">
-      Place this anywhere on the page where you want to embed the tax clock.
-        <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
+      <p>Place this HTML code anywhere on the page where you want to embed the tax clock.</p>
+      <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
+      <p>The embed is responsive and will resize according to the screen size. It's especially suited to mobile viewing.</p>
     </div>
 </div>
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <h2>Example</h2>
+    <h2>Embedded</h2>
     <script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
   </div>
   <div class="col-xs-12 col-md-6" style="">
