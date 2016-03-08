@@ -35,7 +35,7 @@ author: Lenina Rassool
 </div>
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <h2>Embedded</h2>
+    <h2>Try the tool</h2>
     <script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
   </div>
   <div class="col-xs-12 col-md-6">
