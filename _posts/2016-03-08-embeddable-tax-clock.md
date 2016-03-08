@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 2016 Tax Clock
+title: Embed our Tax Clock
 date: 2016-03-08
 excerpt: |
   It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
@@ -10,21 +10,28 @@ author: Lenina Rassool
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
+    <div style="position: relative">
+      <div style="position: absolute; right: 0px; padding: 5px">
+        <a href="#embed" style="color: #e6e6e6">&lt;EMBED&gt;</a>
+      </div>
+      <a href="http://code4sa.org/taxclock" target="_blank"><img src="https://static.code4sa.org/taxclock/preview.jpg" class="img-responsive"></a>
+      <br/>
+    </div>
+
     <p>For taxpayers, the most anticipated part of Pravin Gordhan’s 2016 Budget Speech was whether income tax would be increased or decreased – and by how much.
       But paying taxes is not just about you, it’s also about the contribution that you make to keep the country running.</p>
     <p>To help you understand how your taxes are spent, Code for South Africa developed a Tax Clock to show on a very personal level what your tax is being spent on.</p>
     <p>A free online tool, it shows users how much of their work day is spent working to pay tax and how much is spent working for themselves. </p>
     <p>The tool is intended to be educational - part of Code for South Africa’s mandate of promoting informed decision making to drive positive social change and support active citizenry. </p>
     <p>This tool is free to publish, along with the accompanying article included below. </p>
-    <p>You can embed this tool on your website or blog by copying and pasting the following embed code wherever you would like it on the page. If you can't embed, you can also link to <a href="http://code4sa.org/taxclock">the standalone tax clock</a>, e.g. using click-through image below.</p>
+    <p>You can embed this tool on your website or blog by copying and pasting the following embed code wherever you would like it on the page. If you can't embed, you can also link to <a href="http://code4sa.org/taxclock" target="_blank">the standalone tax clock</a>, e.g. using the image above. If you have any trouble, get in touch at <a href="mailto:info@code4sa.org">info@code4sa.org</a></p>
 
     <h2>Embed code</h2>
+    <a name="embed"></a>
     <p>Place this HTML code anywhere on the page where you want to embed the tax clock.</p>
     <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
     <p>The embed is responsive and will resize according to the screen size. It's especially suited to mobile viewing.</p>
 
-    <h2>Click-through image</h2>
-    <a href="http://code4sa.org/taxclock"><img src="https://static.code4sa.org/taxclock/preview.jpg" class="img-responsive"></a><br/>
   </div>
 </div>
 <div class="row">
