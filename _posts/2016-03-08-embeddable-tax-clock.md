@@ -54,7 +54,7 @@ author: Lenina Rassool
       <p><a href="https://twitter.com/SoapSudTycoon">Adi Eyal</a>, Director of <a href="http://code4sa.org/">Code for South Africa</a>, says the Tax Clock is an opportunity for people to engage with the budget through the money they earn - and the tax they pay.</p>
       <p>"When the budget comes out, people are usually only interested in how much they will be paying and if there are any rebates they can get. But they don't engage with what the budget is really about," he said.</p>
       <p>"The budget is a statement of intent by government that says what our priorities are, and what we are going to spend your money on.  So it's important for people to understand what they are working for. The Tax Clock will show them how they have contributed toward things like education or helped pay off national debt in a day."</p>
-      <p>The Tax Clock incorporates up-to-date personal tax details from <a href="http://www.treasury.gov.za/documents/national%20budget/2016/speech/speech.pdf">Finance Minister Pravin Gordham's   2016 Budget speech</a> delivered in Parliament on February 24.</p>
+      <p>The Tax Clock incorporates up-to-date personal tax details from <a href="http://www.treasury.gov.za/documents/national%20budget/2016/speech/speech.pdf">Finance Minister Pravin Gordhan's 2016 Budget speech</a> delivered in Parliament on February 24.</p>
       <p>Follow <a href="https://twitter.com/code4sa">@code4sa</a> on Twitter</p>
     </div>
   </div>
