@@ -26,8 +26,7 @@ author: Lenina Rassool
     <p>This tool is free to publish, along with the accompanying article included below. </p>
     <p>You can embed this tool on your website or blog by copying and pasting the following embed code wherever you would like it on the page. If you can't embed, you can also link to <a href="http://code4sa.org/taxclock" target="_blank">the standalone tax clock</a>, e.g. using the image above. If you have any trouble, get in touch at <a href="mailto:info@code4sa.org">info@code4sa.org</a></p>
 
-    <h2>Embed code</h2>
-    <a name="embed"></a>
+    <a name="embed"></a><h2>Embed code</h2>
     <p>Place this HTML code anywhere on the page where you want to embed the tax clock.</p>
     <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
     <p>The embed is responsive and will resize according to the screen size. It's especially suited to mobile viewing.</p>
