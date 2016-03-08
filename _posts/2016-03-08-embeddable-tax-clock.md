@@ -1,32 +1,38 @@
 ---
 layout: post
 title: The 2016 Tax Clock
-date: 2016-03-07
+date: 2016-03-08
 excerpt: |
   It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
 image: https://static.code4sa.org/taxclock/preview.jpg
-author: JD Bothma
+author: Lenina Rassool
 ---
 
-<div class="">
-    <div class="">
-         <p>Alongside preparing the <a href="http://code4sa.org/2016/02/25/have-your-say-on-the-budget.html">Vote for the Budget</a> tool, we created the 2016 Tax Clock. This lets the user understand how the budget applies to their own hard-earned income. Feel free to embed it on your own site using the following code, or send your friends to the standalone <a href="http://code4sa.org/taxclock">2016 Tax Clock</a></p>
-    </div>
-</div>
-<div class="">
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+    <p>For taxpayers, the most anticipated part of Pravin Gordhan’s 2016 Budget Speech was whether income tax would be increased or decreased – and by how much.
+      But paying taxes is not just about you, it’s also about the contribution that you make to keep the country running.</p>
+    <p>To help you understand how your taxes are spent, Code for South Africa developed a Tax Clock to show on a very personal level what your tax is being spent on.</p>
+    <p>A free online tool, it shows users how much of their work day is spent working to pay tax and how much is spent working for themselves. </p>
+    <p>The tool is intended to be educational - part of Code for South Africa’s mandate of promoting informed decision making to drive positive social change and support active citizenry. </p>
+    <p>This tool is free to publish, along with the accompanying article included below. </p>
+    <p>You can embed this tool on your website or blog by copying and pasting the following embed code wherever you would like it on the page. If you can't embed, you can also link to <a href="http://code4sa.org/taxclock">the standalone tax clock</a>, e.g. using click-through image below.</p>
+
     <h2>Embed code</h2>
-    <div class="">
-      <p>Place this HTML code anywhere on the page where you want to embed the tax clock.</p>
-      <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
-      <p>The embed is responsive and will resize according to the screen size. It's especially suited to mobile viewing.</p>
-    </div>
+    <p>Place this HTML code anywhere on the page where you want to embed the tax clock.</p>
+    <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://static.code4sa.org/taxclock/taxclock.js&quot;&gt;&lt;/script&gt;</pre>
+    <p>The embed is responsive and will resize according to the screen size. It's especially suited to mobile viewing.</p>
+
+    <h2>Click-through image</h2>
+    <a href="http://code4sa.org/taxclock"><img src="https://static.code4sa.org/taxclock/preview.jpg" class="img-responsive"></a><br/>
+  </div>
 </div>
 <div class="row">
   <div class="col-xs-12 col-md-6">
     <h2>Embedded</h2>
     <script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
   </div>
-  <div class="col-xs-12 col-md-6" style="">
+  <div class="col-xs-12 col-md-6">
     <h2>Story</h2>
     <p>The following story accompanies the tax clock and can be published with it:</p>
     <div class="" style="border: 1px solid black; padding: 5px">
@@ -51,10 +57,10 @@ author: JD Bothma
       <h2>Social/<a href="http://ogp.me/">Open Graph</a> metadata</h2>
       Web Developers! You can use the following metadata for stylish sharing on social networks and apps:
       <pre>
-og:title       The 2016 Tax Clock
-og:description It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
-og:image       https://static.code4sa.org/taxclock/preview.jpg
-og:url         http://code4sa.org/taxclock/index.html?show-embed-link=true
+        og:title       The 2016 Tax Clock
+        og:description It’s easy to see how much of your salary is taken for taxes, but do you know how many hours are allocated to those deductions? Enter your salary to see how your tax money is being spent.
+        og:image       https://static.code4sa.org/taxclock/preview.jpg
+        og:url         http://code4sa.org/taxclock/index.html?show-embed-link=true
       </pre>
     </div>
   </div>
