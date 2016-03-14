@@ -1,9 +1,8 @@
 name: Code4SA
-markdown: redcarpet
-highlighter: pygments
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "default"
+      image: http://code4sa.org/img/logo-big.png
