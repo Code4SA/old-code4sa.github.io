@@ -47,7 +47,7 @@ This team wanted to find a way to explain where our water comes from and to get 
 
 This team’s mission was simple: to paint a picture of how vital water is to our daily existence and educate the public on this worse case scenario. To do this they lived themselves into a world where there is little to no water and started the process of creating an educational board game that will allow players to engage with the consequences of there being no water.
 
-##Team 4: Waterware
+## Team 4: Waterware
 
 ### _Comparing your water usage with your neighbours'?_
 <img src="/img/blog/h4w-4.JPG">
