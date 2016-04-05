@@ -21,21 +21,21 @@ Code for South Africa partnered with the formidable [Geekulcha](http://blog.geek
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-01.jpg" target="_blank"><img src="/img/blog/dataquest-01.jpg"></a>
   </div>
-  <div> &nbsp </div>
+  <div> &nbsp; </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-03.jpg" target="_blank"><img src="/img/blog/dataquest-03.jpg"></a>
   </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-04.jpg" target="_blank"><img src="/img/blog/dataquest-04.jpg"></a>
   </div>  
- <div> &nbsp </div>
+ <div> &nbsp; </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-05.jpg" target="_blank"><img src="/img/blog/dataquest-05.jpg"></a>
   </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-06.jpg" target="_blank"><img src="/img/blog/dataquest-06.jpg"></a>
   </div>    
- <div> &nbsp </div>
+ <div> &nbsp; </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-08.jpg" target="_blank"><img src="/img/blog/dataquest-08.jpg"></a>
   </div>
@@ -48,7 +48,7 @@ We saw many teams keeping it topical by digging into the cost of education, the 
 
 <div class="row p" style="padding-bottom: 20px">
   <div class="col-xs-6">
-    <a href="http://code4sa.org/img/blog/dataquest-12.png" target="_blank"><img src="/img/blog/dataquest-12.png"></a>
+    <a href="http://code4sa.org/img/blog/dataquest-12.jpg" target="_blank"><img src="/img/blog/dataquest-12.jpg"></a>
   </div>
   <div class="col-xs-6">
     <a href="http://code4sa.org/img/blog/dataquest-11.png" target="_blank"><img src="/img/blog/dataquest-11.png"></a>

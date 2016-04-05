@@ -5,7 +5,7 @@ date: 2015-10-01
 author: Julia Renouprez
 excerpt: |
     Getting your hands on a tasty dataset is great, but unless that dataset is in a useable format, acquisition of it is only the beginning. This is our experience of mapping toilets in informal settlements in Cape Town.
-image: http://code4sa.org/img/blog/exSALmatch.png
+image: http://code4sa.org/img/blog/exSALmatch.jpg
 ---
 
 The [Promotion of Access to Information Act (PAIA)](http://www.dfa.gov.za/department/accessinfo_act.pdf) enacts the constitutional right of access to state information, and it was through such a PAIA request to the City of Cape Town that [Ndifuna Ukwazi](http://nu.org.za/), a Code for South Africa partner, received a “data dump” that contained a very interesting dataset.  It was a database of toilet facilities in informal settlements, and it was contained in a series of pdf documents.  Most exciting was the accurate xy-coordinates for every public toilet facility. Using these coordinates,we can pinpoint the location of Cape Town’s informal settlements.  The most depressing aspect of the data was that the files contained text that had been previously printed out, and then scanned in.  This makes it impossible to extract with traditional PDF scraping tools like [Tabula](http://tabula.technology/).
@@ -27,14 +27,14 @@ But before I could gain any of these insights, I needed to create a new dataset 
     <img src="/img/blog/GISprntscrn.png">
   </div>
   <div class="col-xs-6">
-    <img src="/img/blog/GEprntscrn.png">
+    <img src="/img/blog/GEprntscrn.jpg">
   </div>
 </div>
 
 
 What I discovered was that in many instances the Census Small Area Layer boundaries matched exactly the boundaries of these clusters of shiny tin roofs on the satellite images, which tells me that the census sampling took them into account.  In the below image the blue line indicates the boundary of a Small Area Layer polygon which matches a portion of the settlement known as “Los Angeles” neatly:
 
-<img src="/img/blog/exSALmatch.png">
+<img src="/img/blog/exSALmatch.jpg">
 
 There were also many instances where the boundaries of the informal settlements had no correlation at all with the Census boundaries, as can be seen in the above image - the portion of Los Angeles to the North West has no SAL polygon containing it. Did these settlements exist at the time of the survey and were simply not counted? Or alternatively, are they new settlements that have mushroomed since the survey was conducted?
 
