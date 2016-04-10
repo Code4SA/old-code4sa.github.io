@@ -4,7 +4,7 @@ title: February Roundup
 date: 2016-03-15
 excerpt: |
     If January was a busy month, February was downright outrageous. 21 working days, here are the highlights.
-image: http://code4sa.org/img/blog/ODD-feature.jpg
+image: http://code4sa.org/img/blog/codebridge-contrast.png
 author: Adi Eyal
 ---
 
@@ -53,6 +53,15 @@ The tool was published as an embeddable widget. As a result, we found it on a va
 
 <script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
 
+Some of the publishers:
+- <http://m.fin24.com/fin24/Money/Tax/calculate-minute-by-minute-what-you-pay-government-20160322>
+- <http://www.iol.co.za/business/news/the-clock-that-helps-keep-track-of-your-tax-1999688>
+- <http://businesstech.co.za/news/general/117424/how-much-time-you-spend-paying-taxes-in-south-africa/>
+- <http://themediaonline.co.za/2016/03/tax-clock-working-for-the-man-and-yourself/>
+- <https://www.htxt.co.za/2016/03/09/how-much-of-your-day-is-spent-working-to-pay-tax/>
+- <http://www.iol.co.za/business/budget/the-tax-clock-1992318>
+- <https://www.ecr.co.za/shows/east-coast-drive/how-much-time-do-you-spend-paying-tax/>
+- <http://gq.co.za/2016/03/how-much-work-day-paying-tax/>
 
 ## City of Cape Town open data steering committee
 
@@ -74,6 +83,8 @@ Codebridge has begun to transition from being an office under a bridge to become
 <p>
 We are supporting civic tech startups by providing mentorship, desk space and general support where needed. Project Enable, a pair of occupational therapists and a computer programmer are building a mobile app that will help parents of children with cerebral palsy play with their children and stimulate them by providing examples of various games and exercises. During a 3 day intensive, Richard Gevers from Open Data Durban took them through lean startup process effectively tearing their ideas apart only to help them rebuild.  We plan to extend this pilot by running bi-annual intakes of aspiring civic tech entrepreneurs.
 </p>
+<img src="/img/blog/project-enable.png"/>
+<small class="pull-right">Photo credit: Adi Eyal</small>
 
 ## Code for Cape Town
 We have started working with a group called Code for Cape Town (absolutely no relation to Code for South Africa). They are passionate about teaching young girls to code. Led by Code for South Africa alumnus Jason Norwood-Young, we started [running a module](/2016/03/15/who-runs-the-world-girls.html) to teach these girls about data and how to use it to tell stories. The module was taught over three successive weekends. These girls are sharp. If they are at all representative of the youth, we might actually have a bright future to look forward to.
@@ -87,8 +98,17 @@ We have started working with a group called Code for Cape Town (absolutely no re
 
 ## Wazi-ECD
 
-Take [Wazimap](http://www.wazimap.co.za) and tailor it to become a tool to inform policy around early childhood development. Development is still underway but is already being tested out by end users.
+Take [Wazimap](http://www.wazimap.co.za) and tailor it to become a [tool](http://wazimap-ecd.code4sa.org/profiles/province-NC-northern-cape/) to inform policy around early childhood development. Development is still underway but is already being tested out by end users.
 
 ## African Minds
 
-Ever wondered which universities in Africa publish their own books? Here is an [interactive map](http://www.africanminds.co.za/) developed by Guus Hoekman.
+Ever wondered which universities in Africa publish their own books? Here is an [interactive map](http://www.africanminds.co.za/african-university-presses/) developed by Guus Hoekman.
+<img src="/img/blog/universitypresses.png"/>
+
+## Open Bylaws
+
+R40,000 fine for anyone caught peeing in public in Durban - News24 used Greg Kempe's [labour of love](http://www.openbylaws.org.za) to write an article on new bylaws coming into effect. 
+
+    R40k fine for anyone caught peeing in public in Durban New by-laws coming into effect this Friday in Durban could mean a R40 000 fine or two years imprisonment for anyone caught relieving themselves in public.
+
+IOL has a very [similar piece](http://www.iol.co.za/news/south-africa/kwazulu-natal/peeing-in-public-could-cost-you-r40k-1994774)
