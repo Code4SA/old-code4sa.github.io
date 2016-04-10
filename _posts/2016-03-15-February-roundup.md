@@ -45,25 +45,6 @@ Through the academy we launched a tool called [Vote for the Budget](http://www.v
 - <http://www.sabc.co.za/news/a/5f04a7804bccdd45b28eb696fb2bb898/Have-your-say-on-the-budget-20160224>
 - <http://www.sowetanlive.co.za/business/2016/02/25/did-you-know-citizens-can-have-their-say-about-the-budget>
 
-## Tax Clock
-
-[Tax Clock](http://localhost:4000/2016/03/08/embeddable-tax-clock.html), the sexier cousin of the Vote for the Budget tool, shows you where your taxes are going. Punch in your monthly salary and it will tell you how how much of your work day goes towards paying for education or defence and even repayment of the national debt. It also comes with a nifty calendar that you can install which will remind you everyday when you have started working for the state and you start earning money for yourself.
-
-The tool was published as an embeddable widget. As a result, we found it on a variety of websites, ranging from the sidebar of the Business Day to a article page on GQ.
-
-<script type="text/javascript" src="https://static.code4sa.org/taxclock/taxclock.js"></script>
-
-Some of the publishers:
-- <http://m.fin24.com/fin24/Money/Tax/calculate-minute-by-minute-what-you-pay-government-20160322>
-- <http://www.iol.co.za/business/news/the-clock-that-helps-keep-track-of-your-tax-1999688>
-- <http://businesstech.co.za/news/general/117424/how-much-time-you-spend-paying-taxes-in-south-africa/>
-- <http://themediaonline.co.za/2016/03/tax-clock-working-for-the-man-and-yourself/>
-- <https://www.htxt.co.za/2016/03/09/how-much-of-your-day-is-spent-working-to-pay-tax/>
-- <http://www.iol.co.za/business/budget/the-tax-clock-1992318>
-- <https://www.ecr.co.za/shows/east-coast-drive/how-much-time-do-you-spend-paying-tax/>
-- <http://gq.co.za/2016/03/how-much-work-day-paying-tax/>
-
-## City of Cape Town open data steering committee
 
 Adi Eyal's tenure on the City's open data steering committee came to an end. At this last meeting, we presented Julia Renouprez' research on data governance policies employed by open data portals around the world.
 
