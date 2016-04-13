@@ -14,7 +14,7 @@ Yet budgets and tax have a direct effect on ordinary people.
 These were issues [Code for South Africa](http://www.code4sa.org/) set out to address when South Africa’s Minister of Finance presented his 2016 budget in Parliament on February 24. 
 The challenge was to present complicated information in a way that was educational, while also being personal and relevant to individual users.
 
-<img src="/img/blog/taxclock.jpg">
+<a href="http://code4sa.org/taxclock/" target="_blank"><img src="/img/blog/taxclock.jpg"></a>
 
 The results were two simple tools, [Tax Clock](http://www.timeslive.co.za/local/2016/03/02/Calculate-how-you-pay-tax-while-you-work) and [Vote for the Budget](http://vote4thebudget.org/), which was funded by [Code for Africa](http://www.codeforafrica.org/).
 Tax Clock incorporates the latest tax tables and allows users to engage with the budget through the money they earn and the income taxes they pay. It does this by tracking how much time they spend each day working to pay tax - and how much time time is spent working for themselves.
@@ -22,7 +22,7 @@ Tax Clock incorporates the latest tax tables and allows users to engage with the
 
 The Tax Clock was shared with media house partners who have [journalists enrolled](https://ijnet.org/en/blog/new-data-journalism-academy-south-africa-embodies-living-laboratory-training-model) in Code for South Africa’s new [data journalism academy](http://academy.code4sa.org/). They were given the clock exclusively to use on their various titles’ websites for a week, after which it was released into the wild as a [free embed](http://code4sa.org/2016/03/08/embeddable-tax-clock.html), allowing anyone who wanted to, to publish it.
 
-<img src="/img/blog/vote4thebudget.jpg">
+<a href="http://vote4thebudget.org" target="_blank"><img src="/img/blog/vote4thebudget.jpg"></a>
 
 A second tool, [Vote for the Budget](http://vote4thebudget.org/), was developed in partnership with the [International Budget Partnership](http://www.internationalbudget.org/) (IBP) to give ordinary people a voice in how their taxes are allocated.
 The tool incorporated a list of the five biggest programme winners and five biggest losers in the 2016 budget allocations, as well as a “wish list” of projects not in included in the budget.
