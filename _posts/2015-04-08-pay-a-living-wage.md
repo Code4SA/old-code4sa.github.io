@@ -36,7 +36,7 @@ how many hours you work. At R30 per day for transport, they are taking very litt
 ## I give her annual leave.
 *Retort*: You are required by law to give 15 days paid leave. Your employer gives you leave as well.
 
-_Update 9 April 2015_ - This only applies if she works more than 24 hours in a month for you. Then by law you are required to deduct UIF, give her 1 day annual leave for every 17 days worked and 1 day sick leave for every 26 days worked. She is not entitled to 15 days annual leave....that will only apply in full time domestic employment. Thanks to Lize Coetzer for pointing this out.
+_Update 9 April 2015_ - This only applies if she works more than 24 hours in a month for you. Then, by law you are required to deduct UIF, give her 1 day annual leave for every 17 days worked and 1 day sick leave for every 26 days worked. She is not entitled to 15 days annual leave....that will only apply in full time domestic employment. Thanks to Lize Coetzer for pointing this out.
 
 ## Raising the minimum wage will increase unemployment
 *Retort*: [No it won't](http://www.theguardian.com/commentisfree/2014/jun/11/the-evidence-is-clear-increasing-the-minimum-wage-doesnt-cause-unemployment). We are not however suggesting that the minimum wage be increased, only that you make an informed decision the next time that you haggle over R100 per month.
