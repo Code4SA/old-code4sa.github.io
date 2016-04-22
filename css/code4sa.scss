@@ -536,3 +536,24 @@ a.list-group-item .list-group-item-heading {
     text-decoration: none;
   }
 }
+
+/* projects */
+
+  .project-box {
+    border-radius: 10px;   
+  }
+
+  .project-about > h2 {
+    font-family: "Open Sans";
+    text-align: center;
+  }
+
+    .project-about > h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
+  }
+
+  .chimney-project {
+    margin-top: -150px;
+  }
