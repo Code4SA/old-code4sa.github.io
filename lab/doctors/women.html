@@ -8,7 +8,7 @@
       font-family: 'Roboto Condensed', sans-serif;
     }
 
-    #body-text, #explanation {
+    #body-text, #explanation, #source {
         position: absolute;
         font-size: 15px;
         line-height: 25px;
@@ -29,6 +29,13 @@
         left: 60px;
         font-size: 10px;
         line-height: 15px;
+    }
+
+    #source {
+        top:660px;
+        left:625px;
+        font-size: 8px;
+        text-transform: uppercase;
     }
 
     .axis path, .axis line {
@@ -142,6 +149,10 @@
     var explanation = d3.select("body").append("div")
         .attr("id", "explanation")
         .html("Each line represents a doctor. Circles represent degrees earned. <br/>The first circle on each line is typically an Mb ChB degree while<br/> the last usually represents certification as a cardiothoracic<br/>surgeon. Tap each circle for more information.")
+
+    var source = d3.select("body").append("div")
+        .attr("id", "source")
+        .html("SOURCE: Health professionals council of South Africa")
 
     d3.json("cardiothoracic.json", function(error, data) {
         if (error) throw error;
