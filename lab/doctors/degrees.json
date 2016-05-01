@@ -1,0 +1,982 @@
+[
+    {
+        "degrees": [
+            {
+                "date": "1951-12-04T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1957-03-30T00:00:00", 
+                "degree": "FRCS Edin"
+            }, 
+            {
+                "date": "1957-03-30T00:00:00", 
+                "degree": "FRCS Eng"
+            }
+        ], 
+        "name": "DR. ROY OLIVER WISE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1951-12-14T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1961-05-05T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1962-05-07T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "DR. ISRAEL  ABRAMOWITZ"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1960-12-08T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1966-10-21T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. EDWARD JOHN IMMELMAN"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1966-12-06T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1972-11-30T00:00:00", 
+                "degree": "MMed (Chir) Stell"
+            }
+        ], 
+        "name": "DR. MARTHINUS  DE KOCK"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1966-06-16T00:00:00", 
+                "degree": "Dip in Med Med Acad Warsaw"
+            }, 
+            {
+                "date": "1973-02-06T00:00:00", 
+                "degree": "PhD Warsaw"
+            }
+        ], 
+        "name": "DR. ZDZISLAW ANDRZEJ MACHOWSKI"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1968-12-10T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1974-10-31T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1975-02-28T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "DR. PETER COLIN JEFFERY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1968-11-23T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1975-10-31T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1975-11-10T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "PROF DESMOND  PANTANOWITZ"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1971-11-05T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "1978-06-05T00:00:00", 
+                "degree": "FRCS Glasg"
+            }
+        ], 
+        "name": "DR. RICHARD ANTHONY VENNIKER"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1972-12-12T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1979-10-19T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1979-12-31T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "DR. CHARLES ANTHONY SIMONSZ"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1967-11-17T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1976-10-29T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1980-07-18T00:00:00", 
+                "degree": "PhD (Med) Witwatersrand"
+            }
+        ], 
+        "name": "DR. LEWIS JEFFREY LEVIEN"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1981-06-15T00:00:00", 
+                "degree": "Dip in Med Med Acad Warsaw"
+            }
+        ], 
+        "name": "DR. KRZYSZTOF  MICHALOWSKI"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1974-12-11T00:00:00", 
+                "degree": "MB ChB Stell"
+            }, 
+            {
+                "date": "1982-06-30T00:00:00", 
+                "degree": "MMed (Chir) Oranje-Vrystaat"
+            }
+        ], 
+        "name": "DR. REGINALD  BARRY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1976-11-11T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1983-10-31T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. GEOFFREY HENDERSON FOTHERINGHAM"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1976-12-15T00:00:00", 
+                "degree": "MB ChB Stell"
+            }, 
+            {
+                "date": "1984-06-30T00:00:00", 
+                "degree": "MMed (Chir) Stell"
+            }, 
+            {
+                "date": "1984-10-26T00:00:00", 
+                "degree": "LKC (SA)"
+            }
+        ], 
+        "name": "DR. HENDRIK DOUW LOUWRENS"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1978-11-17T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "1986-03-14T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "DR. AHMED MAHMOOD KADWA"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1979-07-06T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "1986-11-21T00:00:00", 
+                "degree": "FRCS Edin"
+            }
+        ], 
+        "name": "DR. ABU TALIB OSMAN ABDOOL CARRIM"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1978-11-03T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "1986-10-30T00:00:00", 
+                "degree": "LKC (SA)"
+            }, 
+            {
+                "date": "1986-11-30T00:00:00", 
+                "degree": "MMed (Chir) Pret"
+            }
+        ], 
+        "name": "DR. JACOBUS  VAN MARLE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1980-12-05T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1987-05-30T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. PHILIP JOHN MATLEY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1974-11-27T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1987-10-30T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. DEMETRIOS  REVELAS"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1979-11-13T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1988-05-02T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "1990-05-09T00:00:00", 
+                "degree": "MMed (Surg) Witwatersrand"
+            }
+        ], 
+        "name": "PROF MARTIN GEORG VELLER"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1979-11-01T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1990-10-31T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. RUSSEL STEYN BRITZ"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1980-10-31T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "1991-04-26T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. CHARL  DREYER"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1983-11-26T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1992-05-12T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. NEILSON CLINTON WRIGHT"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1985-11-29T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1992-11-04T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. JAMES ADAM TUNNICLIFFE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1986-12-11T00:00:00", 
+                "degree": "MB ChB Stell"
+            }, 
+            {
+                "date": "1995-10-21T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. DANIEL FRANCOIS DU TOIT"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1988-11-28T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "1998-10-23T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. NADRAJ GOVINDASAMY NAIDOO"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1990-11-05T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "1998-10-30T00:00:00", 
+                "degree": "MMed (Chir) Pret"
+            }
+        ], 
+        "name": "DR. LYNNE ESTHER TUDHOPE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1990-01-01T00:00:00", 
+                "degree": "MB ChB Leeds"
+            }, 
+            {
+                "date": "1999-01-06T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. JUSTIN DAVID WOOLGAR"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1990-11-29T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "1999-04-22T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. JAYANDIRAN  PILLAI"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1967-12-14T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "1974-06-21T00:00:00", 
+                "degree": "ChM Cape Town"
+            }, 
+            {
+                "date": "1974-10-16T00:00:00", 
+                "degree": "FRCS Edin"
+            }, 
+            {
+                "date": "2000-05-11T00:00:00", 
+                "degree": "FCS (SA)"
+            }
+        ], 
+        "name": "DR. JOHN VIVIAN ROBBS"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1993-10-29T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2001-01-08T00:00:00", 
+                "degree": "MMed (Surg) Pret"
+            }, 
+            {
+                "date": "2002-10-17T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. GREGORY RALPH WEIR"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1992-11-30T00:00:00", 
+                "degree": "MB ChB Oranje-Vrystaat"
+            }, 
+            {
+                "date": "1995-10-20T00:00:00", 
+                "degree": "DA (SA)"
+            }, 
+            {
+                "date": "2000-11-30T00:00:00", 
+                "degree": "MMed (Surg) Orange Free State"
+            }, 
+            {
+                "date": "2003-10-16T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. RUDOLPH GERHARDUS BOTHA"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1991-11-29T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2001-10-18T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2004-05-13T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. THANYANI VICTOR MULAUDZI"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1991-01-01T00:00:00", 
+                "degree": "Dip in Med Varna"
+            }, 
+            {
+                "date": "1999-10-21T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2004-05-13T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. HRISTO  BOYTCHEV"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1992-11-03T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2001-10-18T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2004-10-14T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. DIRK ANDRIES LE ROUX"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1992-11-27T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2000-10-19T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2004-10-20T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. BALASOOBRAMANIEN  PILLAY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1992-11-20T00:00:00", 
+                "degree": "MB ChB Stell"
+            }, 
+            {
+                "date": "2000-05-11T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2005-05-12T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. JACOBUS DE VILLIERS ODENDAAL"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1996-11-22T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2003-05-08T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2006-05-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. NISHEN  PARUK"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1993-11-26T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "2003-05-08T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2006-10-19T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. MARTIN VERNON FORLEE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1996-11-29T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "2005-05-12T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2007-05-10T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. DUNCAN WILLIAM ANDERSON"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1993-10-29T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2006-01-10T00:00:00", 
+                "degree": "MMed (Surg) Pret"
+            }, 
+            {
+                "date": "2007-10-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. KONRAD  BOTES"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1988-01-01T00:00:00", 
+                "degree": "MB BS Sindh"
+            }, 
+            {
+                "date": "2003-07-07T00:00:00", 
+                "degree": "FRCS Irel"
+            }, 
+            {
+                "date": "2004-05-13T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2008-05-15T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. ATHAR JAMEEL ARAIN"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1999-10-29T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2007-10-18T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2007-12-31T00:00:00", 
+                "degree": "MMed (Surg) Pret"
+            }, 
+            {
+                "date": "2009-10-15T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. PRADEEP PRAVINKUMAR MISTRY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1999-11-26T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2007-05-10T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2009-10-15T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. ANUPA  RAMNARAIN"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1998-11-27T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2007-05-10T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2010-05-13T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. VINESH  PADAYACHY"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1998-10-30T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2006-12-31T00:00:00", 
+                "degree": "MMed (Surg) Pret"
+            }, 
+            {
+                "date": "2010-05-13T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. ARIEL SHALOM EYAL"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2002-12-04T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2008-10-23T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2010-10-14T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. EDMUND PHILLIPUS ELOFF"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2000-11-17T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2008-10-23T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2012-05-24T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. MBOKELENG HAPPINESS SIKHOSANA"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2003-11-18T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "2009-10-15T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2012-05-24T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. LAURA ANNE REDMAN"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1988-01-01T00:00:00", 
+                "degree": "MB BS Dacca"
+            }, 
+            {
+                "date": "1999-08-04T00:00:00", 
+                "degree": "DA (SA)"
+            }, 
+            {
+                "date": "2007-05-10T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2012-10-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. JAHANGIRUL  ISLAM"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2002-11-27T00:00:00", 
+                "degree": "MB ChB Cape Town"
+            }, 
+            {
+                "date": "2010-05-13T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2012-10-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. BHAVESH  NATHA"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1999-11-30T00:00:00", 
+                "degree": "MB ChB Free State"
+            }, 
+            {
+                "date": "2003-05-08T00:00:00", 
+                "degree": "DA (SA)"
+            }, 
+            {
+                "date": "2009-10-15T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2010-12-03T00:00:00", 
+                "degree": "MMed (Surg) Stell"
+            }, 
+            {
+                "date": "2012-10-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. JOHN PIERRE MOUTON"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2002-12-28T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "2010-04-30T00:00:00", 
+                "degree": "MMed (Surg) Orange Free State"
+            }, 
+            {
+                "date": "2013-05-23T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. NICHOLAS ERNEST PEARCE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2000-11-17T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "2006-05-18T00:00:00", 
+                "degree": "Dip Pec (SA)"
+            }, 
+            {
+                "date": "2006-10-19T00:00:00", 
+                "degree": "DCH (SA)"
+            }, 
+            {
+                "date": "2010-05-13T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2012-10-18T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }, 
+            {
+                "date": "2013-07-02T00:00:00", 
+                "degree": "MMed (Surg) Witwatersrand"
+            }
+        ], 
+        "name": "DR. JACOBUS STEPHANUS VERMAAK"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2000-11-03T00:00:00", 
+                "degree": "MB ChB Pret"
+            }, 
+            {
+                "date": "2008-10-23T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2013-10-24T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. TIAGO PAULO FERNANDES"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2003-11-21T00:00:00", 
+                "degree": "MB ChB Free State"
+            }, 
+            {
+                "date": "2010-12-31T00:00:00", 
+                "degree": "MMed (Surg) Orange Free State"
+            }, 
+            {
+                "date": "2014-05-15T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. SABATTA CHRISTOPHER TSOTETSI"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2003-11-20T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "2011-05-19T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2014-05-15T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. ISMAIL  CASSIMJEE"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2002-11-30T00:00:00", 
+                "degree": "MB ChB Free State"
+            }, 
+            {
+                "date": "2010-10-14T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2014-10-16T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. PIETER  ZWANEPOEL"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "2004-11-19T00:00:00", 
+                "degree": "MB ChB Natal"
+            }, 
+            {
+                "date": "2011-05-19T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2014-10-16T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. RIAZ  GOGA"
+    }, 
+    {
+        "degrees": [
+            {
+                "date": "1995-06-22T00:00:00", 
+                "degree": "BDS Medunsa"
+            }, 
+            {
+                "date": "2002-11-28T00:00:00", 
+                "degree": "MB BCh Witwatersrand"
+            }, 
+            {
+                "date": "2012-10-18T00:00:00", 
+                "degree": "FCS (SA)"
+            }, 
+            {
+                "date": "2015-05-21T00:00:00", 
+                "degree": "Cert Vascular Surgery (SA)"
+            }
+        ], 
+        "name": "DR. TEBOHO TAALIB MONARENG"
+    }
+]

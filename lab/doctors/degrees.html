@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    body {
+      font: 10px sans-serif;
+    }
+
+    .axis path, .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+
+    .y.axis {
+        display: none;
+    }
+
+    .doctor text {
+        font-size: 8px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .degree_mbchb {
+        fill: red;
+    }
+
+    .degree_fcs {
+        fill: blue;
+    }
+
+    .degree_vasc {
+        fill: pink;
+    }
+
+    .degree_other {
+        fill: black;
+    }
+
+    div.tooltip {   
+        position: absolute;         
+        text-align: left;         
+        width: 120px;                    
+        height: 58px;                   
+        padding: 2px;               
+        font: 12px sans-serif;      
+        background: lightsteelblue; 
+        border: 1px;        
+        border-color:#222;
+        border-radius: 2px;         
+        pointer-events: none;           
+}
+
+</style>
+<body>
+    <script src="underscore-min.js"></script>
+    <script src="d3.v3.min.js"></script>
+
+    <script>
+    var margin = {top: 50, right: 140, bottom: 30, left: 50},
+        width = 960 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
+
+    var parseDate = d3.time.format("%Y-%m-%dT00:00:00").parse
+    var formatTime = d3.time.format("%e %B, %Y");
+    var x = d3.time.scale()
+        .range([0, width]);
+
+    var y = d3.scale.linear()
+        .range([height, 0]);
+
+    var color = d3.scale.category10();
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+    var line = d3.svg.line()
+        .interpolate("basis")
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y(d.idx); });
+
+    // Define the div for the tooltip
+    var div = d3.select("body").append("div")   
+        .attr("class", "tooltip")               
+        .style("opacity", 0);
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.append("text")
+        .attr("class", "title")
+        .attr("x", width / 2)
+        .style("text-anchor", "middle")
+        .attr("y", -15)
+        .text("Timeline of degrees earned by vascular surgeons")
+
+
+    d3.json("degrees.json", function(error, data) {
+        if (error) throw error;
+        //color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
+        data.forEach(function(doctor) {
+            doctor.degrees.forEach(function(degree) {
+                degree.date = parseDate(degree.date);
+            })
+        });
+        var dates = data.map(function(d) {
+            return d.degrees.map(function(d2) {
+                return d2.date;
+            })
+        })
+        dates = _.flatten(dates)
+        x.domain(d3.extent(dates));
+        y.domain([0, data.length])
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height/2)
+                .attr("y", -10)
+                .style("text-anchor", "middle")
+                .text("Degrees obtained by vascular surgeons");
+
+        var doctors = data.map(function(degrees, idx) {
+            var name = degrees.name;
+            return {
+                name: name,
+                values: degrees.degrees.map(function(d) {
+                return {
+                    date: d.date,
+                    idx: idx + 1,
+                    degree: d.degree
+                };
+              })
+            };
+        });
+
+        var doctor = svg.selectAll(".doctor")
+            .data(doctors)
+            .enter().append("g")
+              .attr("class", "doctor");
+
+        doctor.append("path")
+            .attr("class", "line")
+            .attr("d", function(d) {
+                return line(d.values);
+            })
+
+        doctor.append("g")
+            .attr("class", "dot")
+            .each(function(d) {
+                d3.select(this).selectAll("circle")
+                    .data(d.values)
+                    .enter()
+                    .append("circle")
+                        .attr("cx", function(d2) { return x(d2.date); })
+                        .attr("cy", function(d2) { return y(d2.idx); })
+                        .attr("r", 3)
+                        .on("mouseover", function(d2) {      
+                            div.transition()        
+                                .duration(200)      
+                                .style("opacity", .9);      
+                            div.html("<strong>Date:</strong> " + formatTime(d2.date) + "<br/><strong>Degree:</strong> "  + d2.degree)  
+                                .style("left", (d3.event.pageX) + "px")     
+                                .style("top", (d3.event.pageY - 28) + "px");    
+                        })                  
+                        .on("mouseout", function(d) {       
+                            div.transition()        
+                                .duration(500)      
+                                .style("opacity", 0);   
+                        })
+                        .attr("class", function(d2) {
+                            if (!d2.degree.indexOf("MB ChB"))
+                                return "degree_mbchb";
+                            else if (!d2.degree.indexOf("FCS (SA)"))
+                                return "degree_fcs";
+                            else if (!d2.degree.indexOf("Cert Vascular Surgery (SA)"))
+                                return "degree_vasc";
+                            return "degree_other"
+                        })
+            })
+
+        doctor.append("text")
+            .attr("class", "name")
+            .attr("x", function(d) { var arr = d.values; return x(arr[arr.length - 1].date); })
+            .attr("y", function(d) { var arr = d.values; return y(arr[0].idx); })
+            .attr("dx", "0.8em")
+            .attr("dy", "0.3em")
+            .style("text-anchor", "start")
+            .text(function(d) { return d.name; });
+
+        var legend_arr = [{
+            "name" : "MB ChB",
+            "class" : "degree_mbchb"
+        },
+        {
+            "name" : "FCS (SA)",
+            "class" : "degree_fcs"
+        },       
+        {
+            "name" : "Cert Vascular Surgery (SA)",
+            "class" : "degree_vasc"
+        },
+        {
+            "name" : "Other",
+            "class" : "degree_other"
+        }]
+
+        var legend = svg.append("g")
+            .attr("class", "legend")
+            .attr("transform", "translate(" + (50) + ", " + (50) + ")")
+
+        legend
+            .selectAll("circle")
+            .data(legend_arr)
+            .enter()
+            .append("circle")
+                .attr("class", function(el) { return el.class; })
+                .attr("cx", 0)
+                .attr("cy", 0)
+                .attr("r", 5)
+                .attr("transform", function(d, idx) {
+                    return "translate(0, " + (idx * 15) + ")"
+                })
+
+        legend
+            .selectAll("text")
+            .data(legend_arr)
+            .enter()
+            .append("text")
+                .style("text-anchor", "start")
+                .attr("transform", function(d, idx) {
+                    return "translate(10, " + (idx * 15) + ")"
+                })
+                .attr("dy", "0.4em")
+                .text(function(d) {
+                    return d.name;
+                })
+    })
+
+    </script>
