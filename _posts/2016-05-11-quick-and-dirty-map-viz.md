@@ -4,7 +4,7 @@ title: Quick and dirty map viz
 date: 2016-05-11
 excerpt: |
     Taking shortcuts and outright cheating is the hallmark of a great developer. I like creating graphics, both visualisations and pretty maps but I often don't have the time to spend hours making one from scratch. In this blog I'm going to explain the process that I took to create a quick and dirty map navigation tool.
-image: http://code4sa.org/img/blog/wazimap-za.jpg
+image: http://code4sa.org/img/blog/quick_thumbnail.png
 extra_stylesheets:
 - /css/shCore.css
 - /css/shThemeDefault.css
