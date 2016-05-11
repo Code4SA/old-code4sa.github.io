@@ -58,7 +58,7 @@ The *data-name* attribute is where we store the human-readable version of the co
 
 The cheating part is here. Rather than writing complex code to dynamically add lines and the infobox, I simply created it all in Inkscape:
 
-<img src="/img/blog/quick_lines.png"/>
+<img src="/img/blog/quick_lines.png" style="max-width:400px"/>
 
 Notice that all the lines are visible which means it's going to look messy. We'll fix that in the javascript.
 
