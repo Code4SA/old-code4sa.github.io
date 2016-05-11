@@ -20,8 +20,9 @@ Taking shortcuts and outright cheating is the hallmark of a great developer. I l
 
 I'm going to take you through the steps that I took to create the following graphic:
 
-<p>
+<p class="text-center">
     <iframe src="http://www.code4sa.org/lab/extractionmap/map.html" height="100%" width="100%" scrolling="no" marginheight="0" frameborder="0" style="min-height:500px"></iframe>
+    <span class="small">Click on a country for more information</span>
 </p>
 
 ## Step 1: Find a base map
