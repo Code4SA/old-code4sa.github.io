@@ -11,7 +11,7 @@ In April, Code for South Africa was approached by Ndifuna Ukwazi, a non-profit l
 
 [Ndifuna Ukwazi](http://nu.org.za/) (NU), in partnership with [Social Justice Coalition](http://www.sjc.org.za/)  (SJC) and [International Budget Partnership](http://www.internationalbudget.org/budget-work-by-country/ibps-work-in-countries/south-africa/) (IBP), had developed two databases of informal settlements in the City of Cape Town. They had also discovered some anomalies in the City's budget allocations to capital spending on sanitation in informal settlements, specifically that budget allocations were not being increased in proportion to the growth of the informal settlements.  
 
-The purpose of the map visualisation was to highlight the lack of sanitation services in informal settlements in Cape Town, and address the City of Cape Town's capital expenditure budget for informal settlement upgrades, which has not increased in eight years.
+The purpose of the map visualisation was to highlight the lack of sanitation services in informal settlements in Cape Town, and address the City of Cape Town's capital expenditure budget for informal settlement upgrades, which has not increased in eight years. You can explore the map <a href="http://ismaps.org.za/" target="_blank">here</a>.
 
 <a href="http://ismaps.org.za/" target="_blank"><img src="/img/blog/matrix-blog.jpg"></a>
 

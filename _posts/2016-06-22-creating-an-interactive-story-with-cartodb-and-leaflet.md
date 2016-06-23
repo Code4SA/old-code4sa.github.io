@@ -7,7 +7,9 @@ image: http://code4sa.org/img/blog/matrix-dev.jpg
 author: Guus Hoekman
 ---
 
-In April, Code for South Africa was approached by [Ndifuna Ukwazi](http://nu.org.za/), a non-profit law centre in Cape Town, to create an online map visualisation of Cape Town’s informal settlements. This blog post will cover the technical side of creating the map. You can read more about the project [here](/2016/06/22/mapping-sanitation.html).
+In April, Code for South Africa was approached by [Ndifuna Ukwazi](http://nu.org.za/), a non-profit law centre in Cape Town, to create an online map visualisation of Cape Town’s informal settlements. This blog post will cover the technical side of creating the map. You can read more about the project [here](/2016/06/22/mapping-sanitation.html). If you haven't already, please <a href="http://ismaps.org.za/" target="_blank">explore the map</a> so you have a better idea what this blog is about.
+
+
 
 ## First steps
 For reasons discussed in [this blog](/2016/06/22/mapping-sanitation.html), we decided to use [CartoDB](http://cartodb.com/), with which we were able to easily map the data and build features on top of it. More specifically, we used the [`createLayer`](https://academy.cartodb.com/courses/cartodbjs-ground-up/createvis-vs-createlayer/#createlayer) option so we could easily switch between layers and also take advantage of [Leaflet](http://leafletjs.com/), an open-source JavaScript library for interactive maps.
