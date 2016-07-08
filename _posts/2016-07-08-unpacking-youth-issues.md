@@ -9,7 +9,7 @@ author: Lenina Rassool
 
 <img src="/img/blog/youth-issues.jpg">
 
-June 16, a day set aside not only to commemorate the youth who were killed while marching for their right to education in 1976, but to shine the spotlight on youth today and the current challenges they are face as they start building their place in society.
+June 16, a day set aside not only to commemorate the youth who were killed while marching for their right to education in 1976, but to shine the spotlight on youth today and the current challenges they face as they start building their place in society.
  
 For the majority of South African youth, however, the future doesn’t look much better than the past. The data helps to paint part of the picture:
  
@@ -39,7 +39,7 @@ As a team of 10 people, however, there was only so much we could tackle in three
  
 What was most interesting about the information we collected is that none of the challenges were new ones, yet each have a deep social, educational, emotional and physical impact on our youth today.
  
-## #YouthIssues Dataquest
+## [#YouthIssues](https://twitter.com/search?q=%23youthissues&src=typd) Dataquest
  
 Once we were armed with our youth problems, we set about sourcing potential solutions.
  
