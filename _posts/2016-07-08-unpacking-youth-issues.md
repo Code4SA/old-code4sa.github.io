@@ -39,7 +39,7 @@ As a team of 10 people, however, there was only so much we could tackle in three
  
 What was most interesting about the information we collected is that none of the challenges were new ones, yet each have a deep social, educational, emotional and physical impact on our youth today.
  
-## #YouthIssues Dataquest
+## [#YouthIssues](https://twitter.com/search?q=%23youthissues&src=typd) Dataquest
  
 Once we were armed with our youth problems, we set about sourcing potential solutions.
  
