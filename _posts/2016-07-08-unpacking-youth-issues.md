@@ -74,7 +74,6 @@ The key now is keeping the various roleplayers involved and engaged in the devel
  
 This is why we urge you to click on the links above, follow the projects and contribute in any way you can. Often one small insight from a follower can make a world of difference in how a platform is created, received and used.
 
-[Optional Image - Hackdash - we can hyperlink this image to the Hackdash Codebridge projects https://hackdash.org/dashboards/codebridge ]
 <a href="https://hackdash.org/dashboards/codebridge" target="_blank"><img src="/img/blog/Hackdash.JPG"></a>
  
 For more information about [Codebridge](http://www.codebridge.co.za/) and our monthly events, click [here](http://code4sa.us8.list-manage1.com/track/click?u=11977a67604b965526b63ee6e&id=d5e3b297c9&e=7be9bc2713), sign up for email notifications for future events [here](http://code4sa.us8.list-manage.com/track/click?u=11977a67604b965526b63ee6e&id=51f559637a&e=7be9bc2713) or follow us on [Meetup](http://code4sa.us8.list-manage1.com/track/click?u=11977a67604b965526b63ee6e&id=8227683bda&e=7be9bc2713), [Facebook](http://code4sa.us8.list-manage.com/track/click?u=11977a67604b965526b63ee6e&id=4d0000502e&e=7be9bc2713) and [Twitter](http://code4sa.us8.list-manage.com/track/click?u=11977a67604b965526b63ee6e&id=33f616317a&e=7be9bc2713) for updates. 
