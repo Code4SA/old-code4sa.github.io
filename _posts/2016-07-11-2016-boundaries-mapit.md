@@ -3,11 +3,11 @@ layout: post
 title: 2016 Election Boundaries Available in MapIt
 date: 2016-07-11
 excerpt: The 2016 demarcation boundaries are now available from mapit.code4sa.org.
-image: http://code4sa.org/img/blog/compass-map.jpg
+image: http://code4sa.org/img/blog/mapit.jpg
 author: Greg Kempe
 ---
 
-<img src="/img/blog/compass-map.jpg">
+<img src="/img/blog/mapit.jpg">
 
 A few months ago the [Municipal Demarcation Board](http://www.demarcation.org.za/site/) released the updated details of the wards, local and district municipalities that are being used for the 2016 Municipal Elections and beyond. This new generation of areas and boundaries is now available on [mapit.code4sa.org](https://mapit.code4sa.org).
 
