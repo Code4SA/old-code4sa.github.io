@@ -25,6 +25,8 @@ If you're using mapit, please [Tweet @Code4SA](https://twitter.com/@Code4SA) and
 * **Metro municipalities**: The metro municipalities remain the same at 8.
 * **Provinces**: the province boundaries have not changed.
 
+You can also [download the updated MDB shapefiles here](https://drive.google.com/open?id=0Byo7dStSYqvPMUxGamdXLWxTNWc), or use our [SA-Maps GitHub repo](https://github.com/Code4SA/SA-Maps).
+
 ## What's mapit?
 
 MapIt ([mapit.code4sa.org](https://mapit.code4sa.org) is a simple JSON API for shapes and areas in South Africa. You can use mapit to find what ward, municipality and province a point is in, or to get a list of what wards are in a particular municipality. You can [read more about Mapit in this blog post](2015/07/25/mapit.html).
