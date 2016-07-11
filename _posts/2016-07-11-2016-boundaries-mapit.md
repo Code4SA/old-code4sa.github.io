@@ -13,6 +13,8 @@ A few months ago the [Municipal Demarcation Board](http://www.demarcation.org.za
 
 To use the new shapes simply include ``generation=2`` in your mapit URLs. We recommend you always indicate the generation you want to prevent your application from using the wrong dataset when a new set of boundaries are released. To use the old 2011 municipal boundaries, use ``generation=1``.
 
+Now you can easily include the 2016 electoral boundaries in the cool elections app that you're building!
+
 ## What's changed?
 
 * **Wards**: many wards have changed shape, some have been removed, some have been added. There are now 4392 wards (there were 4277).
