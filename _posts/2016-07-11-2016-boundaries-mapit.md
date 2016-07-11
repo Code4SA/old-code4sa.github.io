@@ -15,6 +15,8 @@ To use the new shapes simply include ``generation=2`` in your mapit URLs. We rec
 
 Now you can easily include the 2016 electoral boundaries in the cool elections app that you're building!
 
+If you're using mapit, please [Tweet @Code4SA](https://twitter.com/@Code4SA) and let us know.
+
 ## What's changed?
 
 * **Wards**: many wards have changed shape, some have been removed, some have been added. There are now 4392 wards (there were 4277).
